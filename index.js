@@ -5,30 +5,20 @@ const decompress = require('decompress');
 var targz = require('targz');
 const fileExists = require('file-exists');
 const { runInContext } = require('vm');
-const existeFile = require('exists-file');
-
-/*targz.compress({
-    src: '20200928/report_20200328',
-    dest: '20200928/report_20200328.tar'
-}, function(err) {
-    if (err) {
-        console.log(err);
-    } else {
-        console.log("Done!");
-    }
-});
-*/
 
 
+
+//fs.unlinkSync('20200928/report_20200328')
 sms()
     //autoImport()
+
 var today = new Date();
 var a = moment(today).format('HH');
 async function sms() {
     let tmp = -1;
     fs.readFile('test.txt', 'utf8', function(err, data) {
         tmp = parseInt(data);
-        if (a == '08' || a == '10') {
+        if (a == '07' || a == '02') {
             if (tmp == 0) {
                 fileExists('20200928/sbv_20200328.dat', (err, exist) => {
                     if (exist) {
@@ -61,13 +51,24 @@ async function sms() {
                 console.log("Sms chưa có file statement_transaction")
                 autoImport();
             }
-
         } else {
-            autoImport();
+            fileExists('20200928/sbv_20200328.dat', (err, exist) => {
+                if (exist) {
+                    autoImport();
+                } else if (err == null) {
+                    fileExists('20200928/sbv_20200328.zip', (err, exist) => {
+                        if (exist) {
+                            autoImport();
+                        } else if (err == null) {
+                            console.log("Sms chưa có file 1 để import")
+                            return;
+                        }
+                    })
+                }
+            })
         }
 
     })
-
 }
 
 function autoImport() {
@@ -78,14 +79,17 @@ function autoImport() {
             fs.readdirSync('20200928').forEach(file => {
                 if (file.match('sbv_') != null) {
                     if (file == "sbv_20200328.dat") {
-                        readAll("20200928/sbv_20200328.dat")
+                        readAll("20200928/" + file)
                         tmp = 1;
                         console.log("Thanh cong file sbv")
+
                     } else if (file == "sbv_20200328.zip") {
-                        readAll('20200928/sbv_20200328.zip')
+                        readAll("20200928/" + file)
                         tmp = 1;
                         console.log("Thanh cong file sbv")
+
                     }
+
                     fs.readdirSync('20200928').forEach(file => {
                         if (file.match('report_20200328') != null) {
                             if (file == 'report_20200328.tar.gz' || file == 'report_20200328.tar') {
@@ -98,16 +102,19 @@ function autoImport() {
                                             readFileR63('20200928/report_20200328/R63_Trial_Balance_20200328')
                                             tmp = 3;
                                             console.log("Thanh cong file r63");
+
                                             fs.readdirSync('20200928').forEach(file => {
                                                 if (file.match('statement_master_20170802.dat') != null) {
                                                     readAll('20200928/statement_master_20170802.dat');
                                                     tmp = 4;
                                                     console.log("Thanh cong file master")
+                                                    fs.unlinkSync('20200928/' + file)
                                                     fs.readdirSync('20200928').forEach(file => {
                                                         if (file.match('statement_transaction_20170802.dat') != null) {
                                                             readAll('20200928/statement_transaction_20170802.dat')
                                                             tmp = 0;
                                                             console.log("Thanh cong tat ca")
+                                                            fs.unlinkSync('20200928/' + file)
                                                         }
                                                     })
                                                 }
