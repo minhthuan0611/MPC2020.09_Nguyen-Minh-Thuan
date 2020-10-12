@@ -6,27 +6,36 @@ var targz = require('targz');
 const fileExists = require('file-exists');
 const { runInContext } = require('vm');
 
+/*targz.compress({
+    src: '20200928/report_20200328',
+    dest: '20200928/report_20200328.tar'
+}, function(err) {
+    if (err) {
+        console.log(err);
+    } else {
+        console.log("Done!");
+    }
+});*/
 
-
-//fs.unlinkSync('20200928/report_20200328')
 sms()
     //autoImport()
-
 var today = new Date();
 var a = moment(today).format('HH');
 async function sms() {
     let tmp = -1;
     fs.readFile('test.txt', 'utf8', function(err, data) {
         tmp = parseInt(data);
-        if (a == '07' || a == '02') {
+        if (a == '07' || a == '14') {
             if (tmp == 0) {
                 fileExists('20200928/sbv_20200328.dat', (err, exist) => {
                     if (exist) {
                         autoImport();
+
                     } else if (err == null) {
                         fileExists('20200928/sbv_20200328.zip', (err, exist) => {
                             if (exist) {
                                 autoImport();
+
                             } else if (err == null) {
                                 console.log("Sms chưa có file 1 để import")
                                 return;
@@ -52,20 +61,7 @@ async function sms() {
                 autoImport();
             }
         } else {
-            fileExists('20200928/sbv_20200328.dat', (err, exist) => {
-                if (exist) {
-                    autoImport();
-                } else if (err == null) {
-                    fileExists('20200928/sbv_20200328.zip', (err, exist) => {
-                        if (exist) {
-                            autoImport();
-                        } else if (err == null) {
-                            console.log("Sms chưa có file 1 để import")
-                            return;
-                        }
-                    })
-                }
-            })
+            autoImport()
         }
 
     })
@@ -81,15 +77,12 @@ function autoImport() {
                     if (file == "sbv_20200328.dat") {
                         readAll("20200928/" + file)
                         tmp = 1;
-                        console.log("Thanh cong file sbv")
-
+                        console.log("Thanh cong file sbv");
                     } else if (file == "sbv_20200328.zip") {
                         readAll("20200928/" + file)
                         tmp = 1;
                         console.log("Thanh cong file sbv")
-
                     }
-
                     fs.readdirSync('20200928').forEach(file => {
                         if (file.match('report_20200328') != null) {
                             if (file == 'report_20200328.tar.gz' || file == 'report_20200328.tar') {
@@ -97,31 +90,29 @@ function autoImport() {
                                     findFile('20200928/report_20200328', 'R02-Transaction_Journal_By_Account_Number_20200328', () => {
                                         readFileR02('20200928/report_20200328/R02-Transaction_Journal_By_Account_Number_20200328')
                                         tmp = 2;
-                                        console.log("Thanh cong file r02")
+                                        console.log("Thanh cong file r02");
                                         findFile('20200928/report_20200328', 'R63_Trial_Balance_20200328', () => {
                                             readFileR63('20200928/report_20200328/R63_Trial_Balance_20200328')
                                             tmp = 3;
                                             console.log("Thanh cong file r63");
-
                                             fs.readdirSync('20200928').forEach(file => {
                                                 if (file.match('statement_master_20170802.dat') != null) {
                                                     readAll('20200928/statement_master_20170802.dat');
                                                     tmp = 4;
                                                     console.log("Thanh cong file master")
-                                                    fs.unlinkSync('20200928/' + file)
+
                                                     fs.readdirSync('20200928').forEach(file => {
                                                         if (file.match('statement_transaction_20170802.dat') != null) {
                                                             readAll('20200928/statement_transaction_20170802.dat')
                                                             tmp = 0;
                                                             console.log("Thanh cong tat ca")
-                                                            fs.unlinkSync('20200928/' + file)
                                                         }
                                                     })
                                                 }
                                             })
                                         });
                                     })
-                                })
+                                }).then(files => { fs.unlinkSync('20200928/report_20200328.tar') })
                             } else if (file == 'report_20200328') {
                                 findFile('20200928/report_20200328', 'R02-Transaction_Journal_By_Account_Number_20200328', () => {
                                     readFileR02('20200928/report_20200328/R02-Transaction_Journal_By_Account_Number_20200328')
@@ -157,21 +148,23 @@ function autoImport() {
         if (tmp == 1) {
             fs.readdirSync('20200928').forEach(file => {
                 if (file.match('report_20200328') != null) {
-                    if (file == '20200928/report_20200328.tar.gz' || file == '20200928/report_20200328.tar') {
-                        decompress(file, '20200928/report_20200328').then(files => {
+                    if (file == 'report_20200328.tar.gz' || file == 'report_20200328.tar') {
+                        decompress('20200928/' + file, '20200928/report_20200328').then(files => {
                             findFile('20200928/report_20200328', 'R02-Transaction_Journal_By_Account_Number_20200328', () => {
                                 readFileR02('20200928/report_20200328/R02-Transaction_Journal_By_Account_Number_20200328')
                                 tmp = 2;
-                                console.log("Thanh cong file r20")
+                                console.log("Thanh cong file r02")
                                 findFile('20200928/report_20200328', 'R63_Trial_Balance_20200328', () => {
                                     readFileR63('20200928/report_20200328/R63_Trial_Balance_20200328')
                                     tmp = 3;
                                     console.log("Thanh cong file r63");
+
                                     fs.readdirSync('20200928').forEach(file => {
                                         if (file.match('statement_master_20170802.dat') != null) {
                                             readAll('20200928/statement_master_20170802.dat');
                                             tmp = 4;
-                                            console.log("Thanh cong file master");
+                                            console.log("Thanh cong file master")
+
                                             fs.readdirSync('20200928').forEach(file => {
                                                 if (file.match('statement_transaction_20170802.dat') != null) {
                                                     readAll('20200928/statement_transaction_20170802.dat')
@@ -183,7 +176,7 @@ function autoImport() {
                                     })
                                 });
                             })
-                        })
+                        }).then(files => { fs.unlinkSync('20200928/report_20200328.tar') })
                     } else if (file == 'report_20200328') {
                         findFile('20200928/report_20200328', 'R02-Transaction_Journal_By_Account_Number_20200328', () => {
                             readFileR02('20200928/report_20200328/R02-Transaction_Journal_By_Account_Number_20200328')
@@ -324,19 +317,24 @@ function readAll(fileName) {
                 })
             } else if (fileName == '20200928/sbv_20200328.dat') {
                 readFileSBV(fileName);
+
             }
             if (fileName == '20200928/report_20200328.tar.gz' || fileName == '20200928/report_20200328.tar') {
-                readfileReport(fileName)
+                readfileReport(fileName);
+
             } else if (fileName == '20200928/report_20200328') {
                 readR63R02();
+
             }
             if (fileName == '20200928/statement_master_20170802.dat') {
                 let dataImportMaster = new Int8Array(fs.readFileSync('20200928/statement_master_20170802.dat'));
-                readMaster(dataImportMaster)
+                readMaster(dataImportMaster);
+
             }
             if (fileName == '20200928/statement_transaction_20170802.dat') {
                 let dataImportTransaction = new Int8Array(fs.readFileSync('20200928/statement_transaction_20170802.dat'));
                 readTransaction(dataImportTransaction);
+
             }
 
         } else return;
