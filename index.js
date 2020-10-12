@@ -6,7 +6,7 @@ var targz = require('targz');
 const fileExists = require('file-exists');
 const { runInContext } = require('vm');
 const existeFile = require('exists-file');
-aaaaaaaaaa;
+
 /*targz.compress({
     src: '20200928/report_20200328',
     dest: '20200928/report_20200328.tar'
