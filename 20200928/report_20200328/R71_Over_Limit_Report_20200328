@@ -1,0 +1,642 @@
+i                                                                                                                                     
+‚   002 - JACCS INTER. VIETNAM FINANCE    CURRENCY - 704          CARDLINK                             FILE DATE 28/03/20 PAGE -    1 
+‚   001 - JACCS VISA CARD                                  OVER LIMIT REPORT                           PROC DATE 28/03/20-16.35.57    
+‚                                                                - 71 -                                                               
+‚                                                                                                                                     
+‚                                   ACCOUNT CODES                                   DAYS            DATE   DATE         DATE          
+‚      ACCOUNT           SHORT     S  C  U  U  U P A        CURRENT     CREDIT DATE PAST    AMOUNT  LAST   LAST   COLL  INTO          
+‚       NUMBER            NAME     T  Y  1  2  3 B B        BALANCE      LIMIT OPEN DUE   PAST DUE  PYMT   TRAN   NBR   COLL          
+‚                                                                                                                                     
+‚ 0020010000000013 ROSY            1 22          C        86329,769  20000,000 0115  210   78651850 041116 280320 CC1  210515         
+‚                               P: 220615  A: 000000                                                                                  
+‚ 0020010000000047 OVERDUE 22      2 02          C       110256,597  20000,000 0115  210  105006283 311017 010118 C08  220115         
+‚                               P: 230215  A: 000000                                                                                  
+‚ 0020010000000070 CUSTOMER A      2 10          C        50668,407  12000,000 0115  210   37532151 210715 010417 C08  240815         
+‚                               P: 220915  A: 000000                                                                                  
+‚ 0020010000000088 CUSTOMER D      2 02          C       150258,941  20000,000 0415  210  143103753 220615 010417 CC1  220715         
+‚                               P: 240815  A: 000000                                                                                  
+‚ 0020010000000096 OVERDUE 1       2 02          C        29207,696  20000,000 0415  210   27816853 000000 010417 C08  220415         
+‚                               P: 220515  A: 000000                                                                                  
+‚ 0020010000000104 CUSTOMER E      2 02          C       143978,060  20000,000 0415  210  137121962 220615 010417 CC1  220715         
+‚                               P: 240815  A: 000000                                                                                  
+‚ 0020010000000138 CUSTOMER C      2 02          C        77075,988  20000,000 0415  210   73405703 170715 010417 CC1  220715         
+‚                               P: 240815  A: 000000                                                                                  
+‚ 0020010000000179 CUSTOMER H001   2 02          C        87797,858  20000,000 0415  210   83617008 220615 010417 CC1  220715         
+‚                               P: 240815  A: 000000                                                                                  
+‚ 0020010000000187 CUSTOMER Z      2 02          C        87148,031  20000,000 0415  210   82998125 000000 010417 C08  220515         
+‚                               P: 230615  A: 000000                                                                                  
+‚ 0020010000000542 NGUYEN THI VAN  2 02          C        25584,966  10000,000 0715  210   24366634 000000 010118 CC1  220715         
+‚                               P: 240815  A: 000000                                                                                  
+‚ 0020010000000674 TRONG 06        2 02          C        76820,813  10000,000 0815  210   73162679 000000 020317 CC1  240815         
+‚                               P: 220915  A: 000000                                                                                  
+‚ 0020010000000690 TRONG 09        2 02          C        56139,964  10000,000 0815  210   53466632 000000 020317 CC1  240815         
+‚                               P: 220915  A: 000000                                                                                  
+‚ 0020010000000716 LINH UAT 09     2 02          C        80321,033  56000,000 0815  210   76496222 000000 020317 CC1  240815         
+‚                               P: 220915  A: 000000                                                                                  
+‚ 0020010000000807 LY THU          2 02          C        20185,535  10000,000 0316  210   19224319 140516 010118 CC1  220616         
+‚                               P: 220716  A: 140516                                                                                  
+‚ 0020010000000922 TESTAFTER       2 22          C         5574,003    500,000 0516  210    5078268 000000 010118 CC1  160716         
+‚                               P: 210816  A: 000000                                                                                  
+‚ 0020010000000930 TT              2 22          C         5574,003     50,000 0516  210    5078268 000000 010118 CC1  160716         
+‚                               P: 210816  A: 000000                                                                                  
+‚ 0020010000000948 TRT             2 22          C         5574,003     90,000 0516  210    5078268 000000 010118 CC1  160716         
+‚                               P: 210816  A: 000000                                                                                  
+‚ 0020010000000963 TEST FIX        2 02          C         5244,992        100 0516  210    4995230 000000 010118 CC1  220716         
+‚                               P: 220816  A: 000000                                                                                  
+‚ 0020010000000997 CHOLIZE         2 22          C         5164,191   2500,000 0516  210    4704903 000000 010118 CC1  160716         
+‚                               P: 210816  A: 000000                                                                                  
+‚ 0020010000001003 TEST ACCT 01    2 02          C         5244,992    500,000 0516  210    4995230 000000 010118 CC1  220716         
+‚                               P: 220816  A: 000000                                                                                  
+‚ 0020010000001185 NGUYEN HUYEN    1 10          C         8771,490   5000,000 1016  210    6326821 041116 280320 CC1  111216         
+‚                               P: 311216  A: 000000                                                                                  
+‚ 0020010000001334 CUSTOMER H800   2 02          C        25804,802  20000,000 0415  210   24576002 220615 220615 C08  050917         
+‚                               P: 240815  A: 000000                                                                                  
+‚ 0020010000001532 TEST 1          2 02          C         2349,859   1000,000 1017  210    2237961 000000 301117 CC1  301117         
+‚                               P: 311217  A: 000000                                                                                  
+i                                                                                                                                     
+‚   002 - JACCS INTER. VIETNAM FINANCE    CURRENCY - 704          CARDLINK                             FILE DATE 28/03/20 PAGE -    2 
+‚   001 - JACCS VISA CARD                                  OVER LIMIT REPORT                           PROC DATE 28/03/20-16.35.57    
+‚                                                                - 71 -                                                               
+‚                                                                                                                                     
+‚                                   ACCOUNT CODES                                   DAYS            DATE   DATE         DATE          
+‚      ACCOUNT           SHORT     S  C  U  U  U P A        CURRENT     CREDIT DATE PAST    AMOUNT  LAST   LAST   COLL  INTO          
+‚       NUMBER            NAME     T  Y  1  2  3 B B        BALANCE      LIMIT OPEN DUE   PAST DUE  PYMT   TRAN   NBR   COLL          
+‚                                                                                                                                     
+         **--TYPE TOTALS--**                                                                                                         
+‚                                                                                                                                     
+‚                                                                 NBR ACCTS    ACCT BALANCES                                          
+‚                                                                                                                                     
+‚                                                                                                                                     
+‚                                TOTAL ---- BLOCK CODE - A                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - B                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - C               23      1151075,993                                          
+‚                                TOTAL ---- BLOCK CODE - D                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - E                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - F                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - G                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - H                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - I                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - J                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - K                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - L                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - M                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - N                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - O                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - P                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - Q                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - R                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - S                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - T                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - U                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - V                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - W                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - X                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - Y                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - Z                0                0                                          
+‚                                TOTAL - ALL BLOCK CODES                 23      1151075,993                                          
+i                                                                                                                                     
+‚   002 - JACCS INTER. VIETNAM FINANCE    CURRENCY - 704          CARDLINK                             FILE DATE 28/03/20 PAGE -    3 
+‚   002 - JACCS VISA CARD                                  OVER LIMIT REPORT                           PROC DATE 28/03/20-16.35.57    
+‚                                                                - 71 -                                                               
+‚                                                                                                                                     
+‚                                   ACCOUNT CODES                                   DAYS            DATE   DATE         DATE          
+‚      ACCOUNT           SHORT     S  C  U  U  U P A        CURRENT     CREDIT DATE PAST    AMOUNT  LAST   LAST   COLL  INTO          
+‚       NUMBER            NAME     T  Y  1  2  3 B B        BALANCE      LIMIT OPEN DUE   PAST DUE  PYMT   TRAN   NBR   COLL          
+‚                                                                                                                                     
+‚ 0020020000000012 OVERDUEV16      2 02          C       182962,102  20000,000 0115  210  174249621 000000 010118 C08  220115         
+‚                               P: 230215  A: 000000                                                                                  
+‚ 0020020000000020 OVERDUE 23      2 02          C       175984,367  20000,000 0115  210  167604159 000000 010118 C08  220115         
+‚                               P: 230215  A: 000000                                                                                  
+‚ 0020020000000046 CUSTOMER A      2 02          C        77700,208  12000,000 0415  210   74000198 010715 010417 C08  220715         
+‚                               P: 240815  A: 000000                                                                                  
+‚ 0020020000000053 OVERDUE 2       2 02          C        30306,322  20000,000 0415  210   28863164 000000 010417 C08  220415         
+‚                               P: 220515  A: 000000                                                                                  
+‚ 0020020000000061 CUSTOMER B      2 02          C       163851,277  20000,000 0415  210  156048835 220615 010417 CC1  220715         
+‚                               P: 240815  A: 000000                                                                                  
+‚ 0020020000000079 OVERDUE CUSTOM9 2 02          C       116091,527  20000,000 0415  210  110563359 000000 010417 CC1  220515         
+‚                               P: 230615  A: 000000                                                                                  
+‚ 0020020000000087 CUSTOMER C      2 02          C        93633,729  20000,000 0415  210   89174980 170715 010417 CC1  220515         
+‚                               P: 220715  A: 000000                                                                                  
+‚ 0020020000000343 OVERDUE CUSTOME 2 02          C        13916,979  10000,000 0815  210   13254266 150815 020218 CC1  220915         
+‚                               P: 221015  A: 000000                                                                                  
+‚ 0020020000000376 TRONG 07        2 02          C        67673,958  10000,000 0815  210   64451389 000000 020317 CC1  240815         
+‚                               P: 220915  A: 000000                                                                                  
+‚ 0020020000000384 LINH UAT 02     2 02          F        54638,902  10000,000 0815  210   51846573 000000 020317 CC1  240815         
+‚                               P: 020316  A: 000000                                                                                  
+‚ 0020020000000392 TRONG 10        2 02          C        56139,964  10000,000 0815  210   53466632 000000 020317 CC1  240815         
+‚                               P: 220915  A: 000000                                                                                  
+‚ 0020020000000418 TOM 02          2 02          C        53374,523  20000,000 0815  210   50832879 000000 020317 CC1  240815         
+‚                               P: 220915  A: 000000                                                                                  
+‚ 0020020000000426 LINH UAT 08     2 02          C        62554,436   8000,000 0815  210   59575653 000000 020317 CC1  240815         
+‚                               P: 220915  A: 000000                                                                                  
+‚ 0020020000000590 TRAN HOANG QUYE 2 02          E        16885,121   5000,000 0916  210   16081068 000000 021117 CC1  221116         
+‚                               P: 021117  A: 021117                                                                                  
+i                                                                                                                                     
+‚   002 - JACCS INTER. VIETNAM FINANCE    CURRENCY - 704          CARDLINK                             FILE DATE 28/03/20 PAGE -    4 
+‚   002 - JACCS VISA CARD                                  OVER LIMIT REPORT                           PROC DATE 28/03/20-16.35.57    
+‚                                                                - 71 -                                                               
+‚                                                                                                                                     
+‚                                   ACCOUNT CODES                                   DAYS            DATE   DATE         DATE          
+‚      ACCOUNT           SHORT     S  C  U  U  U P A        CURRENT     CREDIT DATE PAST    AMOUNT  LAST   LAST   COLL  INTO          
+‚       NUMBER            NAME     T  Y  1  2  3 B B        BALANCE      LIMIT OPEN DUE   PAST DUE  PYMT   TRAN   NBR   COLL          
+‚                                                                                                                                     
+         **--TYPE TOTALS--**                                                                                                         
+‚                                                                                                                                     
+‚                                                                 NBR ACCTS    ACCT BALANCES                                          
+‚                                                                                                                                     
+‚                                                                                                                                     
+‚                                TOTAL ---- BLOCK CODE - A                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - B                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - C               12      1094189,392                                          
+‚                                TOTAL ---- BLOCK CODE - D                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - E                1        16885,121                                          
+‚                                TOTAL ---- BLOCK CODE - F                1        54638,902                                          
+‚                                TOTAL ---- BLOCK CODE - G                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - H                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - I                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - J                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - K                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - L                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - M                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - N                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - O                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - P                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - Q                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - R                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - S                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - T                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - U                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - V                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - W                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - X                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - Y                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - Z                0                0                                          
+‚                                TOTAL - ALL BLOCK CODES                 14      1165713,415                                          
+i                                                                                                                                     
+‚   002 - JACCS INTER. VIETNAM FINANCE    CURRENCY - 704          CARDLINK                             FILE DATE 28/03/20 PAGE -    5 
+‚   003 - JACCS VISA CARD                                  OVER LIMIT REPORT                           PROC DATE 28/03/20-16.35.57    
+‚                                                                - 71 -                                                               
+‚                                                                                                                                     
+‚                                   ACCOUNT CODES                                   DAYS            DATE   DATE         DATE          
+‚      ACCOUNT           SHORT     S  C  U  U  U P A        CURRENT     CREDIT DATE PAST    AMOUNT  LAST   LAST   COLL  INTO          
+‚       NUMBER            NAME     T  Y  1  2  3 B B        BALANCE      LIMIT OPEN DUE   PAST DUE  PYMT   TRAN   NBR   COLL          
+‚                                                                                                                                     
+‚ 0020030000000011 OVERDUEV16      2 02          C       340107,163  20000,000 0115  210  330107164 040715 010118 C08  220115         
+‚                               P: 230215  A: 000000                                                                                  
+‚ 0020030000000029 OVERDUE 24      2 02          C       340292,357  20000,000 0115  210  330292358 000000 010118 C08  220115         
+‚                               P: 230215  A: 000000                                                                                  
+‚ 0020030000000037 CUSTOMERE A     2 02          C        90218,083  12000,000 0415  210   85921984 010715 010417 C08  220715         
+‚                               P: 240815  A: 000000                                                                                  
+‚ 0020030000000045 OVERDUE 3       2 02          C        55202,092  20000,000 0415  210   52573421 000000 010417 C08  220415         
+‚                               P: 220515  A: 000000                                                                                  
+‚ 0020030000000052 CUSTOMER B      2 02          C        92818,117  20000,000 0415  210   88398207 220615 010417 CC1  220715         
+‚                               P: 240815  A: 000000                                                                                  
+‚ 0020030000000060 OVERDUE CUSTO10 2 02          C       212417,513  20000,000 0415  210  202417514 000000 010417 CC1  220515         
+‚                               P: 230615  A: 000000                                                                                  
+‚ 0020030000000078 CUSTOMER C      2 02          C        83746,815  20000,000 0415  210   79758871 220615 010417 CC1  220715         
+‚                               P: 240815  A: 000000                                                                                  
+‚ 0020030000000227 ERIKO INOUE     2 02          C         6368,131   5000,000 0615  210    6064887 000000 010118 CC1  220116         
+‚                               P: 220216  A: 000000                                                                                  
+‚ 0020030000000318 OVERDUE C17     2 02          F       120257,648  12000,000 0815  210  114531093 150815 020218 CC1  240815         
+‚                               P: 020316  A: 000000                                                                                  
+‚ 0020030000000334 TRONG 08        2 02          C        56139,964  10000,000 0815  210   53466632 000000 020317 CC1  240815         
+‚                               P: 220915  A: 000000                                                                                  
+‚ 0020030000000359 LINH UAT 03     2 02 01 N     C        54068,113  25000,000 0815  210   51493441 000000 020317 CC1  240815         
+‚                               P: 220915  A: 000000                                                                                  
+‚ 0020030000000367 LINH UAT 07     2 02          C        53202,336  25000,000 0815  210   50668891 000000 020317 CC1  240815         
+‚                               P: 220915  A: 000000                                                                                  
+‚ 0020030000000375 TOM 03          2 02          C        53374,523  20000,000 0815  210   50832879 000000 020317 CC1  240815         
+‚                               P: 220915  A: 000000                                                                                  
+‚ 0020030000000383 LINH UAT SMS 11 2 02          C         5770,758   2000,000 0815  210    5495960 000000 020317 CC1  220316         
+‚                               P: 220416  A: 000000                                                                                  
+i                                                                                                                                     
+‚   002 - JACCS INTER. VIETNAM FINANCE    CURRENCY - 704          CARDLINK                             FILE DATE 28/03/20 PAGE -    6 
+‚   003 - JACCS VISA CARD                                  OVER LIMIT REPORT                           PROC DATE 28/03/20-16.35.57    
+‚                                                                - 71 -                                                               
+‚                                                                                                                                     
+‚                                   ACCOUNT CODES                                   DAYS            DATE   DATE         DATE          
+‚      ACCOUNT           SHORT     S  C  U  U  U P A        CURRENT     CREDIT DATE PAST    AMOUNT  LAST   LAST   COLL  INTO          
+‚       NUMBER            NAME     T  Y  1  2  3 B B        BALANCE      LIMIT OPEN DUE   PAST DUE  PYMT   TRAN   NBR   COLL          
+‚                                                                                                                                     
+         **--TYPE TOTALS--**                                                                                                         
+‚                                                                                                                                     
+‚                                                                 NBR ACCTS    ACCT BALANCES                                          
+‚                                                                                                                                     
+‚                                                                                                                                     
+‚                                TOTAL ---- BLOCK CODE - A                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - B                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - C               13      1443725,965                                          
+‚                                TOTAL ---- BLOCK CODE - D                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - E                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - F                1       120257,648                                          
+‚                                TOTAL ---- BLOCK CODE - G                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - H                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - I                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - J                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - K                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - L                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - M                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - N                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - O                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - P                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - Q                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - R                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - S                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - T                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - U                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - V                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - W                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - X                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - Y                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - Z                0                0                                          
+‚                                TOTAL - ALL BLOCK CODES                 14      1563983,613                                          
+i                                                                                                                                     
+‚   002 - JACCS INTER. VIETNAM FINANCE    CURRENCY - 704          CARDLINK                             FILE DATE 28/03/20 PAGE -    7 
+‚   005 - SALE ADJUSTMENT                                  OVER LIMIT REPORT                           PROC DATE 28/03/20-16.35.57    
+‚                                                                - 71 -                                                               
+‚                                                                                                                                     
+‚                                   ACCOUNT CODES                                   DAYS            DATE   DATE         DATE          
+‚      ACCOUNT           SHORT     S  C  U  U  U P A        CURRENT     CREDIT DATE PAST    AMOUNT  LAST   LAST   COLL  INTO          
+‚       NUMBER            NAME     T  Y  1  2  3 B B        BALANCE      LIMIT OPEN DUE   PAST DUE  PYMT   TRAN   NBR   COLL          
+‚                                                                                                                                     
+‚ 0020050000000019 TRONG 11        2 02          C       139575,555  10000,000 0815  210  132929100 000000 020317 CC1  240815         
+‚                               P: 220915  A: 000000                                                                                  
+‚ 0020050000000027 LINH UAT 06     2 02          C       285748,580  30000,000 0815  210  275748581 000000 020317 CC1  240815         
+‚                               P: 220915  A: 000000                                                                                  
+‚ 0020050000000035 TOM 04          2 02          C        84840,217  10000,000 0815  210   80800207 000000 020317 CC1  240815         
+‚                               P: 220915  A: 000000                                                                                  
+‚ 0020050000000050 LINH UAT 10     2 02          C        85446,272  35000,000 0815  210   81377402 000000 020317 CC1  240815         
+‚                               P: 220915  A: 000000                                                                                  
+         **--TYPE TOTALS--**                                                                                                         
+‚                                                                                                                                     
+‚                                                                 NBR ACCTS    ACCT BALANCES                                          
+‚                                                                                                                                     
+‚                                                                                                                                     
+‚                                TOTAL ---- BLOCK CODE - A                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - B                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - C                4       595610,624                                          
+‚                                TOTAL ---- BLOCK CODE - D                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - E                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - F                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - G                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - H                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - I                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - J                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - K                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - L                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - M                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - N                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - O                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - P                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - Q                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - R                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - S                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - T                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - U                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - V                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - W                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - X                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - Y                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - Z                0                0                                          
+‚                                TOTAL - ALL BLOCK CODES                  4       595610,624                                          
+i                                                                                                                                     
+‚   002 - JACCS INTER. VIETNAM FINANCE    CURRENCY - 704          CARDLINK                             FILE DATE 28/03/20 PAGE -    8 
+‚   012 - KILALA JACCS VISA CARD                           OVER LIMIT REPORT                           PROC DATE 28/03/20-16.35.57    
+‚                                                                - 71 -                                                               
+‚                                                                                                                                     
+‚                                   ACCOUNT CODES                                   DAYS            DATE   DATE         DATE          
+‚      ACCOUNT           SHORT     S  C  U  U  U P A        CURRENT     CREDIT DATE PAST    AMOUNT  LAST   LAST   COLL  INTO          
+‚       NUMBER            NAME     T  Y  1  2  3 B B        BALANCE      LIMIT OPEN DUE   PAST DUE  PYMT   TRAN   NBR   COLL          
+‚                                                                                                                                     
+‚ 0020120000000010 HUYNH TRONG     2 02          C        18664,531  10000,000 0516  210   17775744 000000 010118 CC1  220716         
+‚                               P: 220816  A: 000000                                                                                  
+         **--TYPE TOTALS--**                                                                                                         
+‚                                                                                                                                     
+‚                                                                 NBR ACCTS    ACCT BALANCES                                          
+‚                                                                                                                                     
+‚                                                                                                                                     
+‚                                TOTAL ---- BLOCK CODE - A                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - B                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - C                1        18664,531                                          
+‚                                TOTAL ---- BLOCK CODE - D                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - E                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - F                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - G                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - H                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - I                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - J                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - K                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - L                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - M                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - N                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - O                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - P                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - Q                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - R                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - S                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - T                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - U                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - V                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - W                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - X                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - Y                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - Z                0                0                                          
+‚                                TOTAL - ALL BLOCK CODES                  1        18664,531                                          
+i                                                                                                                                     
+‚   002 - JACCS INTER. VIETNAM FINANCE    CURRENCY - 704          CARDLINK                             FILE DATE 28/03/20 PAGE -    9 
+‚   800 - JACCS CASH CARD                                  OVER LIMIT REPORT                           PROC DATE 28/03/20-16.35.57    
+‚                                                                - 71 -                                                               
+‚                                                                                                                                     
+‚                                   ACCOUNT CODES                                   DAYS            DATE   DATE         DATE          
+‚      ACCOUNT           SHORT     S  C  U  U  U P A        CURRENT     CREDIT DATE PAST    AMOUNT  LAST   LAST   COLL  INTO          
+‚       NUMBER            NAME     T  Y  1  2  3 B B        BALANCE      LIMIT OPEN DUE   PAST DUE  PYMT   TRAN   NBR   COLL          
+‚                                                                                                                                     
+‚ 0028000000000024 OVERDUE 25      2 02          C       213278,907  20000,000 0115  210  203278908 120516 120516 C08  220115         
+‚                               P: 230215  A: 000000                                                                                  
+‚ 0028000000000032 CUSTOMER A      2 02          C        25307,676  12000,000 0415  210   24102549 220615 220615 C08  220715         
+‚                               P: 240815  A: 040715                                                                                  
+‚ 0028000000000065 OVERDUE CUSTO11 2 02          C        30938,935  20000,000 0415  210   29465652 000000 130415 CC1  220515         
+‚                               P: 230615  A: 000000                                                                                  
+‚ 0028000000000073 CUSTOMER C      2 02          C        24178,823  20000,000 0415  210   23027450 170715 170715 CC1  240815         
+‚                               P: 220915  A: 000000                                                                                  
+‚ 0028000000000222 CUSTOMER FF     2 02          C        48296,924  20000,000 0415  210   45997070 220615 220615 CC1  220715         
+‚                               P: 240815  A: 000000                                                                                  
+‚ 0028000000000404 OVERDUE C04     2 02          C        60697,373  15000,000 0815  210   57807022 150815 150815 CC1  240815         
+‚                               P: 220915  A: 000000                                                                                  
+‚ 0028000000000412 OVERDUE C18     2 02          C        60535,637  25000,000 0815  210   57652988 150815 020316 CC1  240815         
+‚                               P: 220915  A: 000000                                                                                  
+‚ 0028000000000628 CUSTOMER 10     2 02          C         6195,892   5000,000 0618  210    5205189 000000 020618 CC1  220618         
+‚                               P: 220818  A: 000000                                                                                  
+i                                                                                                                                     
+‚   002 - JACCS INTER. VIETNAM FINANCE    CURRENCY - 704          CARDLINK                             FILE DATE 28/03/20 PAGE -   10 
+‚   800 - JACCS CASH CARD                                  OVER LIMIT REPORT                           PROC DATE 28/03/20-16.35.57    
+‚                                                                - 71 -                                                               
+‚                                                                                                                                     
+‚                                   ACCOUNT CODES                                   DAYS            DATE   DATE         DATE          
+‚      ACCOUNT           SHORT     S  C  U  U  U P A        CURRENT     CREDIT DATE PAST    AMOUNT  LAST   LAST   COLL  INTO          
+‚       NUMBER            NAME     T  Y  1  2  3 B B        BALANCE      LIMIT OPEN DUE   PAST DUE  PYMT   TRAN   NBR   COLL          
+‚                                                                                                                                     
+         **--TYPE TOTALS--**                                                                                                         
+‚                                                                                                                                     
+‚                                                                 NBR ACCTS    ACCT BALANCES                                          
+‚                                                                                                                                     
+‚                                                                                                                                     
+‚                                TOTAL ---- BLOCK CODE - A                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - B                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - C                8       469430,167                                          
+‚                                TOTAL ---- BLOCK CODE - D                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - E                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - F                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - G                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - H                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - I                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - J                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - K                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - L                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - M                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - N                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - O                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - P                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - Q                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - R                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - S                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - T                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - U                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - V                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - W                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - X                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - Y                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - Z                0                0                                          
+‚                                TOTAL - ALL BLOCK CODES                  8       469430,167                                          
+i                                                                                                                                     
+‚   002 - JACCS INTER. VIETNAM FINANCE    CURRENCY - 704          CARDLINK                             FILE DATE 28/03/20 PAGE -   11 
+‚   801 - JACCS CASH CARD                                  OVER LIMIT REPORT                           PROC DATE 28/03/20-16.35.57    
+‚                                                                - 71 -                                                               
+‚                                                                                                                                     
+‚                                   ACCOUNT CODES                                   DAYS            DATE   DATE         DATE          
+‚      ACCOUNT           SHORT     S  C  U  U  U P A        CURRENT     CREDIT DATE PAST    AMOUNT  LAST   LAST   COLL  INTO          
+‚       NUMBER            NAME     T  Y  1  2  3 B B        BALANCE      LIMIT OPEN DUE   PAST DUE  PYMT   TRAN   NBR   COLL          
+‚                                                                                                                                     
+‚ 0028010000000023 OVERDUEV19      2 02          C       222578,323  20000,000 0115  210  212578324 220415 220415 C08  220115         
+‚                               P: 230215  A: 000000                                                                                  
+‚ 0028010000000031 OVERDUE 26      2 02          C       222585,099  20000,000 0115  210  212585100 000000 070115 C08  220115         
+‚                               P: 230215  A: 000000                                                                                  
+‚ 0028010000000072 CUSTOMER B      2 10          C        22949,964  20000,000 0415  210   16676823 220615 220615 CC1  220715         
+‚                               P: 240815  A: 000000                                                                                  
+‚ 0028010000000080 OVERDUE CUSTO12 2 02          C        32032,727  20000,000 0415  210   30507359 000000 130415 CC1  220515         
+‚                               P: 230615  A: 000000                                                                                  
+‚ 0028010000000098 CUSTOMER C      2 02          C        27083,472  20000,000 0415  210   25793783 220615 220615 CC1  220715         
+‚                               P: 240815  A: 000000                                                                                  
+‚ 0028010000000213 OVERDUE C05     2 02          F        74874,720  10000,000 0815  210   71309257 150815 010516 CC1  240815         
+‚                               P: 020316  A: 000000                                                                                  
+‚ 0028010000000239 LINH UAT 05     2 02          C        63752,978  20000,000 0815  210   60717122 000000 100815 CC1  240815         
+‚                               P: 220915  A: 000000                                                                                  
+‚ 0028010000000262 HUYNH TRONG 8   2 02          C        41686,211  18000,000 0316  210   39701153 120516 120516 CC1  220316         
+‚                               P: 220416  A: 000000                                                                                  
+‚ 0028010000000411 CUSTOMER 11     2 02          C         6693,733   5000,000 0618  210    5924018 000000 020618 CC1  220618         
+‚                               P: 220818  A: 000000                                                                                  
+i                                                                                                                                     
+‚   002 - JACCS INTER. VIETNAM FINANCE    CURRENCY - 704          CARDLINK                             FILE DATE 28/03/20 PAGE -   12 
+‚   801 - JACCS CASH CARD                                  OVER LIMIT REPORT                           PROC DATE 28/03/20-16.35.57    
+‚                                                                - 71 -                                                               
+‚                                                                                                                                     
+‚                                   ACCOUNT CODES                                   DAYS            DATE   DATE         DATE          
+‚      ACCOUNT           SHORT     S  C  U  U  U P A        CURRENT     CREDIT DATE PAST    AMOUNT  LAST   LAST   COLL  INTO          
+‚       NUMBER            NAME     T  Y  1  2  3 B B        BALANCE      LIMIT OPEN DUE   PAST DUE  PYMT   TRAN   NBR   COLL          
+‚                                                                                                                                     
+         **--TYPE TOTALS--**                                                                                                         
+‚                                                                                                                                     
+‚                                                                 NBR ACCTS    ACCT BALANCES                                          
+‚                                                                                                                                     
+‚                                                                                                                                     
+‚                                TOTAL ---- BLOCK CODE - A                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - B                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - C                8       639362,507                                          
+‚                                TOTAL ---- BLOCK CODE - D                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - E                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - F                1        74874,720                                          
+‚                                TOTAL ---- BLOCK CODE - G                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - H                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - I                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - J                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - K                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - L                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - M                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - N                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - O                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - P                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - Q                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - R                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - S                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - T                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - U                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - V                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - W                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - X                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - Y                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - Z                0                0                                          
+‚                                TOTAL - ALL BLOCK CODES                  9       714237,227                                          
+i                                                                                                                                     
+‚   002 - JACCS INTER. VIETNAM FINANCE    CURRENCY - 704          CARDLINK                             FILE DATE 28/03/20 PAGE -   13 
+‚   802 - JACCS CASH CARD                                  OVER LIMIT REPORT                           PROC DATE 28/03/20-16.35.57    
+‚                                                                - 71 -                                                               
+‚                                                                                                                                     
+‚                                   ACCOUNT CODES                                   DAYS            DATE   DATE         DATE          
+‚      ACCOUNT           SHORT     S  C  U  U  U P A        CURRENT     CREDIT DATE PAST    AMOUNT  LAST   LAST   COLL  INTO          
+‚       NUMBER            NAME     T  Y  1  2  3 B B        BALANCE      LIMIT OPEN DUE   PAST DUE  PYMT   TRAN   NBR   COLL          
+‚                                                                                                                                     
+‚ 0028020000000014 OVERDUEV20      2 02          C       225215,683  20000,000 0115  210  215215684 140516 140516 C08  220115         
+‚                               P: 230215  A: 000000                                                                                  
+‚ 0028020000000022 OVERDUE 27      2 02          C       237033,108  20000,000 0115  210  227033109 000000 070115 C08  220115         
+‚                               P: 230215  A: 000000                                                                                  
+‚ 0028020000000048 CUSTOMER A      2 02          C        28005,802  12000,000 0415  210   26672192 220615 050715 C08  220715         
+‚                               P: 240815  A: 000000                                                                                  
+‚ 0028020000000055 OVERDUE 6       2 02          C        35192,675  20000,000 0415  210   33516833 000000 120415 C08  220415         
+‚                               P: 220515  A: 000000                                                                                  
+‚ 0028020000000063 CUSTOMER B      2 02          C        30167,952  20000,000 0415  210   28731383 111216 280117 C08  191216         
+‚                               P: 191216  A: 111216                                                                                  
+‚ 0028020000000071 OVERDUE CUSTO13 2 02          C        33892,053  20000,000 0415  210   32278146 000000 130415 CC1  220515         
+‚                               P: 230615  A: 000000                                                                                  
+‚ 0028020000000204 HUYNH TRONG 9   2 02          C        50583,162  19000,000 0316  210   48174440 120516 120516 CC1  220316         
+‚                               P: 220416  A: 000000                                                                                  
+‚ 0028020000000212 HUYNH TRONG 20  2 02          C        60052,152  20000,000 0316  210   57192526 000000 020316 CC1  220316         
+‚                               P: 220416  A: 000000                                                                                  
+‚ 0028020000000386 CUSTOMER 6      2 10          C         6039,231   5000,000 0518  150    2677421 000000 040518 CC1  110618         
+‚                               P: 020718  A: 000000                                                                                  
+i                                                                                                                                     
+‚   002 - JACCS INTER. VIETNAM FINANCE    CURRENCY - 704          CARDLINK                             FILE DATE 28/03/20 PAGE -   14 
+‚   802 - JACCS CASH CARD                                  OVER LIMIT REPORT                           PROC DATE 28/03/20-16.35.57    
+‚                                                                - 71 -                                                               
+‚                                                                                                                                     
+‚                                   ACCOUNT CODES                                   DAYS            DATE   DATE         DATE          
+‚      ACCOUNT           SHORT     S  C  U  U  U P A        CURRENT     CREDIT DATE PAST    AMOUNT  LAST   LAST   COLL  INTO          
+‚       NUMBER            NAME     T  Y  1  2  3 B B        BALANCE      LIMIT OPEN DUE   PAST DUE  PYMT   TRAN   NBR   COLL          
+‚                                                                                                                                     
+         **--TYPE TOTALS--**                                                                                                         
+‚                                                                                                                                     
+‚                                                                 NBR ACCTS    ACCT BALANCES                                          
+‚                                                                                                                                     
+‚                                                                                                                                     
+‚                                TOTAL ---- BLOCK CODE - A                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - B                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - C                9       706181,818                                          
+‚                                TOTAL ---- BLOCK CODE - D                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - E                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - F                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - G                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - H                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - I                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - J                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - K                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - L                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - M                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - N                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - O                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - P                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - Q                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - R                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - S                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - T                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - U                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - V                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - W                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - X                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - Y                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - Z                0                0                                          
+‚                                TOTAL - ALL BLOCK CODES                  9       706181,818                                          
+i                                                                                                                                     
+‚   002 - JACCS INTER. VIETNAM FINANCE    CURRENCY - 704          CARDLINK                             FILE DATE 28/03/20 PAGE -   15 
+‚   803 - JACCS CASH CARD                                  OVER LIMIT REPORT                           PROC DATE 28/03/20-16.35.57    
+‚                                                                - 71 -                                                               
+‚                                                                                                                                     
+‚                                   ACCOUNT CODES                                   DAYS            DATE   DATE         DATE          
+‚      ACCOUNT           SHORT     S  C  U  U  U P A        CURRENT     CREDIT DATE PAST    AMOUNT  LAST   LAST   COLL  INTO          
+‚       NUMBER            NAME     T  Y  1  2  3 B B        BALANCE      LIMIT OPEN DUE   PAST DUE  PYMT   TRAN   NBR   COLL          
+‚                                                                                                                                     
+‚ 0028030000000013 OVERDUE 21      2 02          C       256827,228  20000,000 0115  210  246827229 000000 070115 C08  220115         
+‚                               P: 230215  A: 000000                                                                                  
+‚ 0028030000000039 OVERDUE 28      2 02          C       251402,347  20000,000 0115  210  241402348 051116 051116 C08  220115         
+‚                               P: 230215  A: 000000                                                                                  
+‚ 0028030000000047 CUSTOMER A      2 02          C        34302,983  12000,000 0415  210   32669508 050818 050818 C08  220715         
+‚                               P: 240815  A: 000000                                                                                  
+‚ 0028030000000054 OVERDUE 7       2 02          C        38052,195  20000,000 0415  210   36240186 000000 120415 C08  220415         
+‚                               P: 220515  A: 000000                                                                                  
+‚ 0028030000000195 NGUYEN TRANG 1  2 02          C        34932,527   5000,000 0316  210   33269073 051116 051116 C08  220316         
+‚                               P: 220416  A: 000000                                                                                  
+‚ 0028030000000203 HUYNH TRONG 21  2 02          C        77831,622  21000,000 0316  210   74125354 120516 120516 CC1  220316         
+‚                               P: 220416  A: 000000                                                                                  
+         **--TYPE TOTALS--**                                                                                                         
+‚                                                                                                                                     
+‚                                                                 NBR ACCTS    ACCT BALANCES                                          
+‚                                                                                                                                     
+‚                                                                                                                                     
+‚                                TOTAL ---- BLOCK CODE - A                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - B                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - C                6       693348,902                                          
+‚                                TOTAL ---- BLOCK CODE - D                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - E                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - F                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - G                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - H                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - I                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - J                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - K                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - L                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - M                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - N                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - O                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - P                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - Q                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - R                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - S                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - T                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - U                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - V                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - W                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - X                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - Y                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - Z                0                0                                          
+‚                                TOTAL - ALL BLOCK CODES                  6       693348,902                                          
+i                                                                                                                                     
+‚   002 - JACCS INTER. VIETNAM FINANCE    CURRENCY - 704          CARDLINK                             FILE DATE 28/03/20 PAGE -    1 
+‚                                                          OVER LIMIT REPORT                           PROC DATE 28/03/20-16.35.57    
+‚                                                                - 71 -                                                               
+‚                                                                                                                                     
+‚                                   ACCOUNT CODES                                   DAYS            DATE   DATE         DATE          
+‚      ACCOUNT           SHORT     S  C  U  U  U P A        CURRENT     CREDIT DATE PAST    AMOUNT  LAST   LAST   COLL  INTO          
+‚       NUMBER            NAME     T  Y  1  2  3 B B        BALANCE      LIMIT OPEN DUE   PAST DUE  PYMT   TRAN   NBR   COLL          
+‚                                                                                                                                     
+                                                                                                                                     
+      **--ORGANIZATION TOTALS--**                                                                                                    
+‚                                                                                                                                     
+‚                                                                 NBR ACCTS    ACCT BALANCES                                          
+‚                                                                                                                                     
+‚                                                                                                                                     
+‚                                TOTAL ---- BLOCK CODE - A                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - B                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - C               84      6811589,899                                          
+‚                                TOTAL ---- BLOCK CODE - D                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - E                1        16885,121                                          
+‚                                TOTAL ---- BLOCK CODE - F                3       249771,270                                          
+‚                                TOTAL ---- BLOCK CODE - G                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - H                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - I                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - J                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - K                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - L                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - M                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - N                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - O                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - P                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - Q                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - R                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - S                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - T                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - U                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - V                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - W                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - X                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - Y                0                0                                          
+‚                                TOTAL ---- BLOCK CODE - Z                0                0                                          
+‚                                TOTAL - ALL BLOCK CODES                 88      7078246,290                                          
+

@@ -1,0 +1,749 @@
+i                                                                                                                                     
+‚1                                                                  CARDLINK                          FILE DATE-28/03/20   PG        1
+‚2                                                   TRANSACTION EDIT/MERGE REPORT                    PROC DATE-28/03/20   16.13.57   
+                                           L O C A L   I N P U T   T R A N S A C T I O N S                                           
+‚                                                              CPD030 - 01                                                            
+‚                                                                                                                                     
+‚                                                                                                                                     
+‚-------------------------------------------------------------------------------------------------------------------------------------
+ BATCH ST TYPE  SRCE ITEMS CURR      AMOUNT                                                                                          
+ 00001 C  PYMT  KEYD   2  704        48,000                                                                                          
+‚ ORIGINAL  GENERATED                            TRAN                                                             BALANCE             
+ BATCH-SEQ BATCH-SEQ    CARD NUMBER             CODE      AMOUNT  TRN-DT DESCRIPTION                             SEQ NBR             
+‚ 00001-001 00001-001 421194******0356           2000      24,000- 280320                                           0000              
+‚ 00001-002 00001-002 421194******0505           2000      24,000- 280320                                           0000              
+‚                                                                                                                                     
+‚               ACCEPTED          ITEMS=      2  AMOUNT=          48,000-                                                             
+‚               REJECTED                      0                        0                                                              
+           ** BATCH TOTAL **                 2                   48,000-                                                             
+ *** MERCHANT DEPOSIT TOTALS ***                                                                                                     
+                         NBR          AMOUNT                                   NBR          AMOUNT                                   
+‚    ACCEPTED                0              0       ====== SUBTOT-POST TO MERCH    0              0                                   
+‚    PROCESSOR ERRORS        0              0       =      ITEM REJ/ADJ            0              0                                   
+‚    SUBTOT-POST TO MERCH    0              0  ======      HDR (ARITH) ADJ         0              0                                   
+‚                                                          OTHER ERRORS/ADJ        0              0                                   
+                                                          ** TOTAL PRESENTED      0              0                                   
+ *** SOURCE GRAND TOTALS ***                                                                                                         
+                                        NBR BATCHES                1                                                                 
+‚                                        NBR ITEMS                  2                                                                 
+                                        AMT ITEMS             48,000-                                                                
+‚                                        NBR ACCEPTED               2                                                                 
+                                        AMT ACCEPTED          48,000-                                                                
+‚                                        NBR REJECTED               0                                                                 
+                                        AMT REJECTED               0                                                                 
+i                                                                                                                                     
+‚1                                                                  CARDLINK                          FILE DATE-28/03/20   PG        2
+‚2                                                   TRANSACTION EDIT/MERGE REPORT                    PROC DATE-28/03/20   16.13.57   
+                                           L O C A L   I N P U T   T R A N S A C T I O N S                                           
+‚                                                              CPD030 - 01                                                            
+‚                                                                                                                                     
+‚                                                                                                                                     
+ *** MERCHANT ADJUSTMENT TOTALS ***                                                                                                  
+                         NBR          AMOUNT                                   NBR          AMOUNT                                   
+‚    ACCEPTED                0              0       ====== SUBTOT-POST TO MERCH    0              0                                   
+‚    PROCESSOR ERRORS        0              0       =      ITEM REJ/ADJ            0              0                                   
+‚    SUBTOT-POST TO MERCH    0              0  ======      HDR (ARITH) ADJ         0              0                                   
+‚                                                          OTHER ERRORS/ADJ        0              0                                   
+                                                          ** TOTAL PRESENTED      0              0                                   
+                                        NBR BATCHES                0                                                                 
+‚                                        NBR ITEMS                  0                                                                 
+                                        AMT ITEMS                  0                                                                 
+‚                                        NBR ACCEPTED               0                                                                 
+                                        AMT ACCEPTED               0                                                                 
+‚                                        NBR REJECTED               0                                                                 
+                                        AMT REJECTED               0                                                                 
+                                   * * E N D   O F   L O C A L   I N P U T * *                                                       
+i                                                                                                                                     
+‚1                                                                  CARDLINK                          FILE DATE-28/03/20   PG        3
+‚2                                                   TRANSACTION EDIT/MERGE REPORT                    PROC DATE-28/03/20   16.13.57   
+                                                    T E R M I N A L   T O T A L S                                                    
+‚                                                              CPD030 - 04                                                            
+‚                              ORG   TERM   BATCH   ST   OPER      MERCHANT    ITEMS         AMOUNT         SEC   SRCE                
+‚                                                                                                                                     
+‚                              002   H000   00001    C    S03     000000000        2           48000         S03                      
+‚                                                                                                                                     
+                                                               TERM TOTALS        2           48000                                  
+                                                                ORG TOTALS        2           48000                                  
+‚                                                              FINAL TOTALS        2           48000                                  
+i                                                                                                                                     
+‚1                                                                  CARDLINK                          FILE DATE-28/03/20   PG        4
+‚2                                                   TRANSACTION EDIT/MERGE REPORT                    PROC DATE-28/03/20   16.13.57   
+                                            U S E R   I N P U T   T R A N S A C T I O N S                                            
+‚                                                              CPD030 - 02                                                            
+‚                              ORG   TERM   BATCH   ST   OPER      MERCHANT    ITEMS         AMOUNT         SEC   SRCE                
+‚                                                                                                                                     
+‚                                                                                                                                     
+ *** MERCHANT DEPOSIT TOTALS ***                                                                                                     
+                         NBR          AMOUNT                                   NBR          AMOUNT                                   
+‚    ACCEPTED                0              0       ====== SUBTOT-POST TO MERCH    0              0                                   
+‚    PROCESSOR ERRORS        0              0       =      ITEM REJ/ADJ            0              0                                   
+‚    SUBTOT-POST TO MERCH    0              0  ======      HDR (ARITH) ADJ         0              0                                   
+‚                                                          OTHER ERRORS/ADJ        0              0                                   
+                                                          ** TOTAL PRESENTED      0              0                                   
+ *** SOURCE GRAND TOTALS ***                                                                                                         
+                                        NBR BATCHES                0                                                                 
+‚                                        NBR ITEMS                  0                                                                 
+                                        AMT ITEMS                  0                                                                 
+‚                                        NBR ACCEPTED               0                                                                 
+                                        AMT ACCEPTED               0                                                                 
+‚                                        NBR REJECTED               0                                                                 
+                                        AMT REJECTED               0                                                                 
+‚                                                                                                                                     
+i                                                                                                                                     
+‚1                                                                  CARDLINK                          FILE DATE-28/03/20   PG        5
+‚2                                                   TRANSACTION EDIT/MERGE REPORT                    PROC DATE-28/03/20   16.13.57   
+                                            U S E R   I N P U T   T R A N S A C T I O N S                                            
+‚                                                              CPD030 - 02                                                            
+‚                                                                                                                                     
+‚                                                                                                                                     
+ *** MERCHANT ADJUSTMENT TOTALS ***                                                                                                  
+                         NBR          AMOUNT                                   NBR          AMOUNT                                   
+‚    ACCEPTED                0              0       ====== SUBTOT-POST TO MERCH    0              0                                   
+‚    PROCESSOR ERRORS        0              0       =      ITEM REJ/ADJ            0              0                                   
+‚    SUBTOT-POST TO MERCH    0              0  ======      HDR (ARITH) ADJ         0              0                                   
+‚                                                          MSSNG/CLOSED MERCH      0              0                                   
+                                                          ** TOTAL PRESENTED      0              0                                   
+                                        NBR BATCHES                0                                                                 
+‚                                        NBR ITEMS                  0                                                                 
+                                        AMT ITEMS                  0                                                                 
+‚                                        NBR ACCEPTED               0                                                                 
+                                        AMT ACCEPTED               0                                                                 
+‚                                        NBR REJECTED               0                                                                 
+                                        AMT REJECTED               0                                                                 
+                                     * E N D   O F   U S E R   I N P U T *                                                           
+i                                                                                                                                     
+‚1ORG - 002                             CURRENCY - 704              CARDLINK                          FILE DATE-28/03/20   PG        6
+‚2POSTING TRANS                                      TRANSACTION EDIT/MERGE REPORT                    PROC DATE-28/03/20   16.13.57   
+                                                 I N P U T   R E C A P   T O T A L S                                                 
+‚                                                              CPD030 - 06                                                            
+‚                                                                                                                                     
+‚                           VISA    MASTERCARD          USER       ON-LINE           JCB    WAREHOUSED    *PRESENTED                  
+                       INCOMING      INCOMING      MONETARY      MONETARY      INCOMING      MONETARY    * DEPOSITS         TOTAL    
+‚ + SALES DRAFTS               0             0             0             0             0             0             0             0    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ - RETURNS                    0             0             0             0             0             0             0             0    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ + CASH ADVANCES              0             0             0             0             0             0             0             0    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ - REV SALES                  0             0             0             0             0             0             0             0    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ + REV RETURNS                0             0             0             0             0             0             0             0    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ - REV CASH ADV               0             0             0             0             0             0             0             0    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ + DB MISC TRANS              0             0             0             0             0             0             0             0    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ - CR MISC TRANS              0             0             0             0             0             0             0             0    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ - PAYMENTS                   0             0             0         48000             0             0             0         48000    
+‚     NBR                      0             0             0             2             0             0             0             2    
+‚ * AUTHORIZATIONS             0             0             0             0             0             0             0             0    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ * REV AUTH                   0             0             0             0             0             0             0             0    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ * AUTH DECLINES              0             0             0             0             0             0             0             0    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ + MISPOST ADJ                0             0             0             0             0             0             0             0    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ + DISCOUNT ADJ               0             0             0             0             0             0             0             0    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ + FEE ADJ                    0             0             0             0             0             0             0             0    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ + CHGBK/REPR ADJ             0             0             0             0             0             0             0             0    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚                  ------------- ------------- ------------- ------------- ------------- ------------- ------------- -------------    
+‚   NET TOTAL                  0             0             0         48000-            0             0             0         48000-   
+‚     NBR                      0             0             0             2             0             0             0             2    
+                                                                                                                                     
+‚ + SALES                      0             0                                                                                        
+‚     NBR                      0             0                                                                                        
+‚ - RETURNS                    0             0                                                                                        
+‚     NBR                      0             0                                                                                        
+‚ + CASH ADV                   0             0                                                                                        
+‚     NBR                      0             0                                                                                        
+‚                  ------------- -------------                                                                                        
+‚   NET TOTAL                  0             0                                                                                        
+‚     NBR                      0             0                                                                                        
+i                                                                                                                                     
+‚1ORG - 002                                                         CARDLINK                          FILE DATE-28/03/20   PG        7
+‚2SPECIAL INTERCHANGE                                TRANSACTION EDIT/MERGE REPORT                    PROC DATE-28/03/20   16.13.57   
+                                                 I N P U T   R E C A P   T O T A L S                                                 
+‚                                                              CPD030 - 06                                                            
+‚                                                                                                                                     
+‚                           VISA    MASTERCARD      CARDLINK      CARDLINK   INTERCHANGE                                              
+                       INCOMING      INCOMING        MANUAL          AUTO      TRACKING         TOTAL                                
+‚ + DB CHARGEBACKS           .00           .00           .00           .00           .00           .00                                
+‚     NBR                      0             0             0             0             0             0                                
+‚ - CR CHARGEBACKS           .00           .00           .00           .00           .00           .00                                
+‚     NBR                      0             0             0             0             0             0                                
+‚ + DB REPRESENT             .00           .00           .00           .00           .00           .00                                
+‚     NBR                      0             0             0             0             0             0                                
+‚ - CR REPRESENT             .00           .00           .00           .00           .00           .00                                
+‚     NBR                      0             0             0             0             0             0                                
+‚ - DB CHGBK REVSL           .00           .00           .00           .00           .00           .00                                
+‚     NBR                      0             0             0             0             0             0                                
+‚ + CR CHGBK REVSL           .00           .00           .00           .00           .00           .00                                
+‚     NBR                      0             0             0             0             0             0                                
+‚ - DB REPRES REVSL          .00           .00           .00           .00           .00           .00                                
+‚     NBR                      0             0             0             0             0             0                                
+‚ + CR REPRES REVSL          .00           .00           .00           .00           .00           .00                                
+‚     NBR                      0             0             0             0             0             0                                
+‚ + DB MISC TRANS            .00           .00           .00           .00           .00           .00                                
+‚     NBR                      0             0             0             0             0             0                                
+‚ - CR MISC TRANS            .00           .00           .00           .00           .00           .00                                
+‚     NBR                      0             0             0             0             0             0                                
+‚ * DB ADVICE TRANS          .00           .00           .00           .00           .00           .00                                
+‚     NBR                      0             0             0             0             0             0                                
+‚ * CR ADVICE TRANS          .00           .00           .00           .00           .00           .00                                
+‚     NBR                      0             0             0             0             0             0                                
+‚                  ------------- ------------- ------------- ------------- ------------- -------------                                
+‚   NET TOTAL                .00           .00           .00           .00           .00           .00                                
+‚     NBR                      0             0             0             0             0             0                                
+i                                                                                                                                     
+‚1ORG - 998                             CURRENCY - 704              CARDLINK                          FILE DATE-28/03/20   PG        8
+‚2POSTING TRANS                                      TRANSACTION EDIT/MERGE REPORT                    PROC DATE-28/03/20   16.13.57   
+                                                 I N P U T   R E C A P   T O T A L S                                                 
+‚                                                              CPD030 - 06                                                            
+‚                                                                                                                                     
+‚                           VISA    MASTERCARD          USER       ON-LINE           JCB    WAREHOUSED    *PRESENTED                  
+                       INCOMING      INCOMING      MONETARY      MONETARY      INCOMING      MONETARY    * DEPOSITS         TOTAL    
+‚ + SALES DRAFTS               0             0             0             0             0             0             0             0    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ - RETURNS                    0             0             0             0             0             0             0             0    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ + CASH ADVANCES              0             0             0             0             0             0             0             0    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ - REV SALES                  0             0             0             0             0             0             0             0    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ + REV RETURNS                0             0             0             0             0             0             0             0    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ - REV CASH ADV               0             0             0             0             0             0             0             0    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ + DB MISC TRANS              0             0             0             0             0             0             0             0    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ - CR MISC TRANS              0             0             0             0             0             0             0             0    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ - PAYMENTS                   0             0             0             0             0             0             0             0    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ * AUTHORIZATIONS             0             0             0             0             0             0             0             0    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ * REV AUTH                   0             0             0             0             0             0             0             0    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ * AUTH DECLINES              0             0             0             0             0             0             0             0    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ + MISPOST ADJ                0             0             0             0             0             0             0             0    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ + DISCOUNT ADJ               0             0             0             0             0             0             0             0    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ + FEE ADJ                    0             0             0             0             0             0             0             0    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ + CHGBK/REPR ADJ             0             0             0             0             0             0             0             0    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚                  ------------- ------------- ------------- ------------- ------------- ------------- ------------- -------------    
+‚   NET TOTAL                  0             0             0             0             0             0             0             0    
+‚     NBR                      0             0             0             0             0             0             0             0    
+                                                                                                                                     
+‚ + SALES                      0             0                                                                                        
+‚     NBR                      0             0                                                                                        
+‚ - RETURNS                    0             0                                                                                        
+‚     NBR                      0             0                                                                                        
+‚ + CASH ADV                   0             0                                                                                        
+‚     NBR                      0             0                                                                                        
+‚                  ------------- -------------                                                                                        
+‚   NET TOTAL                  0             0                                                                                        
+‚     NBR                      0             0                                                                                        
+i                                                                                                                                     
+‚1ORG - 998                                                         CARDLINK                          FILE DATE-28/03/20   PG        9
+‚2SPECIAL INTERCHANGE                                TRANSACTION EDIT/MERGE REPORT                    PROC DATE-28/03/20   16.13.57   
+                                                 I N P U T   R E C A P   T O T A L S                                                 
+‚                                                              CPD030 - 06                                                            
+‚                                                                                                                                     
+‚                           VISA    MASTERCARD      CARDLINK      CARDLINK   INTERCHANGE                                              
+                       INCOMING      INCOMING        MANUAL          AUTO      TRACKING         TOTAL                                
+‚ + DB CHARGEBACKS           .00           .00           .00           .00           .00           .00                                
+‚     NBR                      0             0             0             0             0             0                                
+‚ - CR CHARGEBACKS           .00           .00           .00           .00           .00           .00                                
+‚     NBR                      0             0             0             0             0             0                                
+‚ + DB REPRESENT             .00           .00           .00           .00           .00           .00                                
+‚     NBR                      0             0             0             0             0             0                                
+‚ - CR REPRESENT             .00           .00           .00           .00           .00           .00                                
+‚     NBR                      0             0             0             0             0             0                                
+‚ - DB CHGBK REVSL           .00           .00           .00           .00           .00           .00                                
+‚     NBR                      0             0             0             0             0             0                                
+‚ + CR CHGBK REVSL           .00           .00           .00           .00           .00           .00                                
+‚     NBR                      0             0             0             0             0             0                                
+‚ - DB REPRES REVSL          .00           .00           .00           .00           .00           .00                                
+‚     NBR                      0             0             0             0             0             0                                
+‚ + CR REPRES REVSL          .00           .00           .00           .00           .00           .00                                
+‚     NBR                      0             0             0             0             0             0                                
+‚ + DB MISC TRANS            .00           .00           .00           .00           .00           .00                                
+‚     NBR                      0             0             0             0             0             0                                
+‚ - CR MISC TRANS            .00           .00           .00           .00           .00           .00                                
+‚     NBR                      0             0             0             0             0             0                                
+‚ * DB ADVICE TRANS          .00           .00           .00           .00           .00           .00                                
+‚     NBR                      0             0             0             0             0             0                                
+‚ * CR ADVICE TRANS          .00           .00           .00           .00           .00           .00                                
+‚     NBR                      0             0             0             0             0             0                                
+‚                  ------------- ------------- ------------- ------------- ------------- -------------                                
+‚   NET TOTAL                .00           .00           .00           .00           .00           .00                                
+‚     NBR                      0             0             0             0             0             0                                
+i                                                                                                                                     
+‚1GRAND TOTALS                                                      CARDLINK                          FILE DATE-28/03/20   PG       10
+‚2POSTING TRANS                                      TRANSACTION EDIT/MERGE REPORT                    PROC DATE-28/03/20   16.13.57   
+                                                 I N P U T   R E C A P   T O T A L S                                                 
+‚                                                              CPD030 - 06                                                            
+‚                                                                                                                                     
+‚                           VISA    MASTERCARD          USER       ON-LINE           JCB    WAREHOUSED    *PRESENTED                  
+                       INCOMING      INCOMING      MONETARY      MONETARY      INCOMING      MONETARY    * DEPOSITS         TOTAL    
+‚ + SALES DRAFTS             .00           .00           .00           .00           .00           .00           .00           .00    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ - RETURNS                  .00           .00           .00           .00           .00           .00           .00           .00    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ + CASH ADVANCES            .00           .00           .00           .00           .00           .00           .00           .00    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ - REV SALES                .00           .00           .00           .00           .00           .00           .00           .00    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ + REV RETURNS              .00           .00           .00           .00           .00           .00           .00           .00    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ - REV CASH ADV             .00           .00           .00           .00           .00           .00           .00           .00    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ + DB MISC TRANS            .00           .00           .00           .00           .00           .00           .00           .00    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ - CR MISC TRANS            .00           .00           .00           .00           .00           .00           .00           .00    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ - PAYMENTS                 .00           .00           .00      48000.00           .00           .00           .00      48000.00    
+‚     NBR                      0             0             0             2             0             0             0             2    
+‚ * AUTHORIZATIONS           .00           .00           .00           .00           .00           .00           .00           .00    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ * REV AUTH                 .00           .00           .00           .00           .00           .00           .00           .00    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ * AUTH DECLINES            .00           .00           .00           .00           .00           .00           .00           .00    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ + MISPOST ADJ              .00           .00           .00           .00           .00           .00           .00           .00    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ + DISCOUNT ADJ             .00           .00           .00           .00           .00           .00           .00           .00    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ + FEE ADJ                  .00           .00           .00           .00           .00           .00           .00           .00    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ + CHGBK/REPR ADJ           .00           .00           .00           .00           .00           .00           .00           .00    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚                  ------------- ------------- ------------- ------------- ------------- ------------- ------------- -------------    
+‚   NET TOTAL                .00           .00           .00      48000.00-          .00           .00           .00      48000.00-   
+‚     NBR                      0             0             0             2             0             0             0             2    
+                                                                                                                                     
+‚ + SALES                      0             0                                                                                        
+‚     NBR                      0             0                                                                                        
+‚ - RETURNS                    0             0                                                                                        
+‚     NBR                      0             0                                                                                        
+‚ + CASH ADV                   0             0                                                                                        
+‚     NBR                      0             0                                                                                        
+‚                  ------------- -------------                                                                                        
+‚   NET TOTAL                  0             0                                                                                        
+‚     NBR                      0             0                                                                                        
+i                                                                                                                                     
+‚1GRAND TOTALS                                                      CARDLINK                          FILE DATE-28/03/20   PG       11
+‚2SPECIAL INTERCHANGE                                TRANSACTION EDIT/MERGE REPORT                    PROC DATE-28/03/20   16.13.57   
+                                                 I N P U T   R E C A P   T O T A L S                                                 
+‚                                                              CPD030 - 06                                                            
+‚                                                                                                                                     
+‚                           VISA    MASTERCARD      CARDLINK      CARDLINK   INTERCHANGE                                              
+                       INCOMING      INCOMING        MANUAL          AUTO      TRACKING         TOTAL                                
+‚ + DB CHARGEBACKS           .00           .00           .00           .00           .00           .00                                
+‚     NBR                      0             0             0             0             0             0                                
+‚ - CR CHARGEBACKS           .00           .00           .00           .00           .00           .00                                
+‚     NBR                      0             0             0             0             0             0                                
+‚ + DB REPRESENT             .00           .00           .00           .00           .00           .00                                
+‚     NBR                      0             0             0             0             0             0                                
+‚ - CR REPRESENT             .00           .00           .00           .00           .00           .00                                
+‚     NBR                      0             0             0             0             0             0                                
+‚ - DB CHGBK REVSL           .00           .00           .00           .00           .00           .00                                
+‚     NBR                      0             0             0             0             0             0                                
+‚ + CR CHGBK REVSL           .00           .00           .00           .00           .00           .00                                
+‚     NBR                      0             0             0             0             0             0                                
+‚ - DB REPRES REVSL          .00           .00           .00           .00           .00           .00                                
+‚     NBR                      0             0             0             0             0             0                                
+‚ + CR REPRES REVSL          .00           .00           .00           .00           .00           .00                                
+‚     NBR                      0             0             0             0             0             0                                
+‚ + DB MISC TRANS            .00           .00           .00           .00           .00           .00                                
+‚     NBR                      0             0             0             0             0             0                                
+‚ - CR MISC TRANS            .00           .00           .00           .00           .00           .00                                
+‚     NBR                      0             0             0             0             0             0                                
+‚ * DB ADVICE TRANS          .00           .00           .00           .00           .00           .00                                
+‚     NBR                      0             0             0             0             0             0                                
+‚ * CR ADVICE TRANS          .00           .00           .00           .00           .00           .00                                
+‚     NBR                      0             0             0             0             0             0                                
+‚                  ------------- ------------- ------------- ------------- ------------- -------------                                
+‚   NET TOTAL                .00           .00           .00           .00           .00           .00                                
+‚     NBR                      0             0             0             0             0             0                                
+i                                                                                                                                     
+‚1ORG - 002                             CURRENCY - 704              CARDLINK                          FILE DATE-28/03/20   PG       12
+‚2POSTING TRANS                                      TRANSACTION EDIT/MERGE REPORT                    PROC DATE-28/03/20   16.13.57   
+                                                O U T P U T   R E C A P   T O T A L S                                                
+‚                                                              CPD030 - 07                                                            
+‚                                                                                                                                     
+‚                           VISA    MASTERCARD         ON-US    PROCESSOR/           JCB      MERCHANT  *  INTER-ORG                  
+‚                       OUTGOING      OUTGOING      MONETARY      MERCHANT      OUTGOING   ADJUSTMENTS  * SETTLEMENT         TOTAL    
+                                                                   ERRORS         TOTAL                                              
+‚ + SALES DRAFTS               0             0             0             0             0             0             0             0    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ - RETURNS                    0             0             0             0             0             0             0             0    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ + CASH ADVANCES              0             0             0             0             0             0             0             0    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ - REV SALES                  0             0             0             0             0             0             0             0    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ + REV RETURNS                0             0             0             0             0             0             0             0    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ - REV CASH ADV               0             0             0             0             0             0             0             0    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ + DB MISC TRANS              0             0             0             0             0             0             0             0    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ - CR MISC TRANS              0             0             0             0             0             0             0             0    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ - PAYMENTS                   0             0         48000             0             0             0             0         48000    
+‚     NBR                      0             0             2             0             0             0             0             2    
+‚ * AUTHORIZATIONS             0             0             0             0             0             0             0             0    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ * REV AUTH                   0             0             0             0             0             0             0             0    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ * AUTH DECLINES              0             0             0             0             0             0             0             0    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ + MISPOST ADJ                0             0             0             0             0             0             0             0    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ + DISCOUNT ADJ               0             0             0             0             0             0             0             0    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ + FEE ADJ                    0             0             0             0             0             0             0             0    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ + CHGBK/REPR ADJ             0             0             0             0             0             0             0             0    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚                  ------------- ------------- ------------- ------------- ------------- ------------- ------------- -------------    
+‚   NET TOTAL                  0             0         48000-            0             0             0             0         48000-   
+‚     NBR                      0             0             2             0             0             0             0             2    
+                                                                                                                                     
+‚ + SALES                      0             0                                                                                        
+‚     NBR                      0             0                                                                                        
+‚ - RETURNS                    0             0                                                                                        
+‚     NBR                      0             0                                                                                        
+‚ + CASH ADV                   0             0                                                                                        
+‚     NBR                      0             0                                                                                        
+‚                  ------------- -------------                                                                                        
+‚   NET TOTAL                  0             0                                                                                        
+‚     NBR                      0             0                                                                                        
+i                                                                                                                                     
+‚1ORG - 002                                                         CARDLINK                          FILE DATE-28/03/20   PG       13
+‚2INTCHG FEE LEVELS                                  TRANSACTION EDIT/MERGE REPORT                    PROC DATE-28/03/20   16.13.57   
+                                                O U T P U T   R E C A P   T O T A L S                                                
+‚                                                              CPD030 - 07                                                            
+‚                                                                                                                                     
+‚                                                       CASH      REVERSAL      REVERSAL      REVERSAL                                
+                      (+) SALES   (-) RETURNS  (+) ADVANCES     (-) SALES   (+) RETURNS  (-) CASH ADV     NET TOTAL                  
+‚ VISA STD                   .00           .00           .00           .00           .00           .00           .00                  
+‚     NBR                      0             0             0             0             0             0             0                  
+‚ VISA TIIF                  .00           .00           .00           .00           .00           .00           .00                  
+‚     NBR                      0             0             0             0             0             0             0                  
+‚ VISA PSIRF                 .00           .00           .00           .00           .00           .00           .00                  
+‚     NBR                      0             0             0             0             0             0             0                  
+‚ M/C  STD                   .00           .00           .00           .00           .00           .00           .00                  
+‚     NBR                      0             0             0             0             0             0             0                  
+‚ M/C  IEIF                  .00           .00           .00           .00           .00           .00           .00                  
+‚     NBR                      0             0             0             0             0             0             0                  
+‚ M/C  CORPORATE             .00           .00           .00           .00           .00           .00           .00                  
+‚     NBR                      0             0             0             0             0             0             0                  
+‚ M/C  MERIT III             .00           .00           .00           .00           .00           .00           .00                  
+‚     NBR                      0             0             0             0             0             0             0                  
+‚                  ------------- ------------- ------------- ------------- ------------- ------------- -------------                  
+‚   NET TOTAL                .00           .00           .00           .00           .00           .00           .00                  
+‚     NBR                      0             0             0             0             0             0             0                  
+‚                                                                                                                                     
+                                                                                                                                     
+‚ SPECIAL INTERCHANGE                                                                                                                 
+‚                           VISA    MASTERCARD           JCB                                                                          
+                       OUTGOING      OUTGOING      OUTGOING   INTRACHANGE         TOTAL                                              
+‚ + DB CHARGEBACKS           .00           .00           .00           .00           .00                                              
+‚     NBR                      0             0             0             0             0                                              
+‚ - CR CHARGEBACKS           .00           .00           .00           .00           .00                                              
+‚     NBR                      0             0             0             0             0                                              
+‚ + DB REPRESENT             .00           .00           .00           .00           .00                                              
+‚     NBR                      0             0             0             0             0                                              
+‚ - CR REPRESENT             .00           .00           .00           .00           .00                                              
+‚     NBR                      0             0             0             0             0                                              
+‚ - DB CHGBK REVSL           .00           .00           .00           .00           .00                                              
+‚     NBR                      0             0             0             0             0                                              
+‚ + CR CHGBK REVSL           .00           .00           .00           .00           .00                                              
+‚     NBR                      0             0             0             0             0                                              
+‚ - DB REPRES REVSL          .00           .00           .00           .00           .00                                              
+‚     NBR                      0             0             0             0             0                                              
+‚ + CR REPRES REVSL          .00           .00           .00           .00           .00                                              
+‚     NBR                      0             0             0             0             0                                              
+‚ + DB MISC TRANS            .00           .00           .00           .00           .00                                              
+‚     NBR                      0             0             0             0             0                                              
+‚ - CR MISC TRANS            .00           .00           .00           .00           .00                                              
+‚     NBR                      0             0             0             0             0                                              
+‚ * DB ADVICE TRANS          .00           .00           .00           .00           .00                                              
+‚     NBR                      0             0             0             0             0                                              
+‚ * CR ADVICE TRANS          .00           .00           .00           .00           .00                                              
+‚     NBR                      0             0             0             0             0                                              
+‚                  ------------- ------------- ------------- ------------- -------------                                              
+‚   NET TOTAL                .00           .00           .00           .00           .00                                              
+‚     NBR                      0             0             0             0             0                                              
+i                                                                                                                                     
+‚1ORG - 998                             CURRENCY - 704              CARDLINK                          FILE DATE-28/03/20   PG       14
+‚2POSTING TRANS                                      TRANSACTION EDIT/MERGE REPORT                    PROC DATE-28/03/20   16.13.57   
+                                                O U T P U T   R E C A P   T O T A L S                                                
+‚                                                              CPD030 - 07                                                            
+‚                                                                                                                                     
+‚                           VISA    MASTERCARD         ON-US    PROCESSOR/           JCB      MERCHANT  *  INTER-ORG                  
+‚                       OUTGOING      OUTGOING      MONETARY      MERCHANT      OUTGOING   ADJUSTMENTS  * SETTLEMENT         TOTAL    
+                                                                   ERRORS         TOTAL                                              
+‚ + SALES DRAFTS               0             0             0             0             0             0             0             0    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ - RETURNS                    0             0             0             0             0             0             0             0    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ + CASH ADVANCES              0             0             0             0             0             0             0             0    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ - REV SALES                  0             0             0             0             0             0             0             0    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ + REV RETURNS                0             0             0             0             0             0             0             0    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ - REV CASH ADV               0             0             0             0             0             0             0             0    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ + DB MISC TRANS              0             0             0             0             0             0             0             0    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ - CR MISC TRANS              0             0             0             0             0             0             0             0    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ - PAYMENTS                   0             0             0             0             0             0             0             0    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ * AUTHORIZATIONS             0             0             0             0             0             0             0             0    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ * REV AUTH                   0             0             0             0             0             0             0             0    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ * AUTH DECLINES              0             0             0             0             0             0             0             0    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ + MISPOST ADJ                0             0             0             0             0             0             0             0    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ + DISCOUNT ADJ               0             0             0             0             0             0             0             0    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ + FEE ADJ                    0             0             0             0             0             0             0             0    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ + CHGBK/REPR ADJ             0             0             0             0             0             0             0             0    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚                  ------------- ------------- ------------- ------------- ------------- ------------- ------------- -------------    
+‚   NET TOTAL                  0             0             0             0             0             0             0             0    
+‚     NBR                      0             0             0             0             0             0             0             0    
+                                                                                                                                     
+‚ + SALES                      0             0                                                                                        
+‚     NBR                      0             0                                                                                        
+‚ - RETURNS                    0             0                                                                                        
+‚     NBR                      0             0                                                                                        
+‚ + CASH ADV                   0             0                                                                                        
+‚     NBR                      0             0                                                                                        
+‚                  ------------- -------------                                                                                        
+‚   NET TOTAL                  0             0                                                                                        
+‚     NBR                      0             0                                                                                        
+i                                                                                                                                     
+‚1ORG - 998                                                         CARDLINK                          FILE DATE-28/03/20   PG       15
+‚2INTCHG FEE LEVELS                                  TRANSACTION EDIT/MERGE REPORT                    PROC DATE-28/03/20   16.13.57   
+                                                O U T P U T   R E C A P   T O T A L S                                                
+‚                                                              CPD030 - 07                                                            
+‚                                                                                                                                     
+‚                                                       CASH      REVERSAL      REVERSAL      REVERSAL                                
+                      (+) SALES   (-) RETURNS  (+) ADVANCES     (-) SALES   (+) RETURNS  (-) CASH ADV     NET TOTAL                  
+‚ VISA STD                   .00           .00           .00           .00           .00           .00           .00                  
+‚     NBR                      0             0             0             0             0             0             0                  
+‚ VISA TIIF                  .00           .00           .00           .00           .00           .00           .00                  
+‚     NBR                      0             0             0             0             0             0             0                  
+‚ VISA PSIRF                 .00           .00           .00           .00           .00           .00           .00                  
+‚     NBR                      0             0             0             0             0             0             0                  
+‚ M/C  STD                   .00           .00           .00           .00           .00           .00           .00                  
+‚     NBR                      0             0             0             0             0             0             0                  
+‚ M/C  IEIF                  .00           .00           .00           .00           .00           .00           .00                  
+‚     NBR                      0             0             0             0             0             0             0                  
+‚ M/C  CORPORATE             .00           .00           .00           .00           .00           .00           .00                  
+‚     NBR                      0             0             0             0             0             0             0                  
+‚ M/C  MERIT III             .00           .00           .00           .00           .00           .00           .00                  
+‚     NBR                      0             0             0             0             0             0             0                  
+‚                  ------------- ------------- ------------- ------------- ------------- ------------- -------------                  
+‚   NET TOTAL                .00           .00           .00           .00           .00           .00           .00                  
+‚     NBR                      0             0             0             0             0             0             0                  
+‚                                                                                                                                     
+                                                                                                                                     
+‚ SPECIAL INTERCHANGE                                                                                                                 
+‚                           VISA    MASTERCARD           JCB                                                                          
+                       OUTGOING      OUTGOING      OUTGOING   INTRACHANGE         TOTAL                                              
+‚ + DB CHARGEBACKS           .00           .00           .00           .00           .00                                              
+‚     NBR                      0             0             0             0             0                                              
+‚ - CR CHARGEBACKS           .00           .00           .00           .00           .00                                              
+‚     NBR                      0             0             0             0             0                                              
+‚ + DB REPRESENT             .00           .00           .00           .00           .00                                              
+‚     NBR                      0             0             0             0             0                                              
+‚ - CR REPRESENT             .00           .00           .00           .00           .00                                              
+‚     NBR                      0             0             0             0             0                                              
+‚ - DB CHGBK REVSL           .00           .00           .00           .00           .00                                              
+‚     NBR                      0             0             0             0             0                                              
+‚ + CR CHGBK REVSL           .00           .00           .00           .00           .00                                              
+‚     NBR                      0             0             0             0             0                                              
+‚ - DB REPRES REVSL          .00           .00           .00           .00           .00                                              
+‚     NBR                      0             0             0             0             0                                              
+‚ + CR REPRES REVSL          .00           .00           .00           .00           .00                                              
+‚     NBR                      0             0             0             0             0                                              
+‚ + DB MISC TRANS            .00           .00           .00           .00           .00                                              
+‚     NBR                      0             0             0             0             0                                              
+‚ - CR MISC TRANS            .00           .00           .00           .00           .00                                              
+‚     NBR                      0             0             0             0             0                                              
+‚ * DB ADVICE TRANS          .00           .00           .00           .00           .00                                              
+‚     NBR                      0             0             0             0             0                                              
+‚ * CR ADVICE TRANS          .00           .00           .00           .00           .00                                              
+‚     NBR                      0             0             0             0             0                                              
+‚                  ------------- ------------- ------------- ------------- -------------                                              
+‚   NET TOTAL                .00           .00           .00           .00           .00                                              
+‚     NBR                      0             0             0             0             0                                              
+i                                                                                                                                     
+‚1GRAND TOTALS                                                      CARDLINK                          FILE DATE-28/03/20   PG       16
+‚2POSTING TRANS                                      TRANSACTION EDIT/MERGE REPORT                    PROC DATE-28/03/20   16.13.57   
+                                                O U T P U T   R E C A P   T O T A L S                                                
+‚                                                              CPD030 - 07                                                            
+‚                                                                                                                                     
+‚                           VISA    MASTERCARD         ON-US    PROCESSOR/           JCB      MERCHANT  *  INTER-ORG                  
+‚                       OUTGOING      OUTGOING      MONETARY      MERCHANT      OUTGOING   ADJUSTMENTS  * SETTLEMENT         TOTAL    
+                                                                   ERRORS         TOTAL                                              
+‚ + SALES DRAFTS             .00           .00           .00           .00           .00           .00           .00           .00    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ - RETURNS                  .00           .00           .00           .00           .00           .00           .00           .00    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ + CASH ADVANCES            .00           .00           .00           .00           .00           .00           .00           .00    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ - REV SALES                .00           .00           .00           .00           .00           .00           .00           .00    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ + REV RETURNS              .00           .00           .00           .00           .00           .00           .00           .00    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ - REV CASH ADV             .00           .00           .00           .00           .00           .00           .00           .00    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ + DB MISC TRANS            .00           .00           .00           .00           .00           .00           .00           .00    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ - CR MISC TRANS            .00           .00           .00           .00           .00           .00           .00           .00    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ - PAYMENTS                 .00           .00      48000.00           .00           .00           .00           .00      48000.00    
+‚     NBR                      0             0             2             0             0             0             0             2    
+‚ * AUTHORIZATIONS           .00           .00           .00           .00           .00           .00           .00           .00    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ * REV AUTH                 .00           .00           .00           .00           .00           .00           .00           .00    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ * AUTH DECLINES            .00           .00           .00           .00           .00           .00           .00           .00    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ + MISPOST ADJ              .00           .00           .00           .00           .00           .00           .00           .00    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ + DISCOUNT ADJ             .00           .00           .00           .00           .00           .00           .00           .00    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ + FEE ADJ                  .00           .00           .00           .00           .00           .00           .00           .00    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚ + CHGBK/REPR ADJ           .00           .00           .00           .00           .00           .00           .00           .00    
+‚     NBR                      0             0             0             0             0             0             0             0    
+‚                  ------------- ------------- ------------- ------------- ------------- ------------- ------------- -------------    
+‚   NET TOTAL                .00           .00      48000.00-          .00           .00           .00           .00      48000.00-   
+‚     NBR                      0             0             2             0             0             0             0             2    
+                                                                                                                                     
+‚ + SALES                      0             0                                                                                        
+‚     NBR                      0             0                                                                                        
+‚ - RETURNS                    0             0                                                                                        
+‚     NBR                      0             0                                                                                        
+‚ + CASH ADV                   0             0                                                                                        
+‚     NBR                      0             0                                                                                        
+‚                  ------------- -------------                                                                                        
+‚   NET TOTAL                  0             0                                                                                        
+‚     NBR                      0             0                                                                                        
+i                                                                                                                                     
+‚1GRAND TOTALS                                                      CARDLINK                          FILE DATE-28/03/20   PG       17
+‚2INTCHG FEE LEVELS                                  TRANSACTION EDIT/MERGE REPORT                    PROC DATE-28/03/20   16.13.57   
+                                                O U T P U T   R E C A P   T O T A L S                                                
+‚                                                              CPD030 - 07                                                            
+‚                                                                                                                                     
+‚                                                       CASH      REVERSAL      REVERSAL      REVERSAL                                
+                      (+) SALES   (-) RETURNS  (+) ADVANCES     (-) SALES   (+) RETURNS  (-) CASH ADV     NET TOTAL                  
+‚ VISA STD                   .00           .00           .00           .00           .00           .00           .00                  
+‚     NBR                      0             0             0             0             0             0             0                  
+‚ VISA TIIF                  .00           .00           .00           .00           .00           .00           .00                  
+‚     NBR                      0             0             0             0             0             0             0                  
+‚ VISA PSIRF                 .00           .00           .00           .00           .00           .00           .00                  
+‚     NBR                      0             0             0             0             0             0             0                  
+‚ M/C  STD                   .00           .00           .00           .00           .00           .00           .00                  
+‚     NBR                      0             0             0             0             0             0             0                  
+‚ M/C  IEIF                  .00           .00           .00           .00           .00           .00           .00                  
+‚     NBR                      0             0             0             0             0             0             0                  
+‚ M/C  CORPORATE             .00           .00           .00           .00           .00           .00           .00                  
+‚     NBR                      0             0             0             0             0             0             0                  
+‚ M/C  MERIT III             .00           .00           .00           .00           .00           .00           .00                  
+‚     NBR                      0             0             0             0             0             0             0                  
+‚                  ------------- ------------- ------------- ------------- ------------- ------------- -------------                  
+‚   NET TOTAL                .00           .00           .00           .00           .00           .00           .00                  
+‚     NBR                      0             0             0             0             0             0             0                  
+‚                                                                                                                                     
+                                                                                                                                     
+‚ SPECIAL INTERCHANGE                                                                                                                 
+‚                           VISA    MASTERCARD           JCB                                                                          
+                       OUTGOING      OUTGOING      OUTGOING   INTRACHANGE         TOTAL                                              
+‚ + DB CHARGEBACKS           .00           .00           .00           .00           .00                                              
+‚     NBR                      0             0             0             0             0                                              
+‚ - CR CHARGEBACKS           .00           .00           .00           .00           .00                                              
+‚     NBR                      0             0             0             0             0                                              
+‚ + DB REPRESENT             .00           .00           .00           .00           .00                                              
+‚     NBR                      0             0             0             0             0                                              
+‚ - CR REPRESENT             .00           .00           .00           .00           .00                                              
+‚     NBR                      0             0             0             0             0                                              
+‚ - DB CHGBK REVSL           .00           .00           .00           .00           .00                                              
+‚     NBR                      0             0             0             0             0                                              
+‚ + CR CHGBK REVSL           .00           .00           .00           .00           .00                                              
+‚     NBR                      0             0             0             0             0                                              
+‚ - DB REPRES REVSL          .00           .00           .00           .00           .00                                              
+‚     NBR                      0             0             0             0             0                                              
+‚ + CR REPRES REVSL          .00           .00           .00           .00           .00                                              
+‚     NBR                      0             0             0             0             0                                              
+‚ + DB MISC TRANS            .00           .00           .00           .00           .00                                              
+‚     NBR                      0             0             0             0             0                                              
+‚ - CR MISC TRANS            .00           .00           .00           .00           .00                                              
+‚     NBR                      0             0             0             0             0                                              
+‚ * DB ADVICE TRANS          .00           .00           .00           .00           .00                                              
+‚     NBR                      0             0             0             0             0                                              
+‚ * CR ADVICE TRANS          .00           .00           .00           .00           .00                                              
+‚     NBR                      0             0             0             0             0                                              
+‚                  ------------- ------------- ------------- ------------- -------------                                              
+‚   NET TOTAL                .00           .00           .00           .00           .00                                              
+‚     NBR                      0             0             0             0             0                                              
+i                                                                                                                                     
+‚1                                                                  CARDLINK                          FILE DATE-28/03/20   PG       18
+‚2                                                   TRANSACTION EDIT/MERGE REPORT                    PROC DATE-28/03/20   16.13.57   
+                                              I N P U T  /  O U T P U T   S U M M A R Y                                              
+‚                                                              CPD030 - 09                                                            
+‚                                                                                                                                     
+‚                                                                                                                                     
+‚                                                                                                                                     
+                                                    M O N E T A R Y   T O T A L S                                                    
+         ------------------- INPUT TOTALS --------------------         ------------------- OUTPUT TOTALS --------------------        
+                                      NUMBER            AMOUNT                                      NUMBER            AMOUNT         
+‚         + VISA INCOMING                   0              0.00         + VISA OUTGOING                   0              0.00         
+‚         + MASTERCARD INCOMING             0              0.00         + MASTERCARD OUTGOING             0              0.00         
+‚         + USER MONETARY                   0              0.00         + ON-US MONETARY                  2         48,000.00-        
+‚         + ON-LINE MONETARY                2         48,000.00-        + PROC/MERCH ERRORS               0              0.00         
+‚         + VISA DATA CAPTURE               0              0.00         + JCB OUTGOING                    0              0.00         
+‚         + WAREHOUSED MONETARY             0              0.00         + MERCH ADJUSTMENTS               0              0.00         
+‚         * PRESENTED DEPOSITS              0              0.00         * INTER-ORG SETTLMNT              0              0.00         
+‚                                   ---------  ----------------                                   ---------  ----------------         
+         ** TOTAL MONETARY IN **           2         48,000.00-        ** TOTAL MONETARY OUT **          2         48,000.00-        
+                                                N O N - M O N E T A R Y   T O T A L S                                                
+         ------------------- INPUT TOTALS --------------------         ------------------- OUTPUT TOTALS --------------------        
+                                      NUMBER                                                        NUMBER                           
+‚         USER MAINTENANCE                  0                                                                                         
+‚         ON-LINE MAINTENANCE               0                                                                                         
+‚         WAREHOUSED MAINTENANCE            0                                                                                         
+‚         MAINT FROM WHSE MERCH             0                           FILE MAINTENANCE OUT              0                           
+‚                                   ---------                                                     ---------                           
+         ** TOTAL MAINT IN **              0                           ** TOTAL MAINT OUT **             0                           
+                                                   E X C E P T I O N   T O T A L S                                                   
+                                                                       ------------------- OUTPUT TOTALS --------------------        
+                                                                                                    NUMBER            AMOUNT         
+‚                                                                       + PROC/MERCH ERRORS               0              0.00         
+‚                                                                       + NON-LOCAL MERCH ADJ             0              0.00         
+‚                                                                       + OTHER MONETARY ERR/ADJ          0              0.00         
+‚                                                                       + ALL OTHER ERR (GROSS)           0              0.00         
+‚                                                                                                 ---------                           
+‚                                                                       ** TOTAL ERRORS **                0                           
+

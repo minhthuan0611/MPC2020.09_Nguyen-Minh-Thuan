@@ -1,0 +1,20 @@
+‚                                                                                                                                    
+‚  000 -                                                         CARDLINK                             FILE DATE 28/03/20 PAGE -    1 
+‚  000 -                                             EXCEPTION REPORT FOR PRODUCT                     PROC DATE 28/03/20-16.38.34    
+‚                                              UPGRADE/DOWNGRADE WITHOUT CRLIMIT CHANGE                                              
+‚                                                               CPD174 - 02                                                          
+‚                                                                                                                                     
+‚  ACCOUNT NUMBER     SHORT NAME        CR LIMIT   UP/DOWN     CREDIT LIMIT   CURRENT BALANCE    --UPGRADE/DOWNGRADE FROM ---        
+‚                                         DATE      DATE                                         ORG   TYPE  ACCOUNT NUMBER          
+‚                                                                                                                                    
+‚                                     *** NO UPGRADE/DOWNGRADE WITHOUT CREDIT LIMIT CHANGE ***                                       
+‚                                                                                                                                    
+‚                                                                                                                                    
+‚           **-- TYPE TOTALS --**                                                                                                    
+‚  TOTAL ACCOUNT           0                                                                                                         
+‚                                                                                                                                    
+‚           **-- ORG TOTALS --**                                                                                                     
+‚  TOTAL ACCOUNT           0                                                                                                         
+‚                                                                                                                                    
+‚                                                      *** END OF THE REPORT ***                                                     
+

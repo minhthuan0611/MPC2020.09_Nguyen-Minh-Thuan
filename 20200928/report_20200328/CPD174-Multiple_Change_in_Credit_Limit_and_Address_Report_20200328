@@ -1,0 +1,20 @@
+‚
+‚  000 -                                                         CARDLINK                             FILE DATE 28/03/20 PAGE -    1 
+‚  000 -                                         EXCEPTION REPORT FOR MULTIPLE CHANGE                 PROC DATE 28/03/20-16.38.34    
+‚                                                    IN CREDIT LIMIT AND ADDRESS                                                     
+‚                                                               CPD174 - 01                                                          
+‚                                                                                                                                     
+‚  ACCOUNT NUMBER     SHORT NAME       BLK    BLK       CREDIT LIMIT  CURRENT BALANCE   CHANGED DATE  FROM DATA                      
+‚                                             DATE                                      CHANGE  TYPE  TO   DATA                      
+‚                                                                                                                                    
+‚                                 *** NO ACCOUNT WITH MULTIPLE CHANGE THE CREDIT LIMIT AND ADDRESS                                   
+‚                                                                                                                                    
+‚                                                                                                                                    
+‚           **-- TYPE TOTALS --**                                                                                                    
+‚  TOTAL MAINTENANCE       0                                                                                                         
+‚                                                                                                                                    
+‚           **-- ORG TOTALS --**                                                                                                     
+‚  TOTAL MAINTENANCE       0                                                                                                         
+‚                                                                                                                                    
+‚                                                      *** END OF THE REPORT ***                                                     
+

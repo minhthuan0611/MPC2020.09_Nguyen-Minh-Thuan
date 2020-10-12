@@ -1,0 +1,199 @@
+i                                                                                                                                     
+‚1002 - JACCS INTER. VIETNAM FINANCE                                                                  FILE DATE-28/03/20   PG        1
+‚2751 - NEWLY ADDED TYPE RECORD                              ISSUE EXCEPTION REPORT                   PROC DATE-28/03/20   16.25.06   
+                                                                CPI220-02                                                            
+‚     CARD NUMBER         CUSTOMER                    CUSTOMER        CARD STATUS BLOCK    ACTION       EXCEPTION                     
+‚                           NAME                      NUMBER          TYPE  CODE  CODE   REQUESTED       REASON                       
+‚                                                                                                                                     
+‚                                                                                                                                    
+‚  000421194******0085 CREDIT CARD 01             002 0000000000007005  00   2      C   REPLACEMENT CRD BLOCKED ACCOUNT           E01 
+i                                                                                                                                     
+‚1002 - JACCS INTER. VIETNAM FINANCE                                                                  FILE DATE-28/03/20   PG        2
+‚2751 - NEWLY ADDED TYPE RECORD                              ISSUE EXCEPTION REPORT                   PROC DATE-28/03/20   16.25.06   
+                                                                CPI220-02                                                            
+‚                                                                                                                                     
+  *** TOTALS ***                                                                                                                     
+‚  BLOCKED CARDS                   0                                                                                                  
+‚  CHARGED-OFF CARDS               0                                                                                                  
+‚  CLOSED CARDS                    0                                                                                                  
+‚  PURGED CARDS                    0                                                                                                  
+‚  TRANSFERRED OUT CARDS           0                                                                                                  
+‚  CARD NOT ON FILE                0                                                                                                  
+‚  CUSTOMER NOT ON FILE            0                                                                                                  
+‚  INVALID ISSUE ACTION            0                                                                                                  
+‚  INVALID NBR OF CARDS            0                                                                                                  
+‚  ZERO CREDIT LIMIT               0                                                                                                  
+‚  BLOCKED ACCOUNTS                1                                                                                                  
+‚  CHARGED-OFF ACCOUNTS            0                                                                                                  
+‚  TRANSFERRED OUT ACCOUNTS        0                                                                                                  
+‚  CLOSED ACCOUNTS                 0                                                                                                  
+‚  PURGED ACCOUNTS                 0                                                                                                  
+‚  ACCOUNT NOT ON FILE             0                                                                                                  
+                                                                                                                                     
+‚  *** TOTAL EXCEPTIONS            1                                                                                                  
+i                                                                                                                                     
+‚1002 - JACCS INTER. VIETNAM FINANCE                                                                  FILE DATE-28/03/20   PG        1
+‚2752 - NEWLY ADDED TYPE RECORD                              ISSUE EXCEPTION REPORT                   PROC DATE-28/03/20   16.25.06   
+                                                                CPI220-02                                                            
+‚     CARD NUMBER         CUSTOMER                    CUSTOMER        CARD STATUS BLOCK    ACTION       EXCEPTION                     
+‚                           NAME                      NUMBER          TYPE  CODE  CODE   REQUESTED       REASON                       
+‚                                                                                                                                     
+‚                                                                                                                                     
+‚  000421194******0505 COMP0418-01                002 0000000000006031  00   1      Z   NEW ISSUE       BLOCKED ACCOUNT           E01 
+i                                                                                                                                     
+‚1002 - JACCS INTER. VIETNAM FINANCE                                                                  FILE DATE-28/03/20   PG        2
+‚2752 - NEWLY ADDED TYPE RECORD                              ISSUE EXCEPTION REPORT                   PROC DATE-28/03/20   16.25.06   
+                                                                CPI220-02                                                            
+‚                                                                                                                                     
+  *** TOTALS ***                                                                                                                     
+‚  BLOCKED CARDS                   0                                                                                                  
+‚  CHARGED-OFF CARDS               0                                                                                                  
+‚  CLOSED CARDS                    0                                                                                                  
+‚  PURGED CARDS                    0                                                                                                  
+‚  TRANSFERRED OUT CARDS           0                                                                                                  
+‚  CARD NOT ON FILE                0                                                                                                  
+‚  CUSTOMER NOT ON FILE            0                                                                                                  
+‚  INVALID ISSUE ACTION            0                                                                                                  
+‚  INVALID NBR OF CARDS            0                                                                                                  
+‚  ZERO CREDIT LIMIT               0                                                                                                  
+‚  BLOCKED ACCOUNTS                1                                                                                                  
+‚  CHARGED-OFF ACCOUNTS            0                                                                                                  
+‚  TRANSFERRED OUT ACCOUNTS        0                                                                                                  
+‚  CLOSED ACCOUNTS                 0                                                                                                  
+‚  PURGED ACCOUNTS                 0                                                                                                  
+‚  ACCOUNT NOT ON FILE             0                                                                                                  
+                                                                                                                                     
+‚  *** TOTAL EXCEPTIONS            1                                                                                                  
+i                                                                                                                                     
+‚1002 - JACCS INTER. VIETNAM FINANCE                                                                  FILE DATE-28/03/20   PG        1
+‚2801 - JACCS CASH CARD                                      ISSUE EXCEPTION REPORT                   PROC DATE-28/03/20   16.25.06   
+                                                                CPI220-02                                                            
+‚     CARD NUMBER         CUSTOMER                    CUSTOMER        CARD STATUS BLOCK    ACTION       EXCEPTION                     
+‚                           NAME                      NUMBER          TYPE  CODE  CODE   REQUESTED       REASON                       
+‚                                                                                                                                     
+‚                                                                                                                                     
+‚  000421193******0428 CUSTOMER 11                002 0000000000006833  00   2      C   NEW ISSUE       BLOCKED ACCOUNT           E01 
+i                                                                                                                                     
+‚1002 - JACCS INTER. VIETNAM FINANCE                                                                  FILE DATE-28/03/20   PG        2
+‚2801 - JACCS CASH CARD                                      ISSUE EXCEPTION REPORT                   PROC DATE-28/03/20   16.25.06   
+                                                                CPI220-02                                                            
+‚                                                                                                                                     
+  *** TOTALS ***                                                                                                                     
+‚  BLOCKED CARDS                   0                                                                                                  
+‚  CHARGED-OFF CARDS               0                                                                                                  
+‚  CLOSED CARDS                    0                                                                                                  
+‚  PURGED CARDS                    0                                                                                                  
+‚  TRANSFERRED OUT CARDS           0                                                                                                  
+‚  CARD NOT ON FILE                0                                                                                                  
+‚  CUSTOMER NOT ON FILE            0                                                                                                  
+‚  INVALID ISSUE ACTION            0                                                                                                  
+‚  INVALID NBR OF CARDS            0                                                                                                  
+‚  ZERO CREDIT LIMIT               0                                                                                                  
+‚  BLOCKED ACCOUNTS                1                                                                                                  
+‚  CHARGED-OFF ACCOUNTS            0                                                                                                  
+‚  TRANSFERRED OUT ACCOUNTS        0                                                                                                  
+‚  CLOSED ACCOUNTS                 0                                                                                                  
+‚  PURGED ACCOUNTS                 0                                                                                                  
+‚  ACCOUNT NOT ON FILE             0                                                                                                  
+                                                                                                                                     
+‚  *** TOTAL EXCEPTIONS            1                                                                                                  
+i                                                                                                                                     
+‚1002 - JACCS INTER. VIETNAM FINANCE                                                                  FILE DATE-28/03/20   PG        1
+‚2802 - JACCS CASH CARD                                      ISSUE EXCEPTION REPORT                   PROC DATE-28/03/20   16.25.06   
+                                                                CPI220-02                                                            
+‚     CARD NUMBER         CUSTOMER                    CUSTOMER        CARD STATUS BLOCK    ACTION       EXCEPTION                     
+‚                           NAME                      NUMBER          TYPE  CODE  CODE   REQUESTED       REASON                       
+‚                                                                                                                                     
+‚                                                                                                                                     
+‚  000421193******0434 CUSTOMER 11                002 0000000000006841  00   2      C   NEW ISSUE       BLOCKED ACCOUNT           E01 
+i                                                                                                                                     
+‚1002 - JACCS INTER. VIETNAM FINANCE                                                                  FILE DATE-28/03/20   PG        2
+‚2802 - JACCS CASH CARD                                      ISSUE EXCEPTION REPORT                   PROC DATE-28/03/20   16.25.06   
+                                                                CPI220-02                                                            
+‚                                                                                                                                     
+  *** TOTALS ***                                                                                                                     
+‚  BLOCKED CARDS                   0                                                                                                  
+‚  CHARGED-OFF CARDS               0                                                                                                  
+‚  CLOSED CARDS                    0                                                                                                  
+‚  PURGED CARDS                    0                                                                                                  
+‚  TRANSFERRED OUT CARDS           0                                                                                                  
+‚  CARD NOT ON FILE                0                                                                                                  
+‚  CUSTOMER NOT ON FILE            0                                                                                                  
+‚  INVALID ISSUE ACTION            0                                                                                                  
+‚  INVALID NBR OF CARDS            0                                                                                                  
+‚  ZERO CREDIT LIMIT               0                                                                                                  
+‚  BLOCKED ACCOUNTS                1                                                                                                  
+‚  CHARGED-OFF ACCOUNTS            0                                                                                                  
+‚  TRANSFERRED OUT ACCOUNTS        0                                                                                                  
+‚  CLOSED ACCOUNTS                 0                                                                                                  
+‚  PURGED ACCOUNTS                 0                                                                                                  
+‚  ACCOUNT NOT ON FILE             0                                                                                                  
+                                                                                                                                     
+‚  *** TOTAL EXCEPTIONS            1                                                                                                  
+i                                                                                                                                     
+‚1002 - JACCS INTER. VIETNAM FINANCE                                                                  FILE DATE-28/03/20   PG        1
+‚2951 - NEWLY ADDED TYPE RECORD                              ISSUE EXCEPTION REPORT                   PROC DATE-28/03/20   16.25.06   
+                                                                CPI220-02                                                            
+‚     CARD NUMBER         CUSTOMER                    CUSTOMER        CARD STATUS BLOCK    ACTION       EXCEPTION                     
+‚                           NAME                      NUMBER          TYPE  CODE  CODE   REQUESTED       REASON                       
+‚                                                                                                                                     
+‚                                                                                                                                     
+‚  000421193******0504 HUYNH QUYNH KIEU           002 0000000000008524  00   1      Z   REPLACEMENT CRD BLOCKED ACCOUNT           E01 
+i                                                                                                                                     
+‚1002 - JACCS INTER. VIETNAM FINANCE                                                                  FILE DATE-28/03/20   PG        2
+‚2951 - NEWLY ADDED TYPE RECORD                              ISSUE EXCEPTION REPORT                   PROC DATE-28/03/20   16.25.06   
+                                                                CPI220-02                                                            
+‚                                                                                                                                     
+  *** TOTALS ***                                                                                                                     
+‚  BLOCKED CARDS                   0                                                                                                  
+‚  CHARGED-OFF CARDS               0                                                                                                  
+‚  CLOSED CARDS                    0                                                                                                  
+‚  PURGED CARDS                    0                                                                                                  
+‚  TRANSFERRED OUT CARDS           0                                                                                                  
+‚  CARD NOT ON FILE                0                                                                                                  
+‚  CUSTOMER NOT ON FILE            0                                                                                                  
+‚  INVALID ISSUE ACTION            0                                                                                                  
+‚  INVALID NBR OF CARDS            0                                                                                                  
+‚  ZERO CREDIT LIMIT               0                                                                                                  
+‚  BLOCKED ACCOUNTS                1                                                                                                  
+‚  CHARGED-OFF ACCOUNTS            0                                                                                                  
+‚  TRANSFERRED OUT ACCOUNTS        0                                                                                                  
+‚  CLOSED ACCOUNTS                 0                                                                                                  
+‚  PURGED ACCOUNTS                 0                                                                                                  
+‚  ACCOUNT NOT ON FILE             0                                                                                                  
+                                                                                                                                     
+‚  *** TOTAL EXCEPTIONS            1                                                                                                  
+i                                                                                                                                     
+‚1002 - JACCS INTER. VIETNAM FINANCE                                                                  FILE DATE-28/03/20   PG        1
+‚2952 - NEWLY ADDED TYPE RECORD                              ISSUE EXCEPTION REPORT                   PROC DATE-28/03/20   16.25.06   
+                                                                CPI220-02                                                            
+‚     CARD NUMBER         CUSTOMER                    CUSTOMER        CARD STATUS BLOCK    ACTION       EXCEPTION                     
+‚                           NAME                      NUMBER          TYPE  CODE  CODE   REQUESTED       REASON                       
+‚                                                                                                                                     
+‚                                                                                                                                     
+‚  000421193******0288 UAT CR-69 952 005          002 0000000000007831  00   2      C   NEW ISSUE       BLOCKED ACCOUNT           E01 
+i                                                                                                                                     
+‚1002 - JACCS INTER. VIETNAM FINANCE                                                                  FILE DATE-28/03/20   PG        2
+‚2952 - NEWLY ADDED TYPE RECORD                              ISSUE EXCEPTION REPORT                   PROC DATE-28/03/20   16.25.06   
+                                                                CPI220-02                                                            
+‚                                                                                                                                     
+  *** TOTALS ***                                                                                                                     
+‚  BLOCKED CARDS                   0                                                                                                  
+‚  CHARGED-OFF CARDS               0                                                                                                  
+‚  CLOSED CARDS                    0                                                                                                  
+‚  PURGED CARDS                    0                                                                                                  
+‚  TRANSFERRED OUT CARDS           0                                                                                                  
+‚  CARD NOT ON FILE                0                                                                                                  
+‚  CUSTOMER NOT ON FILE            0                                                                                                  
+‚  INVALID ISSUE ACTION            0                                                                                                  
+‚  INVALID NBR OF CARDS            0                                                                                                  
+‚  ZERO CREDIT LIMIT               0                                                                                                  
+‚  BLOCKED ACCOUNTS                1                                                                                                  
+‚  CHARGED-OFF ACCOUNTS            0                                                                                                  
+‚  TRANSFERRED OUT ACCOUNTS        0                                                                                                  
+‚  CLOSED ACCOUNTS                 0                                                                                                  
+‚  PURGED ACCOUNTS                 0                                                                                                  
+‚  ACCOUNT NOT ON FILE             0                                                                                                  
+                                                                                                                                     
+‚  *** TOTAL EXCEPTIONS            1                                                                                                  
+

@@ -1,0 +1,37 @@
+1  002 - JACCS INTER. VIETNAM FINANCE                          C L C B                                FILE DATE 28/03/20 PAGE -    1 
+                                                     PROGRAM DAILY TRIAL BALANCE                      PROC DATE 28/03/20-16.25.13    
+                                                            - REPORT G04 -                                                           
+                                                                                                                                     
+ PROG              YESTERDAY           TODAY           TODAY         TODAY        TRANSFER       TRANSFER             TODAY          
+  ID                BALANCE              ACCUM          REDEEM      ADJUST         IN             OUT                BALANCE         
+ 00001 CURR                  0.00              0           0.00           0.00           0.00           0.00                  0.00   
+       AV 1                  0.00              0           0.00           0.00           0.00           0.00                  0.00   
+       AV 2                  0.00              0           0.00           0.00           0.00           0.00                  0.00   
+                                                                                                                                     
+ 00002 CURR                  0.00              0           0.00           0.00           0.00           0.00                  0.00   
+       AV 1                  0.00              0           0.00           0.00           0.00           0.00                  0.00   
+       AV 2                  0.00              0           0.00           0.00           0.00           0.00                  0.00   
+                                                                                                                                     
+                                                                                                                                     
+                                                   ----- END  OF  REPORT -----                                                       
+1  002 - JACCS INTER. VIETNAM FINANCE                          C L C B                                FILE DATE 28/03/20 PAGE -    1 
+   00001 - JIVF LOYALTY PROGRAM                   PROGRAM-PARTNER DAILY TRIAL BALANCE                 PROC DATE 28/03/20-16.25.13    
+                                                            - REPORT G05 -                                                           
+                                                                                                                                     
+ PARTNER  STTL     OPENING            POINTS ACCUM       CLOSING                OPENING         SALES VOLUME              CLOSING    
+   ID      CYC     POINTS ACCUM             TODAY       POINTS ACCUM           SALES VOLUME        TODAY               SALES VOLUME  
+ 000000001 31                0.00 C          0.00 C               0.00                     0                 0                     0 
+                                                                                                                                     
+ *PROG TOTAL*                0.00            0.00                 0.00                     0                 0                     0 
+1  002 - JACCS INTER. VIETNAM FINANCE                          C L C B                                FILE DATE 28/03/20 PAGE -    2 
+   00002 - KILALA JACCS VISA                      PROGRAM-PARTNER DAILY TRIAL BALANCE                 PROC DATE 28/03/20-16.25.13    
+                                                            - REPORT G05 -                                                           
+                                                                                                                                     
+ PARTNER  STTL     OPENING            POINTS ACCUM       CLOSING                OPENING         SALES VOLUME              CLOSING    
+   ID      CYC     POINTS ACCUM             TODAY       POINTS ACCUM           SALES VOLUME        TODAY               SALES VOLUME  
+ 000000001 00                0.00 C          0.00 C               0.00                     0                 0                     0 
+                                                                                                                                     
+ *PROG TOTAL*                0.00            0.00                 0.00                     0                 0                     0 
+                                                                                                                                     
+                                                   ----- END  OF  REPORT -----                                                       
+

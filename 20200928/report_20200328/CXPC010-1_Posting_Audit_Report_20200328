@@ -1,0 +1,23 @@
+1                                                           IM ACCELLENCE                                                             
+                                                    ***  POSTING AUDIT REPORT  ***                                                    
+                                                                                                                                      
+ REPORT ID  CXPC010-1           SYS DATE  28/03/2020          SYS TIME  16:11:54          REP DATE  28/03/2020          PAGE        1 
+                                                                                                                                      
+                                                                                                                                      
+                                                                  NUMBER PROCESSED                                                    
+ TOTAL NUMBER OF RECORDS READ FROM CXTFI FILE                                   9                                                     
+                                                                                                                                      
+ TOTAL NUMBER OF RECORDS WRITTEN TO CXTFO FILE                                  9                                                     
+   *** RECORDS PROCESS/POSTED                                      0                                                                  
+   *** EXCEPTION - NON-POSTING RECORDS                             0                                                                  
+   *** EXCEPTION - PRE-POSTING JOB REJECTS                         0                                                                  
+   *** EXCEPTION - PROCESS PENDING                                 9                                                                  
+   *** EXCEPTION - POSTING REJECTS (ERROR LIST)                    0                                                                  
+                                                                                                                                      
+                                                                  NUMBER PROCESSED                                                    
+ TOTAL NUMBER OF RECORDS READ FROM CXTFI FILE                                   9                                                     
+                                                                                                                                      
+ TOTAL NUMBER OF RECORDS WRITTEN TO CXTFO FILE                                  9                                                     
+                                                                                                                                      
+                                                         ** END OF REPORT **                                                          
+

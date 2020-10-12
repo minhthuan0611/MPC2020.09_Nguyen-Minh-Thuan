@@ -1,0 +1,14 @@
+i                                                                                                                                     
+‚1002   JACCS INTER. VIETNAM FINANCE    CURRENCY - 704       C A R D L I N K                          FILE DATE-28/03/20   PG        1
+‚2001 - JACCS VISA CARD                                   AUTHORIZATION JOURNAL                       PROC DATE-28/03/20   16.35.53   
+                                                             CPD825-01                                                               
+‚   ACCOUNT NUMBER /    AUTH.           AUTH.            FILE                         *----------MATCHING TRANSACTIONS------------*   
+‚     CARD NUMBER       DATE    SRCE PA CODE    AMOUNT   DAYS       REMARKS             DATE     AUTH    TC       AMOUNT              
+‚                                                                                                                                     
+‚
+‚ 000000******0000                                            UNMATCHED TRANS       28/10/2017 200001  4000      17,000               
+‚ 000421194******1331                                                                                         TXN-ID=000000000000000  
+‚ 000000******0000                                            UNMATCHED TRANS        3/11/2016 200003  4000     100,000               
+‚ 000421194******1331                                                                                         TXN-ID=000000000000000  
+‚                     OUTSTANDING-  NUMBER =   0  AMOUNT =              0                                                             
+

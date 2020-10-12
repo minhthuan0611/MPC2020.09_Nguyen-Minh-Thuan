@@ -1,0 +1,180 @@
+i                                                                                                                                     
+‚   002 - JACCS INTER. VIETNAM FINANCE    CURRENCY - 704          CARDLINK                             FILE DATE 28/03/20 PAGE -    1 
+‚   002 - JACCS VISA CARD                                DISPUTED ITEMS REPORT                         PROC DATE 28/03/20-16.35.57    
+‚                                                                - 70 -                                                               
+‚                                                                                                                                     
+‚                                    ACCOUNT CODES                                                                                    
+‚      ACCOUNT      SHORT NAME/   DAYS S  C  U  U  U P A       CURRENT COL DAYS      DISPUTED           DISPUTED TRANSACTION          
+‚      NUMBER       BAL SEQ-ID    DISP T  Y  1  2  3 B B       BALANCE NBR DELQ        AMOUNT                INFORMATION              
+‚                                                                                                                                     
+‚ 0020020000000384 LINH UAT 02    1488 2 02          F       54638,902 CC1  210       200,000 DISPUTED - RETAIL ITEM                  
+‚                                                                                DISP/DATE 02/03/16 - T/CDE 0700 - REF/NBR 06200003001
+‚ 0020020000000582                1275 2 02                    423,000-       0      1500,000 CASH DISPUTE - CASH ITEM                
+‚                                                                                DISP/DATE 01/10/16 - T/CDE 0400 - REF/NBR 27500002001
+         **--TYPE TOTALS--**                                                                                                         
+‚                                DISPUTED DAYS CATEGORY        NBR ACCTS         DISPUTED AMOUNT                                      
+‚                                                                                                                                     
+‚                                            01-14 DAYS                0                       0                                      
+‚                                                                                                                                     
+‚                                            15-29 DAYS                0                       0                                      
+‚                                                                                                                                     
+‚                                            30-44 DAYS                0                       0                                      
+‚                                                                                                                                     
+‚                                            45-59 DAYS                0                       0                                      
+‚                                                                                                                                     
+‚                                            60-74 DAYS                0                       0                                      
+‚                                                                                                                                     
+‚                                            75-89 DAYS                0                       0                                      
+‚                                                                                                                                     
+‚                                           90-104 DAYS                0                       0                                      
+‚                                                                                                                                     
+‚                                          105-119 DAYS                0                       0                                      
+‚                                                                                                                                     
+‚                                      120 DAYS OR MORE                2                1700,000                                      
+‚                                                                                                                                     
+‚                             TOTAL - ALL DISPUTED DAYS                2                1700,000                                      
+‚                                                                                                                                     
+i                                                                                                                                     
+‚   002 - JACCS INTER. VIETNAM FINANCE    CURRENCY - 704          CARDLINK                             FILE DATE 28/03/20 PAGE -    2 
+‚   003 - JACCS VISA CARD                                DISPUTED ITEMS REPORT                         PROC DATE 28/03/20-16.35.57    
+‚                                                                - 70 -                                                               
+‚                                                                                                                                     
+‚                                    ACCOUNT CODES                                                                                    
+‚      ACCOUNT      SHORT NAME/   DAYS S  C  U  U  U P A       CURRENT COL DAYS      DISPUTED           DISPUTED TRANSACTION          
+‚      NUMBER       BAL SEQ-ID    DISP T  Y  1  2  3 B B       BALANCE NBR DELQ        AMOUNT                INFORMATION              
+‚                                                                                                                                     
+‚ 0020030000000466 HOANG QUYEN    1286 2 10                    100,000        0      1234,000 DISPUTED - RETAIL ITEM                  
+‚                                                                                DISP/DATE 20/09/16 - T/CDE 0700 - REF/NBR 27500007001
+         **--TYPE TOTALS--**                                                                                                         
+‚                                DISPUTED DAYS CATEGORY        NBR ACCTS         DISPUTED AMOUNT                                      
+‚                                                                                                                                     
+‚                                            01-14 DAYS                0                       0                                      
+‚                                                                                                                                     
+‚                                            15-29 DAYS                0                       0                                      
+‚                                                                                                                                     
+‚                                            30-44 DAYS                0                       0                                      
+‚                                                                                                                                     
+‚                                            45-59 DAYS                0                       0                                      
+‚                                                                                                                                     
+‚                                            60-74 DAYS                0                       0                                      
+‚                                                                                                                                     
+‚                                            75-89 DAYS                0                       0                                      
+‚                                                                                                                                     
+‚                                           90-104 DAYS                0                       0                                      
+‚                                                                                                                                     
+‚                                          105-119 DAYS                0                       0                                      
+‚                                                                                                                                     
+‚                                      120 DAYS OR MORE                1                1234,000                                      
+‚                                                                                                                                     
+‚                             TOTAL - ALL DISPUTED DAYS                1                1234,000                                      
+‚                                                                                                                                     
+i                                                                                                                                     
+‚   002 - JACCS INTER. VIETNAM FINANCE    CURRENCY - 704          CARDLINK                             FILE DATE 28/03/20 PAGE -    3 
+‚   803 - JACCS CASH CARD                                DISPUTED ITEMS REPORT                         PROC DATE 28/03/20-16.35.57    
+‚                                                                - 70 -                                                               
+‚                                                                                                                                     
+‚                                    ACCOUNT CODES                                                                                    
+‚      ACCOUNT      SHORT NAME/   DAYS S  C  U  U  U P A       CURRENT COL DAYS      DISPUTED           DISPUTED TRANSACTION          
+‚      NUMBER       BAL SEQ-ID    DISP T  Y  1  2  3 B B       BALANCE NBR DELQ        AMOUNT                INFORMATION              
+‚                                                                                                                                     
+‚ 0028030000000260 NGUYEN VAN AN  1392 2 02                    531,466-       0       500,000 CASH DISPUTE - CASH ITEM                
+‚                                                                                DISP/DATE 06/06/16 - T/CDE 0400 - REF/NBR 19900006001
+         **--TYPE TOTALS--**                                                                                                         
+‚                                DISPUTED DAYS CATEGORY        NBR ACCTS         DISPUTED AMOUNT                                      
+‚                                                                                                                                     
+‚                                            01-14 DAYS                0                       0                                      
+‚                                                                                                                                     
+‚                                            15-29 DAYS                0                       0                                      
+‚                                                                                                                                     
+‚                                            30-44 DAYS                0                       0                                      
+‚                                                                                                                                     
+‚                                            45-59 DAYS                0                       0                                      
+‚                                                                                                                                     
+‚                                            60-74 DAYS                0                       0                                      
+‚                                                                                                                                     
+‚                                            75-89 DAYS                0                       0                                      
+‚                                                                                                                                     
+‚                                           90-104 DAYS                0                       0                                      
+‚                                                                                                                                     
+‚                                          105-119 DAYS                0                       0                                      
+‚                                                                                                                                     
+‚                                      120 DAYS OR MORE                1                 500,000                                      
+‚                                                                                                                                     
+‚                             TOTAL - ALL DISPUTED DAYS                1                 500,000                                      
+‚                                                                                                                                     
+i                                                                                                                                     
+‚   002 - JACCS INTER. VIETNAM FINANCE    CURRENCY - 704          CARDLINK                             FILE DATE 28/03/20 PAGE -    4 
+‚   951 - NEWLY ADDED TYPE RECORD                        DISPUTED ITEMS REPORT                         PROC DATE 28/03/20-16.35.57    
+‚                                                                - 70 -                                                               
+‚                                                                                                                                     
+‚                                    ACCOUNT CODES                                                                                    
+‚      ACCOUNT      SHORT NAME/   DAYS S  C  U  U  U P A       CURRENT COL DAYS      DISPUTED           DISPUTED TRANSACTION          
+‚      NUMBER       BAL SEQ-ID    DISP T  Y  1  2  3 B B       BALANCE NBR DELQ        AMOUNT                INFORMATION              
+‚                                                                                                                                     
+‚ 0029510000000351 NGUYEN BAY      399 2 02 00 Y     Z          24,000        0      1000,000 CASH DISPUTE - CASH ITEM                
+‚                                                                                DISP/DATE 24/02/19 - T/CDE 0400 - REF/NBR 05600043001
+‚ 0029510000000351 NGUYEN BAY      391 2 02 00 Y     Z          24,000        0      1000,000 CASH DISPUTE - CASH ITEM                
+‚                                                                                DISP/DATE 04/03/19 - T/CDE 0400 - REF/NBR 06300006001
+‚ 0029510000000351 NGUYEN BAY      362 2 02 00 Y     Z          24,000        0       500,000 CASH DISPUTE - CASH ITEM                
+‚                                                                                DISP/DATE 02/04/19 - T/CDE 0400 - REF/NBR 10100003001
+‚ 0029510000000476 TRUONG MOT      332 1 02 01                 776,166        0      1000,000 CASH DISPUTE - CASH ITEM                
+‚                                                                                DISP/DATE 02/05/19 - T/CDE 0400 - REF/NBR 12400008001
+‚ 0029510000000534 HUYNH QUYNH KIE  51 1 02 01       Z          11,000        0      1000,000 DISPUTE 0702                            
+‚                                                                                DISP/DATE 07/02/20 - T/CDE 0400 - REF/NBR 03900004001
+         **--TYPE TOTALS--**                                                                                                         
+‚                                DISPUTED DAYS CATEGORY        NBR ACCTS         DISPUTED AMOUNT                                      
+‚                                                                                                                                     
+‚                                            01-14 DAYS                0                       0                                      
+‚                                                                                                                                     
+‚                                            15-29 DAYS                0                       0                                      
+‚                                                                                                                                     
+‚                                            30-44 DAYS                0                       0                                      
+‚                                                                                                                                     
+‚                                            45-59 DAYS                1                1000,000                                      
+‚                                                                                                                                     
+‚                                            60-74 DAYS                0                       0                                      
+‚                                                                                                                                     
+‚                                            75-89 DAYS                0                       0                                      
+‚                                                                                                                                     
+‚                                           90-104 DAYS                0                       0                                      
+‚                                                                                                                                     
+‚                                          105-119 DAYS                0                       0                                      
+‚                                                                                                                                     
+‚                                      120 DAYS OR MORE                4                3500,000                                      
+‚                                                                                                                                     
+‚                             TOTAL - ALL DISPUTED DAYS                5                4500,000                                      
+‚                                                                                                                                     
+i                                                                                                                                     
+‚   002 - JACCS INTER. VIETNAM FINANCE    CURRENCY - 704          CARDLINK                             FILE DATE 28/03/20 PAGE -    1 
+‚                                                        DISPUTED ITEMS REPORT                         PROC DATE 28/03/20-16.35.57    
+‚                                                                - 70 -                                                               
+‚                                                                                                                                     
+‚                                    ACCOUNT CODES                                                                                    
+‚      ACCOUNT      SHORT NAME/   DAYS S  C  U  U  U P A       CURRENT COL DAYS      DISPUTED           DISPUTED TRANSACTION          
+‚      NUMBER       BAL SEQ-ID    DISP T  Y  1  2  3 B B       BALANCE NBR DELQ        AMOUNT                INFORMATION              
+‚                                                                                                                                     
+                                                                                                                                     
+      **--ORGANIZATION TOTALS--**                                                                                                    
+‚                                DISPUTED DAYS CATEGORY        NBR ACCTS         DISPUTED AMOUNT                                      
+‚                                                                                                                                     
+‚                                            01-14 DAYS                0                       0                                      
+‚                                                                                                                                     
+‚                                            15-29 DAYS                0                       0                                      
+‚                                                                                                                                     
+‚                                            30-44 DAYS                0                       0                                      
+‚                                                                                                                                     
+‚                                            45-59 DAYS                1                1000,000                                      
+‚                                                                                                                                     
+‚                                            60-74 DAYS                0                       0                                      
+‚                                                                                                                                     
+‚                                            75-89 DAYS                0                       0                                      
+‚                                                                                                                                     
+‚                                           90-104 DAYS                0                       0                                      
+‚                                                                                                                                     
+‚                                          105-119 DAYS                0                       0                                      
+‚                                                                                                                                     
+‚                                      120 DAYS OR MORE                8                6934,000                                      
+‚                                                                                                                                     
+‚                             TOTAL - ALL DISPUTED DAYS                9                7934,000                                      
+‚                                                                                                                                     
+

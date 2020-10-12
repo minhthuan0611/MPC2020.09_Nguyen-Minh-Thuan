@@ -1,0 +1,69 @@
+i                                                                                                                                     
+‚   002 - JACCS INTER. VIETNAM FINANCE    CURRENCY - 704          CARDLINK                             FILE DATE 28/03/20 PAGE -    1 
+‚   752 - NEWLY ADDED TYPE RECORD                   TRANSACTION JOURNAL BY TRAN CODE                   PROC DATE 28/03/20-16.35.57    
+‚                                                                - 55 -                                                               
+‚                                                                                                                                     
+‚  ACCOUNT NUMBER/    LAST TRAN/ TRANSACTION                REFERENCE SRC P                                  R CUSTOMER NUMBER/       
+‚     CARD NUMBER     BAL SEQ-ID DATE   CODE    AMOUNT         NUMBER CDE B TRANSACTION DESCRIPTION          A INTERCHANGE REF NUMBER 
+‚                                                                                                                                     
+‚ 0027520000000295    27/03/20 28/03/20 2000       24000  08800001001   0 Z NON-DIRECTED PAYMENT                                      
+‚ 000421194******0356                                                     W                                                           
+‚ 0027520000000535    27/03/20 28/03/20 2000       24000  08800001002   0 Z NON-DIRECTED PAYMENT                                      
+‚ 000421194******0505                                                                                                                 
+      **--TRANS CODE TOTALS--**                                                                                                      
+                                                                                                                                     
+‚                     TOTAL CREDITS POSTED          2          48,000                                                                 
+‚                     TOTAL DEBITS POSTED           0               0                                                                 
+                                                                                                                                     
+‚ 0027520000000295    27/03/20 28/03/20 3200       12000  08800000003   2 Z TRANSFER DB CSH1                                          
+‚ 0000000000000000000                                                                                                                 
+‚ 0027520000000535    27/03/20 28/03/20 3200       12000  08800000006   2 Z TRANSFER DB CSH1                                          
+‚ 0000000000000000000                                                                                                                 
+      **--TRANS CODE TOTALS--**                                                                                                      
+                                                                                                                                     
+‚                     TOTAL CREDITS POSTED          0               0                                                                 
+‚                     TOTAL DEBITS POSTED           2          24,000                                                                 
+                                                                                                                                     
+‚ 0027520000000295    27/03/20 28/03/20 4300       12000  08800000002   2 Z TRANSFER CR RTL1                                          
+‚ 0000000000000000000                                                                                                                 
+‚ 0027520000000535    27/03/20 28/03/20 4300       12000  08800000005   2 Z TRANSFER CR RTL1                                          
+‚ 0000000000000000000                                                                                                                 
+      **--TRANS CODE TOTALS--**                                                                                                      
+                                                                                                                                     
+‚                     TOTAL CREDITS POSTED          2          24,000                                                                 
+‚                     TOTAL DEBITS POSTED           0               0                                                                 
+                                                                                                                                     
+‚ 0027520000000295    27/03/20 28/03/20 5808       12000  08800000001   2 Z PHI THU HO                                                
+‚ 000421194******0356                                                                                                                 
+‚ 0027520000000535    27/03/20 28/03/20 5808       12000  08800000004   2 Z PHI THU HO                                                
+‚ 000421194******0505                                                                                                                 
+      **--TRANS CODE TOTALS--**                                                                                                      
+                                                                                                                                     
+‚                     TOTAL CREDITS POSTED          0               0                                                                 
+‚                     TOTAL DEBITS POSTED           2          24,000                                                                 
+i                                                                                                                                     
+‚   002 - JACCS INTER. VIETNAM FINANCE    CURRENCY - 704          CARDLINK                             FILE DATE 28/03/20 PAGE -    1 
+‚   752 - NEWLY ADDED TYPE RECORD                   TRANSACTION JOURNAL BY TRAN CODE                   PROC DATE 28/03/20-16.35.57    
+‚                                                                - 55 -                                                               
+‚                                                                                                                                     
+‚  ACCOUNT NUMBER/    LAST TRAN/ TRANSACTION                REFERENCE SRC P                                  R CUSTOMER NUMBER/       
+‚     CARD NUMBER     BAL SEQ-ID DATE   CODE    AMOUNT         NUMBER CDE B TRANSACTION DESCRIPTION          A INTERCHANGE REF NUMBER 
+‚                                                                                                                                     
+         **--TYPE TOTALS--**                                                                                                         
+                                                                                                                                     
+‚                     TOTAL CREDITS POSTED          4          72,000                                                                 
+‚                     TOTAL DEBITS POSTED           4          48,000                                                                 
+i                                                                                                                                     
+‚   002 - JACCS INTER. VIETNAM FINANCE    CURRENCY - 704          CARDLINK                             FILE DATE 28/03/20 PAGE -    1 
+‚                                                   TRANSACTION JOURNAL BY TRAN CODE                   PROC DATE 28/03/20-16.35.57    
+‚                                                                - 55 -                                                               
+‚                                                                                                                                     
+‚  ACCOUNT NUMBER/    LAST TRAN/ TRANSACTION                REFERENCE SRC P                                  R CUSTOMER NUMBER/       
+‚     CARD NUMBER     BAL SEQ-ID DATE   CODE    AMOUNT         NUMBER CDE B TRANSACTION DESCRIPTION          A INTERCHANGE REF NUMBER 
+‚                                                                                                                                     
+                                                                                                                                     
+      **--ORGANIZATION TOTALS--**                                                                                                    
+                                                                                                                                     
+‚                     TOTAL CREDITS POSTED          4          72,000                                                                 
+‚                     TOTAL DEBITS POSTED           4          48,000                                                                 
+

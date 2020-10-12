@@ -1,0 +1,724 @@
+i                                                                                                                                     
+‚   002 - JACCS INTER. VIETNAM FINANCE    CURRENCY - 704          CARDLINK                             FILE DATE 28/03/20 PAGE -    1 
+‚   001 - JACCS VISA CARD                               NO ACTIVITY REPORTS LIST                       PROC DATE 28/03/20-16.35.55    
+‚                                                                - 00 -                                                               
+‚                                                                                                                                     
+‚          REPORTS REQUESTED WITH NO ACTIVITY                          REPORTS PRODUCED TODAY                                         
+‚                                                                                                                                     
+‚      02  TRANSACTION JOURNAL BY ACCOUNT NUMBER                   01  ACTIVITY RECAP                                                 
+‚      04  TRANSACTIONS ON BLOCKED ACCOUNTS                        03  POSTING REJECTS BY REFERENCE NUMBER                            
+‚      05  NEW ACCOUNTS REPORT                                     51  PAST DUE BY ACCOUNT                                            
+‚      06  ACCOUNTS CLOSED/XFER/UPGRADED TODAY                     52  PAST DUE BY AGE                                                
+‚      07  ACCOUNTS TO BE PURGED                                   53  PAST DUE BY COLLECTOR                                          
+‚      08  FIRST LATE NOTICES                                      54  PAST DUE BY COLLECTOR AGED                                     
+‚      09    ACCOUNT FILE MAINTENANCE                              57  REJECT JOURNAL BY REJECT REASON                                
+‚      10  SECOND LATE NOTICES                                     58  GENERATED TRAN JOURNAL BY TRAN CODE                            
+‚      11  STATEMENTS                                              62  BLOCK CODE REPORT                                              
+‚      12  ACCOUNTS CHARGED OFF TODAY                              63  TRIAL BALANCE                                                  
+‚      13  WAREHOUSED TRANSACTION JOURNAL                          67  CREDIT BALANCE                                                 
+‚      14  CHARGE-OFF STATUS REPORT                                71  OVER LIMIT REPORT                                              
+‚      15  TRAN JOURNAL FOR CHARGED OFF ACCOUNTS                                                                                      
+‚      16  POSTING EXCEPTIONS/MESSAGES                                                                                                
+‚      17  NEW POSTING REJECTS ITEMS LIST                                                                                             
+‚      18  ACCOUNT TEMPORARY CR LIMIT EXPIRED                                                                                         
+‚      19  TEMPORARY CREDIT LIMIT MAINTENANCE                                                                                         
+‚      55  TRANSACTION JOURNAL BY TRAN CODE                                                                                           
+‚      56  TRANSACTION JOURNAL BY SOURCE                                                                                              
+‚      59  TRANS ON BLOCKED ACCTS BY BLOCK CODE                                                                                       
+‚      69  EXCESSIVE USAGE EXCEPTION REPORT                                                                                           
+‚      70  DISPUTED ITEMS REPORT                                                                                                      
+‚      78  SMALL BALANCE TRIAL BALANCE                                                                                                
+‚      80  TRANS BY TRAN CODE FOR CHARGED OFF ACCTS                                                                                   
+‚      87  TRANS ON BLOCKED CHARGED-OFF ACCOUNTS                                                                                      
+‚      88  CHARGE-OFFS BY ACCOUNT                                                                                                     
+‚      94  STOPPED / PENDING CHARGE-OFFS                                                                                              
+‚      96  CHARGED OFF ACCOUNTS                                                                                                       
+                                                                                                                                     
+‚          ** TOTALS **     NUMBER OF REPORTS WITH NO ACTIVITY 28     NUMBER OF REPORTS PRODUCED TODAY 12                             
+i                                                                                                                                     
+‚   002 - JACCS INTER. VIETNAM FINANCE    CURRENCY - 704          CARDLINK                             FILE DATE 28/03/20 PAGE -    2 
+‚   002 - JACCS VISA CARD                               NO ACTIVITY REPORTS LIST                       PROC DATE 28/03/20-16.35.55    
+‚                                                                - 00 -                                                               
+‚                                                                                                                                     
+‚          REPORTS REQUESTED WITH NO ACTIVITY                          REPORTS PRODUCED TODAY                                         
+‚                                                                                                                                     
+‚      02  TRANSACTION JOURNAL BY ACCOUNT NUMBER                   01  ACTIVITY RECAP                                                 
+‚      03  POSTING REJECTS BY REFERENCE NUMBER                     51  PAST DUE BY ACCOUNT                                            
+‚      04  TRANSACTIONS ON BLOCKED ACCOUNTS                        52  PAST DUE BY AGE                                                
+‚      05  NEW ACCOUNTS REPORT                                     53  PAST DUE BY COLLECTOR                                          
+‚      06  ACCOUNTS CLOSED/XFER/UPGRADED TODAY                     54  PAST DUE BY COLLECTOR AGED                                     
+‚      07  ACCOUNTS TO BE PURGED                                   62  BLOCK CODE REPORT                                              
+‚      08  FIRST LATE NOTICES                                      63  TRIAL BALANCE                                                  
+‚      09    ACCOUNT FILE MAINTENANCE                              67  CREDIT BALANCE                                                 
+‚      10  SECOND LATE NOTICES                                     70  DISPUTED ITEMS REPORT                                          
+‚      11  STATEMENTS                                              71  OVER LIMIT REPORT                                              
+‚      12  ACCOUNTS CHARGED OFF TODAY                              96  CHARGED OFF ACCOUNTS                                           
+‚      13  WAREHOUSED TRANSACTION JOURNAL                                                                                             
+‚      14  CHARGE-OFF STATUS REPORT                                                                                                   
+‚      15  TRAN JOURNAL FOR CHARGED OFF ACCOUNTS                                                                                      
+‚      16  POSTING EXCEPTIONS/MESSAGES                                                                                                
+‚      17  NEW POSTING REJECTS ITEMS LIST                                                                                             
+‚      18  ACCOUNT TEMPORARY CR LIMIT EXPIRED                                                                                         
+‚      19  TEMPORARY CREDIT LIMIT MAINTENANCE                                                                                         
+‚      55  TRANSACTION JOURNAL BY TRAN CODE                                                                                           
+‚      56  TRANSACTION JOURNAL BY SOURCE                                                                                              
+‚      57  REJECT JOURNAL BY REJECT REASON                                                                                            
+‚      58  GENERATED TRAN JOURNAL BY TRAN CODE                                                                                        
+‚      59  TRANS ON BLOCKED ACCTS BY BLOCK CODE                                                                                       
+‚      69  EXCESSIVE USAGE EXCEPTION REPORT                                                                                           
+‚      78  SMALL BALANCE TRIAL BALANCE                                                                                                
+‚      80  TRANS BY TRAN CODE FOR CHARGED OFF ACCTS                                                                                   
+‚      87  TRANS ON BLOCKED CHARGED-OFF ACCOUNTS                                                                                      
+‚      88  CHARGE-OFFS BY ACCOUNT                                                                                                     
+‚      94  STOPPED / PENDING CHARGE-OFFS                                                                                              
+                                                                                                                                     
+‚          ** TOTALS **     NUMBER OF REPORTS WITH NO ACTIVITY 29     NUMBER OF REPORTS PRODUCED TODAY 11                             
+i                                                                                                                                     
+‚   002 - JACCS INTER. VIETNAM FINANCE    CURRENCY - 704          CARDLINK                             FILE DATE 28/03/20 PAGE -    3 
+‚   003 - JACCS VISA CARD                               NO ACTIVITY REPORTS LIST                       PROC DATE 28/03/20-16.35.55    
+‚                                                                - 00 -                                                               
+‚                                                                                                                                     
+‚          REPORTS REQUESTED WITH NO ACTIVITY                          REPORTS PRODUCED TODAY                                         
+‚                                                                                                                                     
+‚      02  TRANSACTION JOURNAL BY ACCOUNT NUMBER                   01  ACTIVITY RECAP                                                 
+‚      03  POSTING REJECTS BY REFERENCE NUMBER                     51  PAST DUE BY ACCOUNT                                            
+‚      04  TRANSACTIONS ON BLOCKED ACCOUNTS                        52  PAST DUE BY AGE                                                
+‚      05  NEW ACCOUNTS REPORT                                     53  PAST DUE BY COLLECTOR                                          
+‚      06  ACCOUNTS CLOSED/XFER/UPGRADED TODAY                     54  PAST DUE BY COLLECTOR AGED                                     
+‚      07  ACCOUNTS TO BE PURGED                                   62  BLOCK CODE REPORT                                              
+‚      08  FIRST LATE NOTICES                                      63  TRIAL BALANCE                                                  
+‚      09    ACCOUNT FILE MAINTENANCE                              67  CREDIT BALANCE                                                 
+‚      10  SECOND LATE NOTICES                                     70  DISPUTED ITEMS REPORT                                          
+‚      11  STATEMENTS                                              71  OVER LIMIT REPORT                                              
+‚      12  ACCOUNTS CHARGED OFF TODAY                              96  CHARGED OFF ACCOUNTS                                           
+‚      13  WAREHOUSED TRANSACTION JOURNAL                                                                                             
+‚      14  CHARGE-OFF STATUS REPORT                                                                                                   
+‚      15  TRAN JOURNAL FOR CHARGED OFF ACCOUNTS                                                                                      
+‚      16  POSTING EXCEPTIONS/MESSAGES                                                                                                
+‚      17  NEW POSTING REJECTS ITEMS LIST                                                                                             
+‚      18  ACCOUNT TEMPORARY CR LIMIT EXPIRED                                                                                         
+‚      19  TEMPORARY CREDIT LIMIT MAINTENANCE                                                                                         
+‚      55  TRANSACTION JOURNAL BY TRAN CODE                                                                                           
+‚      56  TRANSACTION JOURNAL BY SOURCE                                                                                              
+‚      57  REJECT JOURNAL BY REJECT REASON                                                                                            
+‚      58  GENERATED TRAN JOURNAL BY TRAN CODE                                                                                        
+‚      59  TRANS ON BLOCKED ACCTS BY BLOCK CODE                                                                                       
+‚      69  EXCESSIVE USAGE EXCEPTION REPORT                                                                                           
+‚      78  SMALL BALANCE TRIAL BALANCE                                                                                                
+‚      80  TRANS BY TRAN CODE FOR CHARGED OFF ACCTS                                                                                   
+‚      87  TRANS ON BLOCKED CHARGED-OFF ACCOUNTS                                                                                      
+‚      88  CHARGE-OFFS BY ACCOUNT                                                                                                     
+‚      94  STOPPED / PENDING CHARGE-OFFS                                                                                              
+                                                                                                                                     
+‚          ** TOTALS **     NUMBER OF REPORTS WITH NO ACTIVITY 29     NUMBER OF REPORTS PRODUCED TODAY 11                             
+i                                                                                                                                     
+‚   002 - JACCS INTER. VIETNAM FINANCE    CURRENCY - 704          CARDLINK                             FILE DATE 28/03/20 PAGE -    4 
+‚   005 - SALE ADJUSTMENT                               NO ACTIVITY REPORTS LIST                       PROC DATE 28/03/20-16.35.55    
+‚                                                                - 00 -                                                               
+‚                                                                                                                                     
+‚          REPORTS REQUESTED WITH NO ACTIVITY                          REPORTS PRODUCED TODAY                                         
+‚                                                                                                                                     
+‚      02  TRANSACTION JOURNAL BY ACCOUNT NUMBER                   01  ACTIVITY RECAP                                                 
+‚      03  POSTING REJECTS BY REFERENCE NUMBER                     51  PAST DUE BY ACCOUNT                                            
+‚      04  TRANSACTIONS ON BLOCKED ACCOUNTS                        52  PAST DUE BY AGE                                                
+‚      05  NEW ACCOUNTS REPORT                                     53  PAST DUE BY COLLECTOR                                          
+‚      06  ACCOUNTS CLOSED/XFER/UPGRADED TODAY                     54  PAST DUE BY COLLECTOR AGED                                     
+‚      07  ACCOUNTS TO BE PURGED                                   62  BLOCK CODE REPORT                                              
+‚      08  FIRST LATE NOTICES                                      63  TRIAL BALANCE                                                  
+‚      09    ACCOUNT FILE MAINTENANCE                              71  OVER LIMIT REPORT                                              
+‚      10  SECOND LATE NOTICES                                                                                                        
+‚      11  STATEMENTS                                                                                                                 
+‚      12  ACCOUNTS CHARGED OFF TODAY                                                                                                 
+‚      13  WAREHOUSED TRANSACTION JOURNAL                                                                                             
+‚      14  CHARGE-OFF STATUS REPORT                                                                                                   
+‚      15  TRAN JOURNAL FOR CHARGED OFF ACCOUNTS                                                                                      
+‚      16  POSTING EXCEPTIONS/MESSAGES                                                                                                
+‚      17  NEW POSTING REJECTS ITEMS LIST                                                                                             
+‚      18  ACCOUNT TEMPORARY CR LIMIT EXPIRED                                                                                         
+‚      19  TEMPORARY CREDIT LIMIT MAINTENANCE                                                                                         
+‚      55  TRANSACTION JOURNAL BY TRAN CODE                                                                                           
+‚      56  TRANSACTION JOURNAL BY SOURCE                                                                                              
+‚      57  REJECT JOURNAL BY REJECT REASON                                                                                            
+‚      58  GENERATED TRAN JOURNAL BY TRAN CODE                                                                                        
+‚      59  TRANS ON BLOCKED ACCTS BY BLOCK CODE                                                                                       
+‚      67  CREDIT BALANCE                                                                                                             
+‚      69  EXCESSIVE USAGE EXCEPTION REPORT                                                                                           
+‚      70  DISPUTED ITEMS REPORT                                                                                                      
+‚      78  SMALL BALANCE TRIAL BALANCE                                                                                                
+‚      80  TRANS BY TRAN CODE FOR CHARGED OFF ACCTS                                                                                   
+‚      87  TRANS ON BLOCKED CHARGED-OFF ACCOUNTS                                                                                      
+‚      88  CHARGE-OFFS BY ACCOUNT                                                                                                     
+‚      94  STOPPED / PENDING CHARGE-OFFS                                                                                              
+‚      96  CHARGED OFF ACCOUNTS                                                                                                       
+                                                                                                                                     
+‚          ** TOTALS **     NUMBER OF REPORTS WITH NO ACTIVITY 32     NUMBER OF REPORTS PRODUCED TODAY 08                             
+i                                                                                                                                     
+‚   002 - JACCS INTER. VIETNAM FINANCE    CURRENCY - 704          CARDLINK                             FILE DATE 28/03/20 PAGE -    5 
+‚   012 - KILALA JACCS VISA CARD                        NO ACTIVITY REPORTS LIST                       PROC DATE 28/03/20-16.35.55    
+‚                                                                - 00 -                                                               
+‚                                                                                                                                     
+‚          REPORTS REQUESTED WITH NO ACTIVITY                          REPORTS PRODUCED TODAY                                         
+‚                                                                                                                                     
+‚      02  TRANSACTION JOURNAL BY ACCOUNT NUMBER                   01  ACTIVITY RECAP                                                 
+‚      03  POSTING REJECTS BY REFERENCE NUMBER                     51  PAST DUE BY ACCOUNT                                            
+‚      04  TRANSACTIONS ON BLOCKED ACCOUNTS                        52  PAST DUE BY AGE                                                
+‚      05  NEW ACCOUNTS REPORT                                     53  PAST DUE BY COLLECTOR                                          
+‚      06  ACCOUNTS CLOSED/XFER/UPGRADED TODAY                     54  PAST DUE BY COLLECTOR AGED                                     
+‚      07  ACCOUNTS TO BE PURGED                                   62  BLOCK CODE REPORT                                              
+‚      08  FIRST LATE NOTICES                                      63  TRIAL BALANCE                                                  
+‚      09    ACCOUNT FILE MAINTENANCE                              71  OVER LIMIT REPORT                                              
+‚      10  SECOND LATE NOTICES                                                                                                        
+‚      11  STATEMENTS                                                                                                                 
+‚      12  ACCOUNTS CHARGED OFF TODAY                                                                                                 
+‚      13  WAREHOUSED TRANSACTION JOURNAL                                                                                             
+‚      14  CHARGE-OFF STATUS REPORT                                                                                                   
+‚      15  TRAN JOURNAL FOR CHARGED OFF ACCOUNTS                                                                                      
+‚      16  POSTING EXCEPTIONS/MESSAGES                                                                                                
+‚      17  NEW POSTING REJECTS ITEMS LIST                                                                                             
+‚      18  ACCOUNT TEMPORARY CR LIMIT EXPIRED                                                                                         
+‚      19  TEMPORARY CREDIT LIMIT MAINTENANCE                                                                                         
+‚      55  TRANSACTION JOURNAL BY TRAN CODE                                                                                           
+‚      56  TRANSACTION JOURNAL BY SOURCE                                                                                              
+‚      57  REJECT JOURNAL BY REJECT REASON                                                                                            
+‚      58  GENERATED TRAN JOURNAL BY TRAN CODE                                                                                        
+‚      59  TRANS ON BLOCKED ACCTS BY BLOCK CODE                                                                                       
+‚      67  CREDIT BALANCE                                                                                                             
+‚      69  EXCESSIVE USAGE EXCEPTION REPORT                                                                                           
+‚      70  DISPUTED ITEMS REPORT                                                                                                      
+‚      78  SMALL BALANCE TRIAL BALANCE                                                                                                
+‚      80  TRANS BY TRAN CODE FOR CHARGED OFF ACCTS                                                                                   
+‚      87  TRANS ON BLOCKED CHARGED-OFF ACCOUNTS                                                                                      
+‚      88  CHARGE-OFFS BY ACCOUNT                                                                                                     
+‚      94  STOPPED / PENDING CHARGE-OFFS                                                                                              
+‚      96  CHARGED OFF ACCOUNTS                                                                                                       
+                                                                                                                                     
+‚          ** TOTALS **     NUMBER OF REPORTS WITH NO ACTIVITY 32     NUMBER OF REPORTS PRODUCED TODAY 08                             
+i                                                                                                                                     
+‚   002 - JACCS INTER. VIETNAM FINANCE    CURRENCY - 704          CARDLINK                             FILE DATE 28/03/20 PAGE -    6 
+‚   099 - JIVF TYPE 099                                 NO ACTIVITY REPORTS LIST                       PROC DATE 28/03/20-16.35.55    
+‚                                                                - 00 -                                                               
+‚                                                                                                                                     
+‚          REPORTS REQUESTED WITH NO ACTIVITY                          REPORTS PRODUCED TODAY                                         
+‚                                                                                                                                     
+‚      02  TRANSACTION JOURNAL BY ACCOUNT NUMBER                   01  ACTIVITY RECAP                                                 
+‚      03  POSTING REJECTS BY REFERENCE NUMBER                     63  TRIAL BALANCE                                                  
+‚      04  TRANSACTIONS ON BLOCKED ACCOUNTS                                                                                           
+‚      05  NEW ACCOUNTS REPORT                                                                                                        
+‚      06  ACCOUNTS CLOSED/XFER/UPGRADED TODAY                                                                                        
+‚      07  ACCOUNTS TO BE PURGED                                                                                                      
+‚      08  FIRST LATE NOTICES                                                                                                         
+‚      09    ACCOUNT FILE MAINTENANCE                                                                                                 
+‚      10  SECOND LATE NOTICES                                                                                                        
+‚      11  STATEMENTS                                                                                                                 
+‚      12  ACCOUNTS CHARGED OFF TODAY                                                                                                 
+‚      13  WAREHOUSED TRANSACTION JOURNAL                                                                                             
+‚      14  CHARGE-OFF STATUS REPORT                                                                                                   
+‚      15  TRAN JOURNAL FOR CHARGED OFF ACCOUNTS                                                                                      
+‚      16  POSTING EXCEPTIONS/MESSAGES                                                                                                
+‚      17  NEW POSTING REJECTS ITEMS LIST                                                                                             
+‚      18  ACCOUNT TEMPORARY CR LIMIT EXPIRED                                                                                         
+‚      19  TEMPORARY CREDIT LIMIT MAINTENANCE                                                                                         
+‚      51  PAST DUE BY ACCOUNT                                                                                                        
+‚      52  PAST DUE BY AGE                                                                                                            
+‚      53  PAST DUE BY COLLECTOR                                                                                                      
+‚      54  PAST DUE BY COLLECTOR AGED                                                                                                 
+‚      55  TRANSACTION JOURNAL BY TRAN CODE                                                                                           
+‚      56  TRANSACTION JOURNAL BY SOURCE                                                                                              
+‚      57  REJECT JOURNAL BY REJECT REASON                                                                                            
+‚      58  GENERATED TRAN JOURNAL BY TRAN CODE                                                                                        
+‚      59  TRANS ON BLOCKED ACCTS BY BLOCK CODE                                                                                       
+‚      62  BLOCK CODE REPORT                                                                                                          
+‚      67  CREDIT BALANCE                                                                                                             
+‚      69  EXCESSIVE USAGE EXCEPTION REPORT                                                                                           
+‚      70  DISPUTED ITEMS REPORT                                                                                                      
+‚      71  OVER LIMIT REPORT                                                                                                          
+‚      78  SMALL BALANCE TRIAL BALANCE                                                                                                
+‚      80  TRANS BY TRAN CODE FOR CHARGED OFF ACCTS                                                                                   
+‚      87  TRANS ON BLOCKED CHARGED-OFF ACCOUNTS                                                                                      
+‚      88  CHARGE-OFFS BY ACCOUNT                                                                                                     
+‚      94  STOPPED / PENDING CHARGE-OFFS                                                                                              
+‚      96  CHARGED OFF ACCOUNTS                                                                                                       
+                                                                                                                                     
+‚          ** TOTALS **     NUMBER OF REPORTS WITH NO ACTIVITY 38     NUMBER OF REPORTS PRODUCED TODAY 02                             
+i                                                                                                                                     
+‚   002 - JACCS INTER. VIETNAM FINANCE    CURRENCY - 704          CARDLINK                             FILE DATE 28/03/20 PAGE -    7 
+‚   751 - NEWLY ADDED TYPE RECORD                       NO ACTIVITY REPORTS LIST                       PROC DATE 28/03/20-16.35.55    
+‚                                                                - 00 -                                                               
+‚                                                                                                                                     
+‚          REPORTS REQUESTED WITH NO ACTIVITY                          REPORTS PRODUCED TODAY                                         
+‚                                                                                                                                     
+‚      02  TRANSACTION JOURNAL BY ACCOUNT NUMBER                   01  ACTIVITY RECAP                                                 
+‚      03  POSTING REJECTS BY REFERENCE NUMBER                     51  PAST DUE BY ACCOUNT                                            
+‚      04  TRANSACTIONS ON BLOCKED ACCOUNTS                        52  PAST DUE BY AGE                                                
+‚      05  NEW ACCOUNTS REPORT                                     53  PAST DUE BY COLLECTOR                                          
+‚      06  ACCOUNTS CLOSED/XFER/UPGRADED TODAY                     54  PAST DUE BY COLLECTOR AGED                                     
+‚      07  ACCOUNTS TO BE PURGED                                   62  BLOCK CODE REPORT                                              
+‚      08  FIRST LATE NOTICES                                      63  TRIAL BALANCE                                                  
+‚      09    ACCOUNT FILE MAINTENANCE                                                                                                 
+‚      10  SECOND LATE NOTICES                                                                                                        
+‚      11  STATEMENTS                                                                                                                 
+‚      12  ACCOUNTS CHARGED OFF TODAY                                                                                                 
+‚      13  WAREHOUSED TRANSACTION JOURNAL                                                                                             
+‚      14  CHARGE-OFF STATUS REPORT                                                                                                   
+‚      15  TRAN JOURNAL FOR CHARGED OFF ACCOUNTS                                                                                      
+‚      16  POSTING EXCEPTIONS/MESSAGES                                                                                                
+‚      17  NEW POSTING REJECTS ITEMS LIST                                                                                             
+‚      18  ACCOUNT TEMPORARY CR LIMIT EXPIRED                                                                                         
+‚      19  TEMPORARY CREDIT LIMIT MAINTENANCE                                                                                         
+‚      55  TRANSACTION JOURNAL BY TRAN CODE                                                                                           
+‚      56  TRANSACTION JOURNAL BY SOURCE                                                                                              
+‚      57  REJECT JOURNAL BY REJECT REASON                                                                                            
+‚      58  GENERATED TRAN JOURNAL BY TRAN CODE                                                                                        
+‚      59  TRANS ON BLOCKED ACCTS BY BLOCK CODE                                                                                       
+‚      67  CREDIT BALANCE                                                                                                             
+‚      69  EXCESSIVE USAGE EXCEPTION REPORT                                                                                           
+‚      70  DISPUTED ITEMS REPORT                                                                                                      
+‚      71  OVER LIMIT REPORT                                                                                                          
+‚      78  SMALL BALANCE TRIAL BALANCE                                                                                                
+‚      80  TRANS BY TRAN CODE FOR CHARGED OFF ACCTS                                                                                   
+‚      87  TRANS ON BLOCKED CHARGED-OFF ACCOUNTS                                                                                      
+‚      88  CHARGE-OFFS BY ACCOUNT                                                                                                     
+‚      94  STOPPED / PENDING CHARGE-OFFS                                                                                              
+‚      96  CHARGED OFF ACCOUNTS                                                                                                       
+                                                                                                                                     
+‚          ** TOTALS **     NUMBER OF REPORTS WITH NO ACTIVITY 33     NUMBER OF REPORTS PRODUCED TODAY 07                             
+i                                                                                                                                     
+‚   002 - JACCS INTER. VIETNAM FINANCE    CURRENCY - 704          CARDLINK                             FILE DATE 28/03/20 PAGE -    8 
+‚   752 - NEWLY ADDED TYPE RECORD                       NO ACTIVITY REPORTS LIST                       PROC DATE 28/03/20-16.35.55    
+‚                                                                - 00 -                                                               
+‚                                                                                                                                     
+‚          REPORTS REQUESTED WITH NO ACTIVITY                          REPORTS PRODUCED TODAY                                         
+‚                                                                                                                                     
+‚      03  POSTING REJECTS BY REFERENCE NUMBER                     01  ACTIVITY RECAP                                                 
+‚      04  TRANSACTIONS ON BLOCKED ACCOUNTS                        02  TRANSACTION JOURNAL BY ACCOUNT NUMBER                          
+‚      05  NEW ACCOUNTS REPORT                                     51  PAST DUE BY ACCOUNT                                            
+‚      06  ACCOUNTS CLOSED/XFER/UPGRADED TODAY                     52  PAST DUE BY AGE                                                
+‚      07  ACCOUNTS TO BE PURGED                                   53  PAST DUE BY COLLECTOR                                          
+‚      08  FIRST LATE NOTICES                                      54  PAST DUE BY COLLECTOR AGED                                     
+‚      09    ACCOUNT FILE MAINTENANCE                              55  TRANSACTION JOURNAL BY TRAN CODE                               
+‚      10  SECOND LATE NOTICES                                     56  TRANSACTION JOURNAL BY SOURCE                                  
+‚      11  STATEMENTS                                              58  GENERATED TRAN JOURNAL BY TRAN CODE                            
+‚      12  ACCOUNTS CHARGED OFF TODAY                              62  BLOCK CODE REPORT                                              
+‚      13  WAREHOUSED TRANSACTION JOURNAL                          63  TRIAL BALANCE                                                  
+‚      14  CHARGE-OFF STATUS REPORT                                67  CREDIT BALANCE                                                 
+‚      15  TRAN JOURNAL FOR CHARGED OFF ACCOUNTS                                                                                      
+‚      16  POSTING EXCEPTIONS/MESSAGES                                                                                                
+‚      17  NEW POSTING REJECTS ITEMS LIST                                                                                             
+‚      18  ACCOUNT TEMPORARY CR LIMIT EXPIRED                                                                                         
+‚      19  TEMPORARY CREDIT LIMIT MAINTENANCE                                                                                         
+‚      57  REJECT JOURNAL BY REJECT REASON                                                                                            
+‚      59  TRANS ON BLOCKED ACCTS BY BLOCK CODE                                                                                       
+‚      69  EXCESSIVE USAGE EXCEPTION REPORT                                                                                           
+‚      70  DISPUTED ITEMS REPORT                                                                                                      
+‚      71  OVER LIMIT REPORT                                                                                                          
+‚      78  SMALL BALANCE TRIAL BALANCE                                                                                                
+‚      80  TRANS BY TRAN CODE FOR CHARGED OFF ACCTS                                                                                   
+‚      87  TRANS ON BLOCKED CHARGED-OFF ACCOUNTS                                                                                      
+‚      88  CHARGE-OFFS BY ACCOUNT                                                                                                     
+‚      94  STOPPED / PENDING CHARGE-OFFS                                                                                              
+‚      96  CHARGED OFF ACCOUNTS                                                                                                       
+                                                                                                                                     
+‚          ** TOTALS **     NUMBER OF REPORTS WITH NO ACTIVITY 28     NUMBER OF REPORTS PRODUCED TODAY 12                             
+i                                                                                                                                     
+‚   002 - JACCS INTER. VIETNAM FINANCE    CURRENCY - 704          CARDLINK                             FILE DATE 28/03/20 PAGE -    9 
+‚   753 - NEWLY ADDED TYPE RECORD                       NO ACTIVITY REPORTS LIST                       PROC DATE 28/03/20-16.35.55    
+‚                                                                - 00 -                                                               
+‚                                                                                                                                     
+‚          REPORTS REQUESTED WITH NO ACTIVITY                          REPORTS PRODUCED TODAY                                         
+‚                                                                                                                                     
+‚      02  TRANSACTION JOURNAL BY ACCOUNT NUMBER                   01  ACTIVITY RECAP                                                 
+‚      03  POSTING REJECTS BY REFERENCE NUMBER                     51  PAST DUE BY ACCOUNT                                            
+‚      04  TRANSACTIONS ON BLOCKED ACCOUNTS                        52  PAST DUE BY AGE                                                
+‚      05  NEW ACCOUNTS REPORT                                     53  PAST DUE BY COLLECTOR                                          
+‚      06  ACCOUNTS CLOSED/XFER/UPGRADED TODAY                     54  PAST DUE BY COLLECTOR AGED                                     
+‚      07  ACCOUNTS TO BE PURGED                                   62  BLOCK CODE REPORT                                              
+‚      08  FIRST LATE NOTICES                                      63  TRIAL BALANCE                                                  
+‚      09    ACCOUNT FILE MAINTENANCE                                                                                                 
+‚      10  SECOND LATE NOTICES                                                                                                        
+‚      11  STATEMENTS                                                                                                                 
+‚      12  ACCOUNTS CHARGED OFF TODAY                                                                                                 
+‚      13  WAREHOUSED TRANSACTION JOURNAL                                                                                             
+‚      14  CHARGE-OFF STATUS REPORT                                                                                                   
+‚      15  TRAN JOURNAL FOR CHARGED OFF ACCOUNTS                                                                                      
+‚      16  POSTING EXCEPTIONS/MESSAGES                                                                                                
+‚      17  NEW POSTING REJECTS ITEMS LIST                                                                                             
+‚      18  ACCOUNT TEMPORARY CR LIMIT EXPIRED                                                                                         
+‚      19  TEMPORARY CREDIT LIMIT MAINTENANCE                                                                                         
+‚      55  TRANSACTION JOURNAL BY TRAN CODE                                                                                           
+‚      56  TRANSACTION JOURNAL BY SOURCE                                                                                              
+‚      57  REJECT JOURNAL BY REJECT REASON                                                                                            
+‚      58  GENERATED TRAN JOURNAL BY TRAN CODE                                                                                        
+‚      59  TRANS ON BLOCKED ACCTS BY BLOCK CODE                                                                                       
+‚      67  CREDIT BALANCE                                                                                                             
+‚      69  EXCESSIVE USAGE EXCEPTION REPORT                                                                                           
+‚      70  DISPUTED ITEMS REPORT                                                                                                      
+‚      71  OVER LIMIT REPORT                                                                                                          
+‚      78  SMALL BALANCE TRIAL BALANCE                                                                                                
+‚      80  TRANS BY TRAN CODE FOR CHARGED OFF ACCTS                                                                                   
+‚      87  TRANS ON BLOCKED CHARGED-OFF ACCOUNTS                                                                                      
+‚      88  CHARGE-OFFS BY ACCOUNT                                                                                                     
+‚      94  STOPPED / PENDING CHARGE-OFFS                                                                                              
+‚      96  CHARGED OFF ACCOUNTS                                                                                                       
+                                                                                                                                     
+‚          ** TOTALS **     NUMBER OF REPORTS WITH NO ACTIVITY 33     NUMBER OF REPORTS PRODUCED TODAY 07                             
+i                                                                                                                                     
+‚   002 - JACCS INTER. VIETNAM FINANCE    CURRENCY - 704          CARDLINK                             FILE DATE 28/03/20 PAGE -   10 
+‚   800 - JACCS CASH CARD                               NO ACTIVITY REPORTS LIST                       PROC DATE 28/03/20-16.35.55    
+‚                                                                - 00 -                                                               
+‚                                                                                                                                     
+‚          REPORTS REQUESTED WITH NO ACTIVITY                          REPORTS PRODUCED TODAY                                         
+‚                                                                                                                                     
+‚      02  TRANSACTION JOURNAL BY ACCOUNT NUMBER                   01  ACTIVITY RECAP                                                 
+‚      03  POSTING REJECTS BY REFERENCE NUMBER                     51  PAST DUE BY ACCOUNT                                            
+‚      04  TRANSACTIONS ON BLOCKED ACCOUNTS                        52  PAST DUE BY AGE                                                
+‚      05  NEW ACCOUNTS REPORT                                     53  PAST DUE BY COLLECTOR                                          
+‚      06  ACCOUNTS CLOSED/XFER/UPGRADED TODAY                     54  PAST DUE BY COLLECTOR AGED                                     
+‚      07  ACCOUNTS TO BE PURGED                                   62  BLOCK CODE REPORT                                              
+‚      08  FIRST LATE NOTICES                                      63  TRIAL BALANCE                                                  
+‚      09    ACCOUNT FILE MAINTENANCE                              67  CREDIT BALANCE                                                 
+‚      10  SECOND LATE NOTICES                                     71  OVER LIMIT REPORT                                              
+‚      11  STATEMENTS                                                                                                                 
+‚      12  ACCOUNTS CHARGED OFF TODAY                                                                                                 
+‚      13  WAREHOUSED TRANSACTION JOURNAL                                                                                             
+‚      14  CHARGE-OFF STATUS REPORT                                                                                                   
+‚      15  TRAN JOURNAL FOR CHARGED OFF ACCOUNTS                                                                                      
+‚      16  POSTING EXCEPTIONS/MESSAGES                                                                                                
+‚      17  NEW POSTING REJECTS ITEMS LIST                                                                                             
+‚      18  ACCOUNT TEMPORARY CR LIMIT EXPIRED                                                                                         
+‚      19  TEMPORARY CREDIT LIMIT MAINTENANCE                                                                                         
+‚      55  TRANSACTION JOURNAL BY TRAN CODE                                                                                           
+‚      56  TRANSACTION JOURNAL BY SOURCE                                                                                              
+‚      57  REJECT JOURNAL BY REJECT REASON                                                                                            
+‚      58  GENERATED TRAN JOURNAL BY TRAN CODE                                                                                        
+‚      59  TRANS ON BLOCKED ACCTS BY BLOCK CODE                                                                                       
+‚      69  EXCESSIVE USAGE EXCEPTION REPORT                                                                                           
+‚      70  DISPUTED ITEMS REPORT                                                                                                      
+‚      78  SMALL BALANCE TRIAL BALANCE                                                                                                
+‚      80  TRANS BY TRAN CODE FOR CHARGED OFF ACCTS                                                                                   
+‚      87  TRANS ON BLOCKED CHARGED-OFF ACCOUNTS                                                                                      
+‚      88  CHARGE-OFFS BY ACCOUNT                                                                                                     
+‚      94  STOPPED / PENDING CHARGE-OFFS                                                                                              
+‚      96  CHARGED OFF ACCOUNTS                                                                                                       
+                                                                                                                                     
+‚          ** TOTALS **     NUMBER OF REPORTS WITH NO ACTIVITY 31     NUMBER OF REPORTS PRODUCED TODAY 09                             
+i                                                                                                                                     
+‚   002 - JACCS INTER. VIETNAM FINANCE    CURRENCY - 704          CARDLINK                             FILE DATE 28/03/20 PAGE -   11 
+‚   801 - JACCS CASH CARD                               NO ACTIVITY REPORTS LIST                       PROC DATE 28/03/20-16.35.55    
+‚                                                                - 00 -                                                               
+‚                                                                                                                                     
+‚          REPORTS REQUESTED WITH NO ACTIVITY                          REPORTS PRODUCED TODAY                                         
+‚                                                                                                                                     
+‚      02  TRANSACTION JOURNAL BY ACCOUNT NUMBER                   01  ACTIVITY RECAP                                                 
+‚      03  POSTING REJECTS BY REFERENCE NUMBER                     51  PAST DUE BY ACCOUNT                                            
+‚      04  TRANSACTIONS ON BLOCKED ACCOUNTS                        52  PAST DUE BY AGE                                                
+‚      05  NEW ACCOUNTS REPORT                                     53  PAST DUE BY COLLECTOR                                          
+‚      06  ACCOUNTS CLOSED/XFER/UPGRADED TODAY                     54  PAST DUE BY COLLECTOR AGED                                     
+‚      07  ACCOUNTS TO BE PURGED                                   62  BLOCK CODE REPORT                                              
+‚      08  FIRST LATE NOTICES                                      63  TRIAL BALANCE                                                  
+‚      09    ACCOUNT FILE MAINTENANCE                              67  CREDIT BALANCE                                                 
+‚      10  SECOND LATE NOTICES                                     71  OVER LIMIT REPORT                                              
+‚      11  STATEMENTS                                              96  CHARGED OFF ACCOUNTS                                           
+‚      12  ACCOUNTS CHARGED OFF TODAY                                                                                                 
+‚      13  WAREHOUSED TRANSACTION JOURNAL                                                                                             
+‚      14  CHARGE-OFF STATUS REPORT                                                                                                   
+‚      15  TRAN JOURNAL FOR CHARGED OFF ACCOUNTS                                                                                      
+‚      16  POSTING EXCEPTIONS/MESSAGES                                                                                                
+‚      17  NEW POSTING REJECTS ITEMS LIST                                                                                             
+‚      18  ACCOUNT TEMPORARY CR LIMIT EXPIRED                                                                                         
+‚      19  TEMPORARY CREDIT LIMIT MAINTENANCE                                                                                         
+‚      55  TRANSACTION JOURNAL BY TRAN CODE                                                                                           
+‚      56  TRANSACTION JOURNAL BY SOURCE                                                                                              
+‚      57  REJECT JOURNAL BY REJECT REASON                                                                                            
+‚      58  GENERATED TRAN JOURNAL BY TRAN CODE                                                                                        
+‚      59  TRANS ON BLOCKED ACCTS BY BLOCK CODE                                                                                       
+‚      69  EXCESSIVE USAGE EXCEPTION REPORT                                                                                           
+‚      70  DISPUTED ITEMS REPORT                                                                                                      
+‚      78  SMALL BALANCE TRIAL BALANCE                                                                                                
+‚      80  TRANS BY TRAN CODE FOR CHARGED OFF ACCTS                                                                                   
+‚      87  TRANS ON BLOCKED CHARGED-OFF ACCOUNTS                                                                                      
+‚      88  CHARGE-OFFS BY ACCOUNT                                                                                                     
+‚      94  STOPPED / PENDING CHARGE-OFFS                                                                                              
+                                                                                                                                     
+‚          ** TOTALS **     NUMBER OF REPORTS WITH NO ACTIVITY 30     NUMBER OF REPORTS PRODUCED TODAY 10                             
+i                                                                                                                                     
+‚   002 - JACCS INTER. VIETNAM FINANCE    CURRENCY - 704          CARDLINK                             FILE DATE 28/03/20 PAGE -   12 
+‚   802 - JACCS CASH CARD                               NO ACTIVITY REPORTS LIST                       PROC DATE 28/03/20-16.35.55    
+‚                                                                - 00 -                                                               
+‚                                                                                                                                     
+‚          REPORTS REQUESTED WITH NO ACTIVITY                          REPORTS PRODUCED TODAY                                         
+‚                                                                                                                                     
+‚      02  TRANSACTION JOURNAL BY ACCOUNT NUMBER                   01  ACTIVITY RECAP                                                 
+‚      03  POSTING REJECTS BY REFERENCE NUMBER                     51  PAST DUE BY ACCOUNT                                            
+‚      04  TRANSACTIONS ON BLOCKED ACCOUNTS                        52  PAST DUE BY AGE                                                
+‚      05  NEW ACCOUNTS REPORT                                     53  PAST DUE BY COLLECTOR                                          
+‚      06  ACCOUNTS CLOSED/XFER/UPGRADED TODAY                     54  PAST DUE BY COLLECTOR AGED                                     
+‚      07  ACCOUNTS TO BE PURGED                                   62  BLOCK CODE REPORT                                              
+‚      08  FIRST LATE NOTICES                                      63  TRIAL BALANCE                                                  
+‚      09    ACCOUNT FILE MAINTENANCE                              67  CREDIT BALANCE                                                 
+‚      10  SECOND LATE NOTICES                                     71  OVER LIMIT REPORT                                              
+‚      11  STATEMENTS                                                                                                                 
+‚      12  ACCOUNTS CHARGED OFF TODAY                                                                                                 
+‚      13  WAREHOUSED TRANSACTION JOURNAL                                                                                             
+‚      14  CHARGE-OFF STATUS REPORT                                                                                                   
+‚      15  TRAN JOURNAL FOR CHARGED OFF ACCOUNTS                                                                                      
+‚      16  POSTING EXCEPTIONS/MESSAGES                                                                                                
+‚      17  NEW POSTING REJECTS ITEMS LIST                                                                                             
+‚      18  ACCOUNT TEMPORARY CR LIMIT EXPIRED                                                                                         
+‚      19  TEMPORARY CREDIT LIMIT MAINTENANCE                                                                                         
+‚      55  TRANSACTION JOURNAL BY TRAN CODE                                                                                           
+‚      56  TRANSACTION JOURNAL BY SOURCE                                                                                              
+‚      57  REJECT JOURNAL BY REJECT REASON                                                                                            
+‚      58  GENERATED TRAN JOURNAL BY TRAN CODE                                                                                        
+‚      59  TRANS ON BLOCKED ACCTS BY BLOCK CODE                                                                                       
+‚      69  EXCESSIVE USAGE EXCEPTION REPORT                                                                                           
+‚      70  DISPUTED ITEMS REPORT                                                                                                      
+‚      78  SMALL BALANCE TRIAL BALANCE                                                                                                
+‚      80  TRANS BY TRAN CODE FOR CHARGED OFF ACCTS                                                                                   
+‚      87  TRANS ON BLOCKED CHARGED-OFF ACCOUNTS                                                                                      
+‚      88  CHARGE-OFFS BY ACCOUNT                                                                                                     
+‚      94  STOPPED / PENDING CHARGE-OFFS                                                                                              
+‚      96  CHARGED OFF ACCOUNTS                                                                                                       
+                                                                                                                                     
+‚          ** TOTALS **     NUMBER OF REPORTS WITH NO ACTIVITY 31     NUMBER OF REPORTS PRODUCED TODAY 09                             
+i                                                                                                                                     
+‚   002 - JACCS INTER. VIETNAM FINANCE    CURRENCY - 704          CARDLINK                             FILE DATE 28/03/20 PAGE -   13 
+‚   803 - JACCS CASH CARD                               NO ACTIVITY REPORTS LIST                       PROC DATE 28/03/20-16.35.55    
+‚                                                                - 00 -                                                               
+‚                                                                                                                                     
+‚          REPORTS REQUESTED WITH NO ACTIVITY                          REPORTS PRODUCED TODAY                                         
+‚                                                                                                                                     
+‚      02  TRANSACTION JOURNAL BY ACCOUNT NUMBER                   01  ACTIVITY RECAP                                                 
+‚      03  POSTING REJECTS BY REFERENCE NUMBER                     51  PAST DUE BY ACCOUNT                                            
+‚      04  TRANSACTIONS ON BLOCKED ACCOUNTS                        52  PAST DUE BY AGE                                                
+‚      05  NEW ACCOUNTS REPORT                                     53  PAST DUE BY COLLECTOR                                          
+‚      06  ACCOUNTS CLOSED/XFER/UPGRADED TODAY                     54  PAST DUE BY COLLECTOR AGED                                     
+‚      07  ACCOUNTS TO BE PURGED                                   62  BLOCK CODE REPORT                                              
+‚      08  FIRST LATE NOTICES                                      67  CREDIT BALANCE                                                 
+‚      09    ACCOUNT FILE MAINTENANCE                              70  DISPUTED ITEMS REPORT                                          
+‚      10  SECOND LATE NOTICES                                     71  OVER LIMIT REPORT                                              
+‚      11  STATEMENTS                                                                                                                 
+‚      12  ACCOUNTS CHARGED OFF TODAY                                                                                                 
+‚      13  WAREHOUSED TRANSACTION JOURNAL                                                                                             
+‚      14  CHARGE-OFF STATUS REPORT                                                                                                   
+‚      15  TRAN JOURNAL FOR CHARGED OFF ACCOUNTS                                                                                      
+‚      16  POSTING EXCEPTIONS/MESSAGES                                                                                                
+‚      17  NEW POSTING REJECTS ITEMS LIST                                                                                             
+‚      18  ACCOUNT TEMPORARY CR LIMIT EXPIRED                                                                                         
+‚      19  TEMPORARY CREDIT LIMIT MAINTENANCE                                                                                         
+‚      55  TRANSACTION JOURNAL BY TRAN CODE                                                                                           
+‚      56  TRANSACTION JOURNAL BY SOURCE                                                                                              
+‚      57  REJECT JOURNAL BY REJECT REASON                                                                                            
+‚      58  GENERATED TRAN JOURNAL BY TRAN CODE                                                                                        
+‚      59  TRANS ON BLOCKED ACCTS BY BLOCK CODE                                                                                       
+‚      69  EXCESSIVE USAGE EXCEPTION REPORT                                                                                           
+‚      78  SMALL BALANCE TRIAL BALANCE                                                                                                
+‚      80  TRANS BY TRAN CODE FOR CHARGED OFF ACCTS                                                                                   
+‚      87  TRANS ON BLOCKED CHARGED-OFF ACCOUNTS                                                                                      
+‚      88  CHARGE-OFFS BY ACCOUNT                                                                                                     
+‚      94  STOPPED / PENDING CHARGE-OFFS                                                                                              
+‚      96  CHARGED OFF ACCOUNTS                                                                                                       
+                                                                                                                                     
+‚          ** TOTALS **     NUMBER OF REPORTS WITH NO ACTIVITY 30     NUMBER OF REPORTS PRODUCED TODAY 09                             
+i                                                                                                                                     
+‚   002 - JACCS INTER. VIETNAM FINANCE    CURRENCY - 704          CARDLINK                             FILE DATE 28/03/20 PAGE -   14 
+‚   950 - NEWLY ADDED TYPE RECORD                       NO ACTIVITY REPORTS LIST                       PROC DATE 28/03/20-16.35.55    
+‚                                                                - 00 -                                                               
+‚                                                                                                                                     
+‚          REPORTS REQUESTED WITH NO ACTIVITY                          REPORTS PRODUCED TODAY                                         
+‚                                                                                                                                     
+‚      02  TRANSACTION JOURNAL BY ACCOUNT NUMBER                   01  ACTIVITY RECAP                                                 
+‚      03  POSTING REJECTS BY REFERENCE NUMBER                     63  TRIAL BALANCE                                                  
+‚      04  TRANSACTIONS ON BLOCKED ACCOUNTS                                                                                           
+‚      05  NEW ACCOUNTS REPORT                                                                                                        
+‚      06  ACCOUNTS CLOSED/XFER/UPGRADED TODAY                                                                                        
+‚      07  ACCOUNTS TO BE PURGED                                                                                                      
+‚      08  FIRST LATE NOTICES                                                                                                         
+‚      09    ACCOUNT FILE MAINTENANCE                                                                                                 
+‚      10  SECOND LATE NOTICES                                                                                                        
+‚      11  STATEMENTS                                                                                                                 
+‚      12  ACCOUNTS CHARGED OFF TODAY                                                                                                 
+‚      13  WAREHOUSED TRANSACTION JOURNAL                                                                                             
+‚      14  CHARGE-OFF STATUS REPORT                                                                                                   
+‚      15  TRAN JOURNAL FOR CHARGED OFF ACCOUNTS                                                                                      
+‚      16  POSTING EXCEPTIONS/MESSAGES                                                                                                
+‚      17  NEW POSTING REJECTS ITEMS LIST                                                                                             
+‚      18  ACCOUNT TEMPORARY CR LIMIT EXPIRED                                                                                         
+‚      19  TEMPORARY CREDIT LIMIT MAINTENANCE                                                                                         
+‚      51  PAST DUE BY ACCOUNT                                                                                                        
+‚      52  PAST DUE BY AGE                                                                                                            
+‚      53  PAST DUE BY COLLECTOR                                                                                                      
+‚      54  PAST DUE BY COLLECTOR AGED                                                                                                 
+‚      55  TRANSACTION JOURNAL BY TRAN CODE                                                                                           
+‚      56  TRANSACTION JOURNAL BY SOURCE                                                                                              
+‚      57  REJECT JOURNAL BY REJECT REASON                                                                                            
+‚      58  GENERATED TRAN JOURNAL BY TRAN CODE                                                                                        
+‚      59  TRANS ON BLOCKED ACCTS BY BLOCK CODE                                                                                       
+‚      62  BLOCK CODE REPORT                                                                                                          
+‚      67  CREDIT BALANCE                                                                                                             
+‚      69  EXCESSIVE USAGE EXCEPTION REPORT                                                                                           
+‚      70  DISPUTED ITEMS REPORT                                                                                                      
+‚      71  OVER LIMIT REPORT                                                                                                          
+‚      78  SMALL BALANCE TRIAL BALANCE                                                                                                
+‚      80  TRANS BY TRAN CODE FOR CHARGED OFF ACCTS                                                                                   
+‚      87  TRANS ON BLOCKED CHARGED-OFF ACCOUNTS                                                                                      
+‚      88  CHARGE-OFFS BY ACCOUNT                                                                                                     
+‚      94  STOPPED / PENDING CHARGE-OFFS                                                                                              
+‚      96  CHARGED OFF ACCOUNTS                                                                                                       
+                                                                                                                                     
+‚          ** TOTALS **     NUMBER OF REPORTS WITH NO ACTIVITY 38     NUMBER OF REPORTS PRODUCED TODAY 02                             
+i                                                                                                                                     
+‚   002 - JACCS INTER. VIETNAM FINANCE    CURRENCY - 704          CARDLINK                             FILE DATE 28/03/20 PAGE -   15 
+‚   951 - NEWLY ADDED TYPE RECORD                       NO ACTIVITY REPORTS LIST                       PROC DATE 28/03/20-16.35.55    
+‚                                                                - 00 -                                                               
+‚                                                                                                                                     
+‚          REPORTS REQUESTED WITH NO ACTIVITY                          REPORTS PRODUCED TODAY                                         
+‚                                                                                                                                     
+‚      02  TRANSACTION JOURNAL BY ACCOUNT NUMBER                   01  ACTIVITY RECAP                                                 
+‚      03  POSTING REJECTS BY REFERENCE NUMBER                     51  PAST DUE BY ACCOUNT                                            
+‚      04  TRANSACTIONS ON BLOCKED ACCOUNTS                        52  PAST DUE BY AGE                                                
+‚      05  NEW ACCOUNTS REPORT                                     53  PAST DUE BY COLLECTOR                                          
+‚      06  ACCOUNTS CLOSED/XFER/UPGRADED TODAY                     54  PAST DUE BY COLLECTOR AGED                                     
+‚      07  ACCOUNTS TO BE PURGED                                   62  BLOCK CODE REPORT                                              
+‚      08  FIRST LATE NOTICES                                      63  TRIAL BALANCE                                                  
+‚      09    ACCOUNT FILE MAINTENANCE                              67  CREDIT BALANCE                                                 
+‚      10  SECOND LATE NOTICES                                     70  DISPUTED ITEMS REPORT                                          
+‚      11  STATEMENTS                                                                                                                 
+‚      12  ACCOUNTS CHARGED OFF TODAY                                                                                                 
+‚      13  WAREHOUSED TRANSACTION JOURNAL                                                                                             
+‚      14  CHARGE-OFF STATUS REPORT                                                                                                   
+‚      15  TRAN JOURNAL FOR CHARGED OFF ACCOUNTS                                                                                      
+‚      16  POSTING EXCEPTIONS/MESSAGES                                                                                                
+‚      17  NEW POSTING REJECTS ITEMS LIST                                                                                             
+‚      18  ACCOUNT TEMPORARY CR LIMIT EXPIRED                                                                                         
+‚      19  TEMPORARY CREDIT LIMIT MAINTENANCE                                                                                         
+‚      55  TRANSACTION JOURNAL BY TRAN CODE                                                                                           
+‚      56  TRANSACTION JOURNAL BY SOURCE                                                                                              
+‚      57  REJECT JOURNAL BY REJECT REASON                                                                                            
+‚      58  GENERATED TRAN JOURNAL BY TRAN CODE                                                                                        
+‚      59  TRANS ON BLOCKED ACCTS BY BLOCK CODE                                                                                       
+‚      69  EXCESSIVE USAGE EXCEPTION REPORT                                                                                           
+‚      71  OVER LIMIT REPORT                                                                                                          
+‚      78  SMALL BALANCE TRIAL BALANCE                                                                                                
+‚      80  TRANS BY TRAN CODE FOR CHARGED OFF ACCTS                                                                                   
+‚      87  TRANS ON BLOCKED CHARGED-OFF ACCOUNTS                                                                                      
+‚      88  CHARGE-OFFS BY ACCOUNT                                                                                                     
+‚      94  STOPPED / PENDING CHARGE-OFFS                                                                                              
+‚      96  CHARGED OFF ACCOUNTS                                                                                                       
+                                                                                                                                     
+‚          ** TOTALS **     NUMBER OF REPORTS WITH NO ACTIVITY 31     NUMBER OF REPORTS PRODUCED TODAY 09                             
+i                                                                                                                                     
+‚   002 - JACCS INTER. VIETNAM FINANCE    CURRENCY - 704          CARDLINK                             FILE DATE 28/03/20 PAGE -   16 
+‚   952 - NEWLY ADDED TYPE RECORD                       NO ACTIVITY REPORTS LIST                       PROC DATE 28/03/20-16.35.55    
+‚                                                                - 00 -                                                               
+‚                                                                                                                                     
+‚          REPORTS REQUESTED WITH NO ACTIVITY                          REPORTS PRODUCED TODAY                                         
+‚                                                                                                                                     
+‚      02  TRANSACTION JOURNAL BY ACCOUNT NUMBER                   01  ACTIVITY RECAP                                                 
+‚      03  POSTING REJECTS BY REFERENCE NUMBER                     51  PAST DUE BY ACCOUNT                                            
+‚      04  TRANSACTIONS ON BLOCKED ACCOUNTS                        52  PAST DUE BY AGE                                                
+‚      05  NEW ACCOUNTS REPORT                                     53  PAST DUE BY COLLECTOR                                          
+‚      06  ACCOUNTS CLOSED/XFER/UPGRADED TODAY                     54  PAST DUE BY COLLECTOR AGED                                     
+‚      07  ACCOUNTS TO BE PURGED                                   62  BLOCK CODE REPORT                                              
+‚      08  FIRST LATE NOTICES                                      63  TRIAL BALANCE                                                  
+‚      09    ACCOUNT FILE MAINTENANCE                              67  CREDIT BALANCE                                                 
+‚      10  SECOND LATE NOTICES                                                                                                        
+‚      11  STATEMENTS                                                                                                                 
+‚      12  ACCOUNTS CHARGED OFF TODAY                                                                                                 
+‚      13  WAREHOUSED TRANSACTION JOURNAL                                                                                             
+‚      14  CHARGE-OFF STATUS REPORT                                                                                                   
+‚      15  TRAN JOURNAL FOR CHARGED OFF ACCOUNTS                                                                                      
+‚      16  POSTING EXCEPTIONS/MESSAGES                                                                                                
+‚      17  NEW POSTING REJECTS ITEMS LIST                                                                                             
+‚      18  ACCOUNT TEMPORARY CR LIMIT EXPIRED                                                                                         
+‚      19  TEMPORARY CREDIT LIMIT MAINTENANCE                                                                                         
+‚      55  TRANSACTION JOURNAL BY TRAN CODE                                                                                           
+‚      56  TRANSACTION JOURNAL BY SOURCE                                                                                              
+‚      57  REJECT JOURNAL BY REJECT REASON                                                                                            
+‚      58  GENERATED TRAN JOURNAL BY TRAN CODE                                                                                        
+‚      59  TRANS ON BLOCKED ACCTS BY BLOCK CODE                                                                                       
+‚      69  EXCESSIVE USAGE EXCEPTION REPORT                                                                                           
+‚      70  DISPUTED ITEMS REPORT                                                                                                      
+‚      71  OVER LIMIT REPORT                                                                                                          
+‚      78  SMALL BALANCE TRIAL BALANCE                                                                                                
+‚      80  TRANS BY TRAN CODE FOR CHARGED OFF ACCTS                                                                                   
+‚      87  TRANS ON BLOCKED CHARGED-OFF ACCOUNTS                                                                                      
+‚      88  CHARGE-OFFS BY ACCOUNT                                                                                                     
+‚      94  STOPPED / PENDING CHARGE-OFFS                                                                                              
+‚      96  CHARGED OFF ACCOUNTS                                                                                                       
+                                                                                                                                     
+‚          ** TOTALS **     NUMBER OF REPORTS WITH NO ACTIVITY 32     NUMBER OF REPORTS PRODUCED TODAY 08                             
+i                                                                                                                                     
+‚   002 - JACCS INTER. VIETNAM FINANCE    CURRENCY - 704          CARDLINK                             FILE DATE 28/03/20 PAGE -   17 
+‚   998 - REJECT TRANSACTION                            NO ACTIVITY REPORTS LIST                       PROC DATE 28/03/20-16.35.55    
+‚                                                                - 00 -                                                               
+‚                                                                                                                                     
+‚          REPORTS REQUESTED WITH NO ACTIVITY                          REPORTS PRODUCED TODAY                                         
+‚                                                                                                                                     
+‚      02  TRANSACTION JOURNAL BY ACCOUNT NUMBER                   01  ACTIVITY RECAP                                                 
+‚      03  POSTING REJECTS BY REFERENCE NUMBER                                                                                        
+‚      04  TRANSACTIONS ON BLOCKED ACCOUNTS                                                                                           
+‚      05  NEW ACCOUNTS REPORT                                                                                                        
+‚      06  ACCOUNTS CLOSED/XFER/UPGRADED TODAY                                                                                        
+‚      07  ACCOUNTS TO BE PURGED                                                                                                      
+‚      08  FIRST LATE NOTICES                                                                                                         
+‚      09    ACCOUNT FILE MAINTENANCE                                                                                                 
+‚      10  SECOND LATE NOTICES                                                                                                        
+‚      11  STATEMENTS                                                                                                                 
+‚      12  ACCOUNTS CHARGED OFF TODAY                                                                                                 
+‚      13  WAREHOUSED TRANSACTION JOURNAL                                                                                             
+‚      14  CHARGE-OFF STATUS REPORT                                                                                                   
+‚      15  TRAN JOURNAL FOR CHARGED OFF ACCOUNTS                                                                                      
+‚      16  POSTING EXCEPTIONS/MESSAGES                                                                                                
+‚      17  NEW POSTING REJECTS ITEMS LIST                                                                                             
+‚      18  ACCOUNT TEMPORARY CR LIMIT EXPIRED                                                                                         
+‚      19  TEMPORARY CREDIT LIMIT MAINTENANCE                                                                                         
+‚      51  PAST DUE BY ACCOUNT                                                                                                        
+‚      52  PAST DUE BY AGE                                                                                                            
+‚      53  PAST DUE BY COLLECTOR                                                                                                      
+‚      54  PAST DUE BY COLLECTOR AGED                                                                                                 
+‚      55  TRANSACTION JOURNAL BY TRAN CODE                                                                                           
+‚      56  TRANSACTION JOURNAL BY SOURCE                                                                                              
+‚      57  REJECT JOURNAL BY REJECT REASON                                                                                            
+‚      58  GENERATED TRAN JOURNAL BY TRAN CODE                                                                                        
+‚      59  TRANS ON BLOCKED ACCTS BY BLOCK CODE                                                                                       
+‚      62  BLOCK CODE REPORT                                                                                                          
+‚      67  CREDIT BALANCE                                                                                                             
+‚      69  EXCESSIVE USAGE EXCEPTION REPORT                                                                                           
+‚      70  DISPUTED ITEMS REPORT                                                                                                      
+‚      71  OVER LIMIT REPORT                                                                                                          
+‚      78  SMALL BALANCE TRIAL BALANCE                                                                                                
+‚      80  TRANS BY TRAN CODE FOR CHARGED OFF ACCTS                                                                                   
+‚      87  TRANS ON BLOCKED CHARGED-OFF ACCOUNTS                                                                                      
+‚      88  CHARGE-OFFS BY ACCOUNT                                                                                                     
+‚      94  STOPPED / PENDING CHARGE-OFFS                                                                                              
+‚      96  CHARGED OFF ACCOUNTS                                                                                                       
+                                                                                                                                     
+‚          ** TOTALS **     NUMBER OF REPORTS WITH NO ACTIVITY 38     NUMBER OF REPORTS PRODUCED TODAY 01                             
+i                                                                                                                                     
+‚   998 - SUSPENSE REJECT TRANSACTION     CURRENCY - 704          CARDLINK                             FILE DATE 28/03/20 PAGE -    1 
+‚   998 - REJECT TRANSACTION                            NO ACTIVITY REPORTS LIST                       PROC DATE 28/03/20-16.35.55    
+‚                                                                - 00 -                                                               
+‚                                                                                                                                     
+‚          REPORTS REQUESTED WITH NO ACTIVITY                          REPORTS PRODUCED TODAY                                         
+‚                                                                                                                                     
+‚      02  TRANSACTION JOURNAL BY ACCOUNT NUMBER                   01  ACTIVITY RECAP                                                 
+‚      03  POSTING REJECTS BY REFERENCE NUMBER                                                                                        
+‚      04  TRANSACTIONS ON BLOCKED ACCOUNTS                                                                                           
+‚      05  NEW ACCOUNTS REPORT                                                                                                        
+‚      06  ACCOUNTS CLOSED/XFER/UPGRADED TODAY                                                                                        
+‚      07  ACCOUNTS TO BE PURGED                                                                                                      
+‚      08  FIRST LATE NOTICES                                                                                                         
+‚      09    ACCOUNT FILE MAINTENANCE                                                                                                 
+‚      10  SECOND LATE NOTICES                                                                                                        
+‚      11  STATEMENTS                                                                                                                 
+‚      12  ACCOUNTS CHARGED OFF TODAY                                                                                                 
+‚      13  WAREHOUSED TRANSACTION JOURNAL                                                                                             
+‚      14  CHARGE-OFF STATUS REPORT                                                                                                   
+‚      15  TRAN JOURNAL FOR CHARGED OFF ACCOUNTS                                                                                      
+‚      16  POSTING EXCEPTIONS/MESSAGES                                                                                                
+‚      17  NEW POSTING REJECTS ITEMS LIST                                                                                             
+‚      18  ACCOUNT TEMPORARY CR LIMIT EXPIRED                                                                                         
+‚      19  TEMPORARY CREDIT LIMIT MAINTENANCE                                                                                         
+                                                                                                                                     
+‚          ** TOTALS **     NUMBER OF REPORTS WITH NO ACTIVITY 18     NUMBER OF REPORTS PRODUCED TODAY 01                             
+

@@ -1,0 +1,1134 @@
+i                                                                                                                                    
+‚                                                         AUTHORISATION MODULE                             DATE 28/03/20  PAGE-    1 
+‚                                               ISSUER SUB-SYSTEM CHRONOLOGICAL JOURNAL                    TIME 15.58.02  AUD601     
+‚                                                              AUD601-01                                                             
+‚------------------------------------------------------------------------------------------------------------------------------------
+‚  TRAN      TRAN        MERCHANT                            BASE CURR   CARD    ACCNT  ICA/BIN    RESP APPR                    SRC  
+‚  DATE      TIME    MTI GROUP    CARD NUMBER              AMOUNT CODE  ORG/TYP ORG/TYP TERMID     CODE CODE     DESCRIPTION    STN  
+‚------------------------------------------------------------------------------------------------------------------------------------
+‚27/03/20 13.37.19  MSG    AULAISM   END-OF-DAY CUTOFF INITIATED                                                                     
+‚27/03/20 14.16.50  MSG    AULAISM   RESUME NORMAL PROCESSING                                                                        
+‚                                                                                                                                    
+i                                                                                                                                    
+‚                                                         AUTHORISATION MODULE                             DATE 28/03/20  PAGE-    2 
+‚                                               ISSUER SUB-SYSTEM CHRONOLOGICAL JOURNAL                    TIME 15.58.02  AUD601     
+‚                                                              AUD601-01                                                             
+                                               *** AUTHORIZATION INQUIRY ACTIVITY ***                                               
+‚INCOMING AUTHORIZATIONS                                                                                                             
+‚------------------------------------------------------------------------------------------------------------------------------------
+‚                           MERCHANT                                       TOTAL                TOTAL          AVERAGE      AVERAGE  
+‚                           GROUP      DESCRIPTION                        NUMBER               AMOUNT           AMOUNT     RESPONSE  
+‚------------------------------------------------------------------------------------------------------------------------------------
+‚ VISA APPROVALS                                                                                                                      
+‚                               A       AUTO RENTAL                            0                  0.00                                
+‚                               C       OTHER CASH                             0                  0.00                                
+‚                               F       RESTAURANTS                            0                  0.00                                
+‚                               H       LODGING                                0                  0.00                                
+‚                               O       MEDICAL                                0                  0.00                                
+‚                               R       OTHER PURCHASES                        0                  0.00                                
+‚                               T       MOTO & EC                              0                  0.00                                
+‚                               U       QUASI-CASH                             0                  0.00                                
+‚                               X       COMMERCL TRAVEL                        0                  0.00                                
+‚                               Z       ATM CASH                               0                  0.00                                
+‚                                       APPROVAL REVERSE                       0                  0.00                                
+‚                                       UNMATCH APPR REV                       0                  0.00                                
+‚ VISA DECLINES                                                                                                                       
+‚                               A       AUTO RENTAL                            0                  0.00                                
+‚                               C       OTHER CASH                             0                  0.00                                
+‚                               F       RESTAURANTS                            0                  0.00                                
+‚                               H       LODGING                                0                  0.00                                
+‚                               O       MEDICAL                                0                  0.00                                
+‚                               R       OTHER PURCHASES                        0                  0.00                                
+‚                               T       MOTO & EC                              0                  0.00                                
+‚                               U       QUASI-CASH                             0                  0.00                                
+‚                               X       COMMERCL TRAVEL                        0                  0.00                                
+‚                               Z       ATM CASH                               0                  0.00                                
+‚                                       DECLINE REVERSE                        0                  0.00                                
+‚                                       UNMATCH DECL REV                       0                  0.00                                
+‚                                       --UNKNOWN--                            0                  0.00                                
+     TOTALS                                                                   0                  0.00                                
+‚                                                                                                                                    
+i                                                                                                                                    
+‚                                                         AUTHORISATION MODULE                             DATE 28/03/20  PAGE-    3 
+‚                                               ISSUER SUB-SYSTEM CHRONOLOGICAL JOURNAL                    TIME 15.58.02  AUD601     
+‚                                                              AUD601-01                                                             
+                                               *** AUTHORIZATION INQUIRY ACTIVITY ***                                               
+‚INCOMING AUTHORIZATIONS                                                                                                             
+‚------------------------------------------------------------------------------------------------------------------------------------
+‚                           MERCHANT                                       TOTAL                TOTAL          AVERAGE      AVERAGE  
+‚                           GROUP      DESCRIPTION                        NUMBER               AMOUNT           AMOUNT     RESPONSE  
+‚------------------------------------------------------------------------------------------------------------------------------------
+‚ VISA (ITMX) APPROVALS                                                                                                               
+‚                               A       AUTO RENTAL                            0                  0.00                                
+‚                               C       OTHER CASH                             0                  0.00                                
+‚                               F       RESTAURANTS                            0                  0.00                                
+‚                               H       LODGING                                0                  0.00                                
+‚                               O       MEDICAL                                0                  0.00                                
+‚                               R       OTHER PURCHASES                        0                  0.00                                
+‚                               T       MOTO & EC                              0                  0.00                                
+‚                               U       QUASI-CASH                             0                  0.00                                
+‚                               X       COMMERCL TRAVEL                        0                  0.00                                
+‚                               Z       ATM CASH                               0                  0.00                                
+‚                                       APPROVAL REVERSE                       0                  0.00                                
+‚                                       UNMATCH APPR REV                       0                  0.00                                
+‚                                       RISKY PURCHASES                        0                  0.00                                
+‚ VISA (ITMX) DECLINES                                                                                                                
+‚                               A       AUTO RENTAL                            0                  0.00                                
+‚                               C       OTHER CASH                             0                  0.00                                
+‚                               F       RESTAURANTS                            0                  0.00                                
+‚                               H       LODGING                                0                  0.00                                
+‚                               O       MEDICAL                                0                  0.00                                
+‚                               R       OTHER PURCHASES                        0                  0.00                                
+‚                               T       MOTO & EC                              0                  0.00                                
+‚                               U       QUASI-CASH                             0                  0.00                                
+‚                               X       COMMERCL TRAVEL                        0                  0.00                                
+‚                               Z       ATM CASH                               0                  0.00                                
+‚                                       DECLINE REVERSE                        0                  0.00                                
+‚                                       UNMATCH DECL REV                       0                  0.00                                
+‚                                       RISKY PURCHASES                        0                  0.00                                
+‚                                       --UNKNOWN--                            0                  0.00                                
+     TOTALS                                                                   0                  0.00                                
+‚                                                                                                                                    
+i                                                                                                                                    
+‚                                                         AUTHORISATION MODULE                             DATE 28/03/20  PAGE-    4 
+‚                                               ISSUER SUB-SYSTEM CHRONOLOGICAL JOURNAL                    TIME 15.58.02  AUD601     
+‚                                                              AUD601-01                                                             
+                                               *** AUTHORIZATION INQUIRY ACTIVITY ***                                               
+‚INCOMING AUTHORIZATIONS                                                                                                             
+‚------------------------------------------------------------------------------------------------------------------------------------
+‚                           MERCHANT                                       TOTAL                TOTAL          AVERAGE      AVERAGE  
+‚                           GROUP      DESCRIPTION                        NUMBER               AMOUNT           AMOUNT     RESPONSE  
+‚------------------------------------------------------------------------------------------------------------------------------------
+‚ MASTERCARD APPROVALS                                                                                                                
+‚                               A       VEHICLE RENTAL                         0                  0.00                                
+‚                               C       CASH ADVANCE                           0                  0.00                                
+‚                               F       RESTAURANT                             0                  0.00                                
+‚                               H       HOTEL/MOTEL                            0                  0.00                                
+‚                               O       HOSPITAL/SCHOOL                        0                  0.00                                
+‚                               P       PAYMENT TXN                            0                  0.00                                
+‚                               R       RETAIL PURCHASE                        0                  0.00                                
+‚                               T       MAIL/PHONE ORDER                       0                  0.00                                
+‚                               U       UNIQUE TRANSACTN                       0                  0.00                                
+‚                               X       AIRLINE/TRANPORT                       0                  0.00                                
+‚                               Z       ATM CASH DISB                          0                  0.00                                
+‚                                       APPROVAL REVERSE                       0                  0.00                                
+‚                                       UNMATCH APPR REV                       0                  0.00                                
+‚ MASTERCARD DECLINES                                                                                                                 
+‚                               A       VEHICLE RENTAL                         0                  0.00                                
+‚                               C       CASH ADVANCE                           0                  0.00                                
+‚                               F       RESTAURANT                             0                  0.00                                
+‚                               H       HOTEL/MOTEL                            0                  0.00                                
+‚                               O       HOSPITAL/SCHOOL                        0                  0.00                                
+‚                               P       PAYMENT TXN                            0                  0.00                                
+‚                               R       RETAIL PURCHASE                        0                  0.00                                
+‚                               T       MAIL/PHONE ORDER                       0                  0.00                                
+‚                               U       UNIQUE TRANSACTN                       0                  0.00                                
+‚                               X       AIRLINE/TRANPORT                       0                  0.00                                
+‚                               Z       ATM CASH DISB                          0                  0.00                                
+‚                                       DECLINE REVERSE                        0                  0.00                                
+‚                                       UNMATCH DECL REV                       0                  0.00                                
+‚                                       --UNKNOWN--                            0                  0.00                                
+     TOTALS                                                                   0                  0.00                                
+‚                                                                                                                                    
+i                                                                                                                                    
+‚                                                         AUTHORISATION MODULE                             DATE 28/03/20  PAGE-    5 
+‚                                               ISSUER SUB-SYSTEM CHRONOLOGICAL JOURNAL                    TIME 15.58.02  AUD601     
+‚                                                              AUD601-01                                                             
+                                               *** AUTHORIZATION INQUIRY ACTIVITY ***                                               
+‚INCOMING AUTHORIZATIONS                                                                                                             
+‚------------------------------------------------------------------------------------------------------------------------------------
+‚                           MERCHANT                                       TOTAL                TOTAL          AVERAGE      AVERAGE  
+‚                           GROUP      DESCRIPTION                        NUMBER               AMOUNT           AMOUNT     RESPONSE  
+‚------------------------------------------------------------------------------------------------------------------------------------
+‚ MSTR (ITMX) APPROVALS                                                                                                               
+‚                               A       VEHICLE RENTAL                         0                  0.00                                
+‚                               C       CASH ADVANCE                           0                  0.00                                
+‚                               F       RESTAURANT                             0                  0.00                                
+‚                               H       HOTEL/MOTEL                            0                  0.00                                
+‚                               O       HOSPITAL/SCHOOL                        0                  0.00                                
+‚                               P       PAYMENT TXN                            0                  0.00                                
+‚                               R       RETAIL PURCHASE                        0                  0.00                                
+‚                               T       MAIL/PHONE ORDER                       0                  0.00                                
+‚                               U       UNIQUE TRANSACTN                       0                  0.00                                
+‚                               X       AIRLINE/TRANPORT                       0                  0.00                                
+‚                               Z       ATM CASH DISB                          0                  0.00                                
+‚                                       APPROVAL REVERSE                       0                  0.00                                
+‚                                       UNMATCH APPR REV                       0                  0.00                                
+‚ MSTR (ITMX) DECLINES                                                                                                                
+‚                               A       VEHICLE RENTAL                         0                  0.00                                
+‚                               C       CASH ADVANCE                           0                  0.00                                
+‚                               F       RESTAURANT                             0                  0.00                                
+‚                               H       HOTEL/MOTEL                            0                  0.00                                
+‚                               O       HOSPITAL/SCHOOL                        0                  0.00                                
+‚                               P       PAYMENT TXN                            0                  0.00                                
+‚                               R       RETAIL PURCHASE                        0                  0.00                                
+‚                               T       MAIL/PHONE ORDER                       0                  0.00                                
+‚                               U       UNIQUE TRANSACTN                       0                  0.00                                
+‚                               X       AIRLINE/TRANPORT                       0                  0.00                                
+‚                               Z       ATM CASH DISB                          0                  0.00                                
+‚                                       DECLINE REVERSE                        0                  0.00                                
+‚                                       UNMATCH DECL REV                       0                  0.00                                
+‚                                       --UNKNOWN--                            0                  0.00                                
+     TOTALS                                                                   0                  0.00                                
+‚                                                                                                                                    
+i                                                                                                                                    
+‚                                                         AUTHORISATION MODULE                             DATE 28/03/20  PAGE-    6 
+‚                                               ISSUER SUB-SYSTEM CHRONOLOGICAL JOURNAL                    TIME 15.58.02  AUD601     
+‚                                                              AUD601-01                                                             
+                                               *** AUTHORIZATION INQUIRY ACTIVITY ***                                               
+‚INCOMING AUTHORIZATIONS                                                                                                             
+‚------------------------------------------------------------------------------------------------------------------------------------
+‚                           MERCHANT                                       TOTAL                TOTAL          AVERAGE      AVERAGE  
+‚                           GROUP      DESCRIPTION                        NUMBER               AMOUNT           AMOUNT     RESPONSE  
+‚------------------------------------------------------------------------------------------------------------------------------------
+‚ JCB APPROVALS                                                                                                                       
+‚                               A       AUTO RENTAL                            0                  0.00                                
+‚                               C       CASH ADVANCE                           0                  0.00                                
+‚                               F       RESTAURANT                             0                  0.00                                
+‚                               H       HOTELS                                 0                  0.00                                
+‚                               I       RETAIL                                 0                  0.00                                
+‚                               L       TRAVL AGN/CRUISE                       0                  0.00                                
+‚                               O       HOSPITAL/SCHOOL                        0                  0.00                                
+‚                               R       OTHER MERCHANTS                        0                  0.00                                
+‚                               S       RAILRD/TRANSPORT                       0                  0.00                                
+‚                               T       MOTO & TELECOMS                        0                  0.00                                
+‚                               U       QUASI-CASH                             0                  0.00                                
+‚                               X       AIRLINE                                0                  0.00                                
+‚                               Z       ATM CASH                               0                  0.00                                
+‚                                       APPROVAL REVERSE                       0                  0.00                                
+‚                                       UNMATCH APPR REV                       0                  0.00                                
+‚ JCB DECLINES                                                                                                                        
+‚                               A       AUTO RENTAL                            0                  0.00                                
+‚                               C       CASH ADVANCE                           0                  0.00                                
+‚                               F       RESTAURANT                             0                  0.00                                
+‚                               H       HOTELS                                 0                  0.00                                
+‚                               I       RETAIL                                 0                  0.00                                
+‚                               L       TRAVL AGN/CRUISE                       0                  0.00                                
+‚                               O       HOSPITAL/SCHOOL                        0                  0.00                                
+‚                               R       OTHER MERCHANTS                        0                  0.00                                
+‚                               S       RAILRD/TRANSPORT                       0                  0.00                                
+‚                               T       MOTO & TELECOMS                        0                  0.00                                
+‚                               U       QUASI-CASH                             0                  0.00                                
+‚                               X       AIRLINE                                0                  0.00                                
+‚                               Z       ATM CASH                               0                  0.00                                
+‚                                       DECLINE REVERSE                        0                  0.00                                
+‚                                       UNMATCH DECL REV                       0                  0.00                                
+‚                                       --UNKNOWN--                            0                  0.00                                
+     TOTALS                                                                   0                  0.00                                
+‚                                                                                                                                    
+i                                                                                                                                    
+‚                                                         AUTHORISATION MODULE                             DATE 28/03/20  PAGE-    7 
+‚                                               ISSUER SUB-SYSTEM CHRONOLOGICAL JOURNAL                    TIME 15.58.02  AUD601     
+‚                                                              AUD601-01                                                             
+                                               *** AUTHORIZATION INQUIRY ACTIVITY ***                                               
+‚INCOMING AUTHORIZATIONS                                                                                                             
+‚------------------------------------------------------------------------------------------------------------------------------------
+‚                           MERCHANT                                       TOTAL                TOTAL          AVERAGE      AVERAGE  
+‚                           GROUP      DESCRIPTION                        NUMBER               AMOUNT           AMOUNT     RESPONSE  
+‚------------------------------------------------------------------------------------------------------------------------------------
+‚ AMEX APPROVALS                                                                                                                      
+‚                               A       AUTO RENTAL                            0                  0.00                                
+‚                               C       OTHER CASH                             0                  0.00                                
+‚                               F       RESTAURANTS                            0                  0.00                                
+‚                               H       LODGING                                0                  0.00                                
+‚                               I       RETAIL                                 0                  0.00                                
+‚                               O       MEDICAL                                0                  0.00                                
+‚                               U       QUASI-CASH                             0                  0.00                                
+‚                               R       OTHER PURCHASES                        0                  0.00                                
+‚                               T       MOTO & EC                              0                  0.00                                
+‚                               X       COMMERCL TRAVEL                        0                  0.00                                
+‚                               Z       ATM CASH                               0                  0.00                                
+‚                                       APPROVAL REVERSE                       0                  0.00                                
+‚                                       UNMATCH APPR REV                       0                  0.00                                
+‚ AMEX DECLINES                                                                                                                       
+‚                               A       AUTO RENTAL                            0                  0.00                                
+‚                               C       OTHER CASH                             0                  0.00                                
+‚                               F       RESTAURANTS                            0                  0.00                                
+‚                               H       LODGING                                0                  0.00                                
+‚                               I       RETAIL                                 0                  0.00                                
+‚                               O       MEDICAL                                0                  0.00                                
+‚                               U       QUASI-CASH                             0                  0.00                                
+‚                               R       OTHER PURCHASES                        0                  0.00                                
+‚                               T       MOTO & EC                              0                  0.00                                
+‚                               X       COMMERCL TRAVEL                        0                  0.00                                
+‚                               Z       ATM CASH                               0                  0.00                                
+‚                                       DECLINE REVERSE                        0                  0.00                                
+‚                                       UNMATCH DECL REV                       0                  0.00                                
+‚                                       --UNKNOWN--                            0                  0.00                                
+     TOTALS                                                                   0                  0.00                                
+‚                                                                                                                                    
+i                                                                                                                                    
+‚                                                         AUTHORISATION MODULE                             DATE 28/03/20  PAGE-    8 
+‚                                               ISSUER SUB-SYSTEM CHRONOLOGICAL JOURNAL                    TIME 15.58.02  AUD601     
+‚                                                              AUD601-01                                                             
+                                               *** AUTHORIZATION INQUIRY ACTIVITY ***                                               
+‚INCOMING AUTHORIZATIONS                                                                                                             
+‚------------------------------------------------------------------------------------------------------------------------------------
+‚                           MERCHANT                                       TOTAL                TOTAL          AVERAGE      AVERAGE  
+‚                           GROUP      DESCRIPTION                        NUMBER               AMOUNT           AMOUNT     RESPONSE  
+‚------------------------------------------------------------------------------------------------------------------------------------
+‚ CUP APPROVALS                                                                                                                       
+‚                               A       AUTO RENTAL                            0                  0.00                                
+‚                               C       OTHER CASH                             0                  0.00                                
+‚                               F       RESTAURANTS                            0                  0.00                                
+‚                               H       LODGING                                0                  0.00                                
+‚                               O       MEDICAL                                0                  0.00                                
+‚                               R       OTHER PURCHASES                        0                  0.00                                
+‚                               T       MOTO & EC                              0                  0.00                                
+‚                               U       QUASI-CASH                             0                  0.00                                
+‚                               X       COMMERCL TRAVEL                        0                  0.00                                
+‚                               Z       ATM CASH                               0                  0.00                                
+‚                                       APPROVAL REVERSE                       0                  0.00                                
+‚                                       UNMATCH APPR REV                       0                  0.00                                
+‚                                       RISKY PURCHASES                        0                  0.00                                
+‚ CUP DECLINES                                                                                                                        
+‚                               A       AUTO RENTAL                            0                  0.00                                
+‚                               C       OTHER CASH                             0                  0.00                                
+‚                               F       RESTAURANTS                            0                  0.00                                
+‚                               H       LODGING                                0                  0.00                                
+‚                               O       MEDICAL                                0                  0.00                                
+‚                               R       OTHER PURCHASES                        0                  0.00                                
+‚                               T       MOTO & EC                              0                  0.00                                
+‚                               U       QUASI-CASH                             0                  0.00                                
+‚                               X       COMMERCL TRAVEL                        0                  0.00                                
+‚                               Z       ATM CASH                               0                  0.00                                
+‚                                       DECLINE REVERSE                        0                  0.00                                
+‚                                       UNMATCH DECL REV                       0                  0.00                                
+‚                                       RISKY PURCHASES                        0                  0.00                                
+‚                                       --UNKNOWN--                            0                  0.00                                
+     TOTALS                                                                   0                  0.00                                
+‚                                                                                                                                    
+i                                                                                                                                    
+‚                                                         AUTHORISATION MODULE                             DATE 28/03/20  PAGE-    9 
+‚                                               ISSUER SUB-SYSTEM CHRONOLOGICAL JOURNAL                    TIME 15.58.02  AUD601     
+‚                                                              AUD601-01                                                             
+                                               *** AUTHORIZATION INQUIRY ACTIVITY ***                                               
+‚INCOMING AUTHORIZATIONS                                                                                                             
+‚------------------------------------------------------------------------------------------------------------------------------------
+‚                           MERCHANT                                       TOTAL                TOTAL          AVERAGE      AVERAGE  
+‚                           GROUP      DESCRIPTION                        NUMBER               AMOUNT           AMOUNT     RESPONSE  
+‚------------------------------------------------------------------------------------------------------------------------------------
+‚ NCCC APPROVALS                                                                                                                      
+‚                               A       AUTO RENTAL                            0                  0.00                                
+‚                               C       OTHER CASH                             0                  0.00                                
+‚                               F       RESTAURANTS                            0                  0.00                                
+‚                               H       LODGING                                0                  0.00                                
+‚                               O       MEDICAL                                0                  0.00                                
+‚                               R       OTHER PURCHASES                        0                  0.00                                
+‚                               T       MOTO & EC                              0                  0.00                                
+‚                               U       QUASI-CASH                             0                  0.00                                
+‚                               X       COMMERCL TRAVEL                        0                  0.00                                
+‚                               Z       ATM CASH                               0                  0.00                                
+‚                                       APPROVAL REVERSE                       0                  0.00                                
+‚                                       UNMATCH APPR REV                       0                  0.00                                
+‚ NCCC DECLINES                                                                                                                       
+‚                               A       AUTO RENTAL                            0                  0.00                                
+‚                               C       OTHER CASH                             0                  0.00                                
+‚                               F       RESTAURANTS                            0                  0.00                                
+‚                               H       LODGING                                0                  0.00                                
+‚                               O       MEDICAL                                0                  0.00                                
+‚                               R       OTHER PURCHASES                        0                  0.00                                
+‚                               T       MOTO & EC                              0                  0.00                                
+‚                               U       QUASI-CASH                             0                  0.00                                
+‚                               X       COMMERCL TRAVEL                        0                  0.00                                
+‚                               Z       ATM CASH                               0                  0.00                                
+‚                                       DECLINE REVERSE                        0                  0.00                                
+‚                                       UNMATCH DECL REV                       0                  0.00                                
+‚                                       --UNKNOWN--                            0                  0.00                                
+     TOTALS                                                                   0                  0.00                                
+‚                                                                                                                                    
+i                                                                                                                                    
+‚                                                         AUTHORISATION MODULE                             DATE 28/03/20  PAGE-   10 
+‚                                               ISSUER SUB-SYSTEM CHRONOLOGICAL JOURNAL                    TIME 15.58.02  AUD601     
+‚                                                              AUD601-01                                                             
+                                               *** AUTHORIZATION INQUIRY ACTIVITY ***                                               
+‚LOCAL INPUT - ON-US AUTHORIZATIONS                                                                                                  
+‚------------------------------------------------------------------------------------------------------------------------------------
+‚                           MERCHANT                                       TOTAL                TOTAL          AVERAGE      AVERAGE  
+‚                           GROUP      DESCRIPTION                        NUMBER               AMOUNT           AMOUNT     RESPONSE  
+‚------------------------------------------------------------------------------------------------------------------------------------
+‚ VISA APPROVALS                                                                                                                      
+‚                               A       AUTO RENTAL                            0                  0.00                                
+‚                               C       OTHER CASH                             0                  0.00                                
+‚                               F       RESTAURANTS                            0                  0.00                                
+‚                               H       LODGING                                0                  0.00                                
+‚                               O       MEDICAL                                0                  0.00                                
+‚                               R       OTHER PURCHASES                        0                  0.00                                
+‚                               T       MOTO & EC                              0                  0.00                                
+‚                               U       QUASI-CASH                             0                  0.00                                
+‚                               X       COMMERCL TRAVEL                        0                  0.00                                
+‚                               Z       ATM CASH                               0                  0.00                                
+‚                                       APPROVAL REVERSE                       0                  0.00                                
+‚                                       UNMATCH APPR REV                       0                  0.00                                
+‚ VISA DECLINES                                                                                                                       
+‚                               A       AUTO RENTAL                            0                  0.00                                
+‚                               C       OTHER CASH                             0                  0.00                                
+‚                               F       RESTAURANTS                            0                  0.00                                
+‚                               H       LODGING                                0                  0.00                                
+‚                               O       MEDICAL                                0                  0.00                                
+‚                               R       OTHER PURCHASES                        0                  0.00                                
+‚                               T       MOTO & EC                              0                  0.00                                
+‚                               U       QUASI-CASH                             0                  0.00                                
+‚                               X       COMMERCL TRAVEL                        0                  0.00                                
+‚                               Z       ATM CASH                               0                  0.00                                
+‚                                       DECLINE REVERSE                        0                  0.00                                
+‚                                       UNMATCH DECL REV                       0                  0.00                                
+‚                                       --UNKNOWN--                            0                  0.00                                
+     TOTALS                                                                   0                  0.00                                
+‚                                                                                                                                    
+i                                                                                                                                    
+‚                                                         AUTHORISATION MODULE                             DATE 28/03/20  PAGE-   11 
+‚                                               ISSUER SUB-SYSTEM CHRONOLOGICAL JOURNAL                    TIME 15.58.02  AUD601     
+‚                                                              AUD601-01                                                             
+                                               *** AUTHORIZATION INQUIRY ACTIVITY ***                                               
+‚LOCAL INPUT - ON-US AUTHORIZATIONS                                                                                                  
+‚------------------------------------------------------------------------------------------------------------------------------------
+‚                           MERCHANT                                       TOTAL                TOTAL          AVERAGE      AVERAGE  
+‚                           GROUP      DESCRIPTION                        NUMBER               AMOUNT           AMOUNT     RESPONSE  
+‚------------------------------------------------------------------------------------------------------------------------------------
+‚ VISA (ITMX) APPROVALS                                                                                                               
+‚                               A       AUTO RENTAL                            0                  0.00                                
+‚                               C       OTHER CASH                             0                  0.00                                
+‚                               F       RESTAURANTS                            0                  0.00                                
+‚                               H       LODGING                                0                  0.00                                
+‚                               O       MEDICAL                                0                  0.00                                
+‚                               R       OTHER PURCHASES                        0                  0.00                                
+‚                               T       MOTO & EC                              0                  0.00                                
+‚                               U       QUASI-CASH                             0                  0.00                                
+‚                               X       COMMERCL TRAVEL                        0                  0.00                                
+‚                               Z       ATM CASH                               0                  0.00                                
+‚                                       APPROVAL REVERSE                       0                  0.00                                
+‚                                       UNMATCH APPR REV                       0                  0.00                                
+‚                                       RISKY PURCHASES                        0                  0.00                                
+‚ VISA (ITMX) DECLINES                                                                                                                
+‚                               A       AUTO RENTAL                            0                  0.00                                
+‚                               C       OTHER CASH                             0                  0.00                                
+‚                               F       RESTAURANTS                            0                  0.00                                
+‚                               H       LODGING                                0                  0.00                                
+‚                               O       MEDICAL                                0                  0.00                                
+‚                               R       OTHER PURCHASES                        0                  0.00                                
+‚                               T       MOTO & EC                              0                  0.00                                
+‚                               U       QUASI-CASH                             0                  0.00                                
+‚                               X       COMMERCL TRAVEL                        0                  0.00                                
+‚                               Z       ATM CASH                               0                  0.00                                
+‚                                       DECLINE REVERSE                        0                  0.00                                
+‚                                       UNMATCH DECL REV                       0                  0.00                                
+‚                                       RISKY PURCHASES                        0                  0.00                                
+‚                                       --UNKNOWN--                            0                  0.00                                
+     TOTALS                                                                   0                  0.00                                
+‚                                                                                                                                    
+i                                                                                                                                    
+‚                                                         AUTHORISATION MODULE                             DATE 28/03/20  PAGE-   12 
+‚                                               ISSUER SUB-SYSTEM CHRONOLOGICAL JOURNAL                    TIME 15.58.02  AUD601     
+‚                                                              AUD601-01                                                             
+                                               *** AUTHORIZATION INQUIRY ACTIVITY ***                                               
+‚LOCAL INPUT - ON-US AUTHORIZATIONS                                                                                                  
+‚------------------------------------------------------------------------------------------------------------------------------------
+‚                           MERCHANT                                       TOTAL                TOTAL          AVERAGE      AVERAGE  
+‚                           GROUP      DESCRIPTION                        NUMBER               AMOUNT           AMOUNT     RESPONSE  
+‚------------------------------------------------------------------------------------------------------------------------------------
+‚ MASTERCARD APPROVALS                                                                                                                
+‚                               A       VEHICLE RENTAL                         0                  0.00                                
+‚                               C       CASH ADVANCE                           0                  0.00                                
+‚                               F       RESTAURANT                             0                  0.00                                
+‚                               H       HOTEL/MOTEL                            0                  0.00                                
+‚                               O       HOSPITAL/SCHOOL                        0                  0.00                                
+‚                               P       PAYMENT TXN                            0                  0.00                                
+‚                               R       RETAIL PURCHASE                        0                  0.00                                
+‚                               T       MAIL/PHONE ORDER                       0                  0.00                                
+‚                               U       UNIQUE TRANSACTN                       0                  0.00                                
+‚                               X       AIRLINE/TRANPORT                       0                  0.00                                
+‚                               Z       ATM CASH DISB                          0                  0.00                                
+‚                                       APPROVAL REVERSE                       0                  0.00                                
+‚                                       UNMATCH APPR REV                       0                  0.00                                
+‚ MASTERCARD DECLINES                                                                                                                 
+‚                               A       VEHICLE RENTAL                         0                  0.00                                
+‚                               C       CASH ADVANCE                           0                  0.00                                
+‚                               F       RESTAURANT                             0                  0.00                                
+‚                               H       HOTEL/MOTEL                            0                  0.00                                
+‚                               O       HOSPITAL/SCHOOL                        0                  0.00                                
+‚                               P       PAYMENT TXN                            0                  0.00                                
+‚                               R       RETAIL PURCHASE                        0                  0.00                                
+‚                               T       MAIL/PHONE ORDER                       0                  0.00                                
+‚                               U       UNIQUE TRANSACTN                       0                  0.00                                
+‚                               X       AIRLINE/TRANPORT                       0                  0.00                                
+‚                               Z       ATM CASH DISB                          0                  0.00                                
+‚                                       DECLINE REVERSE                        0                  0.00                                
+‚                                       UNMATCH DECL REV                       0                  0.00                                
+‚                                       --UNKNOWN--                            0                  0.00                                
+     TOTALS                                                                   0                  0.00                                
+‚                                                                                                                                    
+i                                                                                                                                    
+‚                                                         AUTHORISATION MODULE                             DATE 28/03/20  PAGE-   13 
+‚                                               ISSUER SUB-SYSTEM CHRONOLOGICAL JOURNAL                    TIME 15.58.02  AUD601     
+‚                                                              AUD601-01                                                             
+                                               *** AUTHORIZATION INQUIRY ACTIVITY ***                                               
+‚LOCAL INPUT - ON-US AUTHORIZATIONS                                                                                                  
+‚------------------------------------------------------------------------------------------------------------------------------------
+‚                           MERCHANT                                       TOTAL                TOTAL          AVERAGE      AVERAGE  
+‚                           GROUP      DESCRIPTION                        NUMBER               AMOUNT           AMOUNT     RESPONSE  
+‚------------------------------------------------------------------------------------------------------------------------------------
+‚ MSTR (ITMX) APPROVALS                                                                                                               
+‚                               A       VEHICLE RENTAL                         0                  0.00                                
+‚                               C       CASH ADVANCE                           0                  0.00                                
+‚                               F       RESTAURANT                             0                  0.00                                
+‚                               H       HOTEL/MOTEL                            0                  0.00                                
+‚                               O       HOSPITAL/SCHOOL                        0                  0.00                                
+‚                               P       PAYMENT TXN                            0                  0.00                                
+‚                               R       RETAIL PURCHASE                        0                  0.00                                
+‚                               T       MAIL/PHONE ORDER                       0                  0.00                                
+‚                               U       UNIQUE TRANSACTN                       0                  0.00                                
+‚                               X       AIRLINE/TRANPORT                       0                  0.00                                
+‚                               Z       ATM CASH DISB                          0                  0.00                                
+‚                                       APPROVAL REVERSE                       0                  0.00                                
+‚                                       UNMATCH APPR REV                       0                  0.00                                
+‚ MSTR (ITMX) DECLINES                                                                                                                
+‚                               A       VEHICLE RENTAL                         0                  0.00                                
+‚                               C       CASH ADVANCE                           0                  0.00                                
+‚                               F       RESTAURANT                             0                  0.00                                
+‚                               H       HOTEL/MOTEL                            0                  0.00                                
+‚                               O       HOSPITAL/SCHOOL                        0                  0.00                                
+‚                               P       PAYMENT TXN                            0                  0.00                                
+‚                               R       RETAIL PURCHASE                        0                  0.00                                
+‚                               T       MAIL/PHONE ORDER                       0                  0.00                                
+‚                               U       UNIQUE TRANSACTN                       0                  0.00                                
+‚                               X       AIRLINE/TRANPORT                       0                  0.00                                
+‚                               Z       ATM CASH DISB                          0                  0.00                                
+‚                                       DECLINE REVERSE                        0                  0.00                                
+‚                                       UNMATCH DECL REV                       0                  0.00                                
+‚                                       --UNKNOWN--                            0                  0.00                                
+     TOTALS                                                                   0                  0.00                                
+‚                                                                                                                                    
+i                                                                                                                                    
+‚                                                         AUTHORISATION MODULE                             DATE 28/03/20  PAGE-   14 
+‚                                               ISSUER SUB-SYSTEM CHRONOLOGICAL JOURNAL                    TIME 15.58.02  AUD601     
+‚                                                              AUD601-01                                                             
+                                               *** AUTHORIZATION INQUIRY ACTIVITY ***                                               
+‚LOCAL INPUT - ON-US AUTHORIZATIONS                                                                                                  
+‚------------------------------------------------------------------------------------------------------------------------------------
+‚                           MERCHANT                                       TOTAL                TOTAL          AVERAGE      AVERAGE  
+‚                           GROUP      DESCRIPTION                        NUMBER               AMOUNT           AMOUNT     RESPONSE  
+‚------------------------------------------------------------------------------------------------------------------------------------
+‚ JCB APPROVALS                                                                                                                       
+‚                               A       AUTO RENTAL                            0                  0.00                                
+‚                               C       CASH ADVANCE                           0                  0.00                                
+‚                               F       RESTAURANT                             0                  0.00                                
+‚                               H       HOTELS                                 0                  0.00                                
+‚                               I       RETAIL                                 0                  0.00                                
+‚                               L       TRAVL AGN/CRUISE                       0                  0.00                                
+‚                               O       HOSPITAL/SCHOOL                        0                  0.00                                
+‚                               R       OTHER MERCHANTS                        0                  0.00                                
+‚                               S       RAILRD/TRANSPORT                       0                  0.00                                
+‚                               T       MOTO & TELECOMS                        0                  0.00                                
+‚                               U       QUASI-CASH                             0                  0.00                                
+‚                               X       AIRLINE                                0                  0.00                                
+‚                               Z       ATM CASH                               0                  0.00                                
+‚                                       APPROVAL REVERSE                       0                  0.00                                
+‚                                       UNMATCH APPR REV                       0                  0.00                                
+‚ JCB DECLINES                                                                                                                        
+‚                               A       AUTO RENTAL                            0                  0.00                                
+‚                               C       CASH ADVANCE                           0                  0.00                                
+‚                               F       RESTAURANT                             0                  0.00                                
+‚                               H       HOTELS                                 0                  0.00                                
+‚                               I       RETAIL                                 0                  0.00                                
+‚                               L       TRAVL AGN/CRUISE                       0                  0.00                                
+‚                               O       HOSPITAL/SCHOOL                        0                  0.00                                
+‚                               R       OTHER MERCHANTS                        0                  0.00                                
+‚                               S       RAILRD/TRANSPORT                       0                  0.00                                
+‚                               T       MOTO & TELECOMS                        0                  0.00                                
+‚                               U       QUASI-CASH                             0                  0.00                                
+‚                               X       AIRLINE                                0                  0.00                                
+‚                               Z       ATM CASH                               0                  0.00                                
+‚                                       DECLINE REVERSE                        0                  0.00                                
+‚                                       UNMATCH DECL REV                       0                  0.00                                
+‚                                       --UNKNOWN--                            0                  0.00                                
+     TOTALS                                                                   0                  0.00                                
+‚                                                                                                                                    
+i                                                                                                                                    
+‚                                                         AUTHORISATION MODULE                             DATE 28/03/20  PAGE-   15 
+‚                                               ISSUER SUB-SYSTEM CHRONOLOGICAL JOURNAL                    TIME 15.58.02  AUD601     
+‚                                                              AUD601-01                                                             
+                                               *** AUTHORIZATION INQUIRY ACTIVITY ***                                               
+‚LOCAL INPUT - ON-US AUTHORIZATIONS                                                                                                  
+‚------------------------------------------------------------------------------------------------------------------------------------
+‚                           MERCHANT                                       TOTAL                TOTAL          AVERAGE      AVERAGE  
+‚                           GROUP      DESCRIPTION                        NUMBER               AMOUNT           AMOUNT     RESPONSE  
+‚------------------------------------------------------------------------------------------------------------------------------------
+‚ AMEX APPROVALS                                                                                                                      
+‚                               A       AUTO RENTAL                            0                  0.00                                
+‚                               C       OTHER CASH                             0                  0.00                                
+‚                               F       RESTAURANTS                            0                  0.00                                
+‚                               H       LODGING                                0                  0.00                                
+‚                               I       RETAIL                                 0                  0.00                                
+‚                               O       MEDICAL                                0                  0.00                                
+‚                               U       QUASI-CASH                             0                  0.00                                
+‚                               R       OTHER PURCHASES                        0                  0.00                                
+‚                               T       MOTO & EC                              0                  0.00                                
+‚                               X       COMMERCL TRAVEL                        0                  0.00                                
+‚                               Z       ATM CASH                               0                  0.00                                
+‚                                       APPROVAL REVERSE                       0                  0.00                                
+‚                                       UNMATCH APPR REV                       0                  0.00                                
+‚ AMEX DECLINES                                                                                                                       
+‚                               A       AUTO RENTAL                            0                  0.00                                
+‚                               C       OTHER CASH                             0                  0.00                                
+‚                               F       RESTAURANTS                            0                  0.00                                
+‚                               H       LODGING                                0                  0.00                                
+‚                               I       RETAIL                                 0                  0.00                                
+‚                               O       MEDICAL                                0                  0.00                                
+‚                               U       QUASI-CASH                             0                  0.00                                
+‚                               R       OTHER PURCHASES                        0                  0.00                                
+‚                               T       MOTO & EC                              0                  0.00                                
+‚                               X       COMMERCL TRAVEL                        0                  0.00                                
+‚                               Z       ATM CASH                               0                  0.00                                
+‚                                       DECLINE REVERSE                        0                  0.00                                
+‚                                       UNMATCH DECL REV                       0                  0.00                                
+‚                                       --UNKNOWN--                            0                  0.00                                
+     TOTALS                                                                   0                  0.00                                
+‚                                                                                                                                    
+i                                                                                                                                    
+‚                                                         AUTHORISATION MODULE                             DATE 28/03/20  PAGE-   16 
+‚                                               ISSUER SUB-SYSTEM CHRONOLOGICAL JOURNAL                    TIME 15.58.02  AUD601     
+‚                                                              AUD601-01                                                             
+                                               *** AUTHORIZATION INQUIRY ACTIVITY ***                                               
+‚LOCAL INPUT - ON-US AUTHORIZATIONS                                                                                                  
+‚------------------------------------------------------------------------------------------------------------------------------------
+‚                           MERCHANT                                       TOTAL                TOTAL          AVERAGE      AVERAGE  
+‚                           GROUP      DESCRIPTION                        NUMBER               AMOUNT           AMOUNT     RESPONSE  
+‚------------------------------------------------------------------------------------------------------------------------------------
+‚ CUP APPROVALS                                                                                                                       
+‚                               A       AUTO RENTAL                            0                  0.00                                
+‚                               C       OTHER CASH                             0                  0.00                                
+‚                               F       RESTAURANTS                            0                  0.00                                
+‚                               H       LODGING                                0                  0.00                                
+‚                               O       MEDICAL                                0                  0.00                                
+‚                               R       OTHER PURCHASES                        0                  0.00                                
+‚                               T       MOTO & EC                              0                  0.00                                
+‚                               U       QUASI-CASH                             0                  0.00                                
+‚                               X       COMMERCL TRAVEL                        0                  0.00                                
+‚                               Z       ATM CASH                               0                  0.00                                
+‚                                       APPROVAL REVERSE                       0                  0.00                                
+‚                                       UNMATCH APPR REV                       0                  0.00                                
+‚                                       RISKY PURCHASES                        0                  0.00                                
+‚ CUP DECLINES                                                                                                                        
+‚                               A       AUTO RENTAL                            0                  0.00                                
+‚                               C       OTHER CASH                             0                  0.00                                
+‚                               F       RESTAURANTS                            0                  0.00                                
+‚                               H       LODGING                                0                  0.00                                
+‚                               O       MEDICAL                                0                  0.00                                
+‚                               R       OTHER PURCHASES                        0                  0.00                                
+‚                               T       MOTO & EC                              0                  0.00                                
+‚                               U       QUASI-CASH                             0                  0.00                                
+‚                               X       COMMERCL TRAVEL                        0                  0.00                                
+‚                               Z       ATM CASH                               0                  0.00                                
+‚                                       DECLINE REVERSE                        0                  0.00                                
+‚                                       UNMATCH DECL REV                       0                  0.00                                
+‚                                       RISKY PURCHASES                        0                  0.00                                
+‚                                       --UNKNOWN--                            0                  0.00                                
+     TOTALS                                                                   0                  0.00                                
+‚                                                                                                                                    
+i                                                                                                                                    
+‚                                                         AUTHORISATION MODULE                             DATE 28/03/20  PAGE-   17 
+‚                                               ISSUER SUB-SYSTEM CHRONOLOGICAL JOURNAL                    TIME 15.58.02  AUD601     
+‚                                                              AUD601-01                                                             
+                                               *** AUTHORIZATION INQUIRY ACTIVITY ***                                               
+‚LOCAL INPUT - ON-US AUTHORIZATIONS                                                                                                  
+‚------------------------------------------------------------------------------------------------------------------------------------
+‚                           MERCHANT                                       TOTAL                TOTAL          AVERAGE      AVERAGE  
+‚                           GROUP      DESCRIPTION                        NUMBER               AMOUNT           AMOUNT     RESPONSE  
+‚------------------------------------------------------------------------------------------------------------------------------------
+‚ NCCC APPROVALS                                                                                                                      
+‚                               A       AUTO RENTAL                            0                  0.00                                
+‚                               C       OTHER CASH                             0                  0.00                                
+‚                               F       RESTAURANTS                            0                  0.00                                
+‚                               H       LODGING                                0                  0.00                                
+‚                               O       MEDICAL                                0                  0.00                                
+‚                               R       OTHER PURCHASES                        0                  0.00                                
+‚                               T       MOTO & EC                              0                  0.00                                
+‚                               U       QUASI-CASH                             0                  0.00                                
+‚                               X       COMMERCL TRAVEL                        0                  0.00                                
+‚                               Z       ATM CASH                               0                  0.00                                
+‚                                       APPROVAL REVERSE                       0                  0.00                                
+‚                                       UNMATCH APPR REV                       0                  0.00                                
+‚ NCCC DECLINES                                                                                                                       
+‚                               A       AUTO RENTAL                            0                  0.00                                
+‚                               C       OTHER CASH                             0                  0.00                                
+‚                               F       RESTAURANTS                            0                  0.00                                
+‚                               H       LODGING                                0                  0.00                                
+‚                               O       MEDICAL                                0                  0.00                                
+‚                               R       OTHER PURCHASES                        0                  0.00                                
+‚                               T       MOTO & EC                              0                  0.00                                
+‚                               U       QUASI-CASH                             0                  0.00                                
+‚                               X       COMMERCL TRAVEL                        0                  0.00                                
+‚                               Z       ATM CASH                               0                  0.00                                
+‚                                       DECLINE REVERSE                        0                  0.00                                
+‚                                       UNMATCH DECL REV                       0                  0.00                                
+‚                                       --UNKNOWN--                            0                  0.00                                
+     TOTALS                                                                   0                  0.00                                
+‚                                                                                                                                    
+i                                                                                                                                    
+‚                                                         AUTHORISATION MODULE                             DATE 28/03/20  PAGE-   18 
+‚                                               ISSUER SUB-SYSTEM CHRONOLOGICAL JOURNAL                    TIME 15.58.02  AUD601     
+‚                                                              AUD601-01                                                             
+                                               *** AUTHORIZATION INQUIRY ACTIVITY ***                                               
+‚LOCAL INPUT - OUTGOING AUTHORIZATIONS                                                                                               
+‚------------------------------------------------------------------------------------------------------------------------------------
+‚                           MERCHANT                                       TOTAL                TOTAL          AVERAGE      AVERAGE  
+‚                           GROUP      DESCRIPTION                        NUMBER               AMOUNT           AMOUNT     RESPONSE  
+‚------------------------------------------------------------------------------------------------------------------------------------
+‚ VISA APPROVALS                                                                                                                      
+‚                               A       AUTO RENTAL                            0                  0.00                                
+‚                               C       OTHER CASH                             0                  0.00                                
+‚                               F       RESTAURANTS                            0                  0.00                                
+‚                               H       LODGING                                0                  0.00                                
+‚                               O       MEDICAL                                0                  0.00                                
+‚                               R       OTHER PURCHASES                        0                  0.00                                
+‚                               T       MOTO & EC                              0                  0.00                                
+‚                               U       QUASI-CASH                             0                  0.00                                
+‚                               X       COMMERCL TRAVEL                        0                  0.00                                
+‚                               Z       ATM CASH                               0                  0.00                                
+‚                                       APPROVAL REVERSE                       0                  0.00                                
+‚                                       UNMATCH APPR REV                       0                  0.00                                
+‚ VISA DECLINES                                                                                                                       
+‚                               A       AUTO RENTAL                            0                  0.00                                
+‚                               C       OTHER CASH                             0                  0.00                                
+‚                               F       RESTAURANTS                            0                  0.00                                
+‚                               H       LODGING                                0                  0.00                                
+‚                               O       MEDICAL                                0                  0.00                                
+‚                               R       OTHER PURCHASES                        0                  0.00                                
+‚                               T       MOTO & EC                              0                  0.00                                
+‚                               U       QUASI-CASH                             0                  0.00                                
+‚                               X       COMMERCL TRAVEL                        0                  0.00                                
+‚                               Z       ATM CASH                               0                  0.00                                
+‚                                       DECLINE REVERSE                        0                  0.00                                
+‚                                       UNMATCH DECL REV                       0                  0.00                                
+‚                                       --UNKNOWN--                            0                  0.00                                
+     TOTALS                                                                   0                  0.00                                
+‚                                                                                                                                    
+i                                                                                                                                    
+‚                                                         AUTHORISATION MODULE                             DATE 28/03/20  PAGE-   19 
+‚                                               ISSUER SUB-SYSTEM CHRONOLOGICAL JOURNAL                    TIME 15.58.02  AUD601     
+‚                                                              AUD601-01                                                             
+                                               *** AUTHORIZATION INQUIRY ACTIVITY ***                                               
+‚LOCAL INPUT - OUTGOING AUTHORIZATIONS                                                                                               
+‚------------------------------------------------------------------------------------------------------------------------------------
+‚                           MERCHANT                                       TOTAL                TOTAL          AVERAGE      AVERAGE  
+‚                           GROUP      DESCRIPTION                        NUMBER               AMOUNT           AMOUNT     RESPONSE  
+‚------------------------------------------------------------------------------------------------------------------------------------
+‚ VISA (ITMX) APPROVALS                                                                                                               
+‚                               A       AUTO RENTAL                            0                  0.00                                
+‚                               C       OTHER CASH                             0                  0.00                                
+‚                               F       RESTAURANTS                            0                  0.00                                
+‚                               H       LODGING                                0                  0.00                                
+‚                               O       MEDICAL                                0                  0.00                                
+‚                               R       OTHER PURCHASES                        0                  0.00                                
+‚                               T       MOTO & EC                              0                  0.00                                
+‚                               U       QUASI-CASH                             0                  0.00                                
+‚                               X       COMMERCL TRAVEL                        0                  0.00                                
+‚                               Z       ATM CASH                               0                  0.00                                
+‚                                       APPROVAL REVERSE                       0                  0.00                                
+‚                                       UNMATCH APPR REV                       0                  0.00                                
+‚                                       RISKY PURCHASES                        0                  0.00                                
+‚ VISA (ITMX) DECLINES                                                                                                                
+‚                               A       AUTO RENTAL                            0                  0.00                                
+‚                               C       OTHER CASH                             0                  0.00                                
+‚                               F       RESTAURANTS                            0                  0.00                                
+‚                               H       LODGING                                0                  0.00                                
+‚                               O       MEDICAL                                0                  0.00                                
+‚                               R       OTHER PURCHASES                        0                  0.00                                
+‚                               T       MOTO & EC                              0                  0.00                                
+‚                               U       QUASI-CASH                             0                  0.00                                
+‚                               X       COMMERCL TRAVEL                        0                  0.00                                
+‚                               Z       ATM CASH                               0                  0.00                                
+‚                                       DECLINE REVERSE                        0                  0.00                                
+‚                                       UNMATCH DECL REV                       0                  0.00                                
+‚                                       RISKY PURCHASES                        0                  0.00                                
+‚                                       --UNKNOWN--                            0                  0.00                                
+     TOTALS                                                                   0                  0.00                                
+‚                                                                                                                                    
+i                                                                                                                                    
+‚                                                         AUTHORISATION MODULE                             DATE 28/03/20  PAGE-   20 
+‚                                               ISSUER SUB-SYSTEM CHRONOLOGICAL JOURNAL                    TIME 15.58.02  AUD601     
+‚                                                              AUD601-01                                                             
+                                               *** AUTHORIZATION INQUIRY ACTIVITY ***                                               
+‚LOCAL INPUT - OUTGOING AUTHORIZATIONS                                                                                               
+‚------------------------------------------------------------------------------------------------------------------------------------
+‚                           MERCHANT                                       TOTAL                TOTAL          AVERAGE      AVERAGE  
+‚                           GROUP      DESCRIPTION                        NUMBER               AMOUNT           AMOUNT     RESPONSE  
+‚------------------------------------------------------------------------------------------------------------------------------------
+‚ MASTERCARD APPROVALS                                                                                                                
+‚                               A       VEHICLE RENTAL                         0                  0.00                                
+‚                               C       CASH ADVANCE                           0                  0.00                                
+‚                               F       RESTAURANT                             0                  0.00                                
+‚                               H       HOTEL/MOTEL                            0                  0.00                                
+‚                               O       HOSPITAL/SCHOOL                        0                  0.00                                
+‚                               P       PAYMENT TXN                            0                  0.00                                
+‚                               R       RETAIL PURCHASE                        0                  0.00                                
+‚                               T       MAIL/PHONE ORDER                       0                  0.00                                
+‚                               U       UNIQUE TRANSACTN                       0                  0.00                                
+‚                               X       AIRLINE/TRANPORT                       0                  0.00                                
+‚                               Z       ATM CASH DISB                          0                  0.00                                
+‚                                       APPROVAL REVERSE                       0                  0.00                                
+‚                                       UNMATCH APPR REV                       0                  0.00                                
+‚ MASTERCARD DECLINES                                                                                                                 
+‚                               A       VEHICLE RENTAL                         0                  0.00                                
+‚                               C       CASH ADVANCE                           0                  0.00                                
+‚                               F       RESTAURANT                             0                  0.00                                
+‚                               H       HOTEL/MOTEL                            0                  0.00                                
+‚                               O       HOSPITAL/SCHOOL                        0                  0.00                                
+‚                               P       PAYMENT TXN                            0                  0.00                                
+‚                               R       RETAIL PURCHASE                        0                  0.00                                
+‚                               T       MAIL/PHONE ORDER                       0                  0.00                                
+‚                               U       UNIQUE TRANSACTN                       0                  0.00                                
+‚                               X       AIRLINE/TRANPORT                       0                  0.00                                
+‚                               Z       ATM CASH DISB                          0                  0.00                                
+‚                                       DECLINE REVERSE                        0                  0.00                                
+‚                                       UNMATCH DECL REV                       0                  0.00                                
+‚                                       --UNKNOWN--                            0                  0.00                                
+     TOTALS                                                                   0                  0.00                                
+‚                                                                                                                                    
+i                                                                                                                                    
+‚                                                         AUTHORISATION MODULE                             DATE 28/03/20  PAGE-   21 
+‚                                               ISSUER SUB-SYSTEM CHRONOLOGICAL JOURNAL                    TIME 15.58.02  AUD601     
+‚                                                              AUD601-01                                                             
+                                               *** AUTHORIZATION INQUIRY ACTIVITY ***                                               
+‚LOCAL INPUT - OUTGOING AUTHORIZATIONS                                                                                               
+‚------------------------------------------------------------------------------------------------------------------------------------
+‚                           MERCHANT                                       TOTAL                TOTAL          AVERAGE      AVERAGE  
+‚                           GROUP      DESCRIPTION                        NUMBER               AMOUNT           AMOUNT     RESPONSE  
+‚------------------------------------------------------------------------------------------------------------------------------------
+‚ MSTR (ITMX) APPROVALS                                                                                                               
+‚                               A       VEHICLE RENTAL                         0                  0.00                                
+‚                               C       CASH ADVANCE                           0                  0.00                                
+‚                               F       RESTAURANT                             0                  0.00                                
+‚                               H       HOTEL/MOTEL                            0                  0.00                                
+‚                               O       HOSPITAL/SCHOOL                        0                  0.00                                
+‚                               P       PAYMENT TXN                            0                  0.00                                
+‚                               R       RETAIL PURCHASE                        0                  0.00                                
+‚                               T       MAIL/PHONE ORDER                       0                  0.00                                
+‚                               U       UNIQUE TRANSACTN                       0                  0.00                                
+‚                               X       AIRLINE/TRANPORT                       0                  0.00                                
+‚                               Z       ATM CASH DISB                          0                  0.00                                
+‚                                       APPROVAL REVERSE                       0                  0.00                                
+‚                                       UNMATCH APPR REV                       0                  0.00                                
+‚ MSTR (ITMX) DECLINES                                                                                                                
+‚                               A       VEHICLE RENTAL                         0                  0.00                                
+‚                               C       CASH ADVANCE                           0                  0.00                                
+‚                               F       RESTAURANT                             0                  0.00                                
+‚                               H       HOTEL/MOTEL                            0                  0.00                                
+‚                               O       HOSPITAL/SCHOOL                        0                  0.00                                
+‚                               P       PAYMENT TXN                            0                  0.00                                
+‚                               R       RETAIL PURCHASE                        0                  0.00                                
+‚                               T       MAIL/PHONE ORDER                       0                  0.00                                
+‚                               U       UNIQUE TRANSACTN                       0                  0.00                                
+‚                               X       AIRLINE/TRANPORT                       0                  0.00                                
+‚                               Z       ATM CASH DISB                          0                  0.00                                
+‚                                       DECLINE REVERSE                        0                  0.00                                
+‚                                       UNMATCH DECL REV                       0                  0.00                                
+‚                                       --UNKNOWN--                            0                  0.00                                
+     TOTALS                                                                   0                  0.00                                
+‚                                                                                                                                    
+i                                                                                                                                    
+‚                                                         AUTHORISATION MODULE                             DATE 28/03/20  PAGE-   22 
+‚                                               ISSUER SUB-SYSTEM CHRONOLOGICAL JOURNAL                    TIME 15.58.02  AUD601     
+‚                                                              AUD601-01                                                             
+                                               *** AUTHORIZATION INQUIRY ACTIVITY ***                                               
+‚LOCAL INPUT - OUTGOING AUTHORIZATIONS                                                                                               
+‚------------------------------------------------------------------------------------------------------------------------------------
+‚                           MERCHANT                                       TOTAL                TOTAL          AVERAGE      AVERAGE  
+‚                           GROUP      DESCRIPTION                        NUMBER               AMOUNT           AMOUNT     RESPONSE  
+‚------------------------------------------------------------------------------------------------------------------------------------
+‚ JCB APPROVALS                                                                                                                       
+‚                               A       AUTO RENTAL                            0                  0.00                                
+‚                               C       CASH ADVANCE                           0                  0.00                                
+‚                               F       RESTAURANT                             0                  0.00                                
+‚                               H       HOTELS                                 0                  0.00                                
+‚                               I       RETAIL                                 0                  0.00                                
+‚                               L       TRAVL AGN/CRUISE                       0                  0.00                                
+‚                               O       HOSPITAL/SCHOOL                        0                  0.00                                
+‚                               R       OTHER MERCHANTS                        0                  0.00                                
+‚                               S       RAILRD/TRANSPORT                       0                  0.00                                
+‚                               T       MOTO & TELECOMS                        0                  0.00                                
+‚                               U       QUASI-CASH                             0                  0.00                                
+‚                               X       AIRLINE                                0                  0.00                                
+‚                               Z       ATM CASH                               0                  0.00                                
+‚                                       APPROVAL REVERSE                       0                  0.00                                
+‚                                       UNMATCH APPR REV                       0                  0.00                                
+‚ JCB DECLINES                                                                                                                        
+‚                               A       AUTO RENTAL                            0                  0.00                                
+‚                               C       CASH ADVANCE                           0                  0.00                                
+‚                               F       RESTAURANT                             0                  0.00                                
+‚                               H       HOTELS                                 0                  0.00                                
+‚                               I       RETAIL                                 0                  0.00                                
+‚                               L       TRAVL AGN/CRUISE                       0                  0.00                                
+‚                               O       HOSPITAL/SCHOOL                        0                  0.00                                
+‚                               R       OTHER MERCHANTS                        0                  0.00                                
+‚                               S       RAILRD/TRANSPORT                       0                  0.00                                
+‚                               T       MOTO & TELECOMS                        0                  0.00                                
+‚                               U       QUASI-CASH                             0                  0.00                                
+‚                               X       AIRLINE                                0                  0.00                                
+‚                               Z       ATM CASH                               0                  0.00                                
+‚                                       DECLINE REVERSE                        0                  0.00                                
+‚                                       UNMATCH DECL REV                       0                  0.00                                
+‚                                       --UNKNOWN--                            0                  0.00                                
+     TOTALS                                                                   0                  0.00                                
+‚                                                                                                                                    
+i                                                                                                                                    
+‚                                                         AUTHORISATION MODULE                             DATE 28/03/20  PAGE-   23 
+‚                                               ISSUER SUB-SYSTEM CHRONOLOGICAL JOURNAL                    TIME 15.58.02  AUD601     
+‚                                                              AUD601-01                                                             
+                                               *** AUTHORIZATION INQUIRY ACTIVITY ***                                               
+‚LOCAL INPUT - OUTGOING AUTHORIZATIONS                                                                                               
+‚------------------------------------------------------------------------------------------------------------------------------------
+‚                           MERCHANT                                       TOTAL                TOTAL          AVERAGE      AVERAGE  
+‚                           GROUP      DESCRIPTION                        NUMBER               AMOUNT           AMOUNT     RESPONSE  
+‚------------------------------------------------------------------------------------------------------------------------------------
+‚ AMEX APPROVALS                                                                                                                      
+‚                               A       AUTO RENTAL                            0                  0.00                                
+‚                               C       OTHER CASH                             0                  0.00                                
+‚                               F       RESTAURANTS                            0                  0.00                                
+‚                               H       LODGING                                0                  0.00                                
+‚                               I       RETAIL                                 0                  0.00                                
+‚                               O       MEDICAL                                0                  0.00                                
+‚                               U       QUASI-CASH                             0                  0.00                                
+‚                               R       OTHER PURCHASES                        0                  0.00                                
+‚                               T       MOTO & EC                              0                  0.00                                
+‚                               X       COMMERCL TRAVEL                        0                  0.00                                
+‚                               Z       ATM CASH                               0                  0.00                                
+‚                                       APPROVAL REVERSE                       0                  0.00                                
+‚                                       UNMATCH APPR REV                       0                  0.00                                
+‚ AMEX DECLINES                                                                                                                       
+‚                               A       AUTO RENTAL                            0                  0.00                                
+‚                               C       OTHER CASH                             0                  0.00                                
+‚                               F       RESTAURANTS                            0                  0.00                                
+‚                               H       LODGING                                0                  0.00                                
+‚                               I       RETAIL                                 0                  0.00                                
+‚                               O       MEDICAL                                0                  0.00                                
+‚                               U       QUASI-CASH                             0                  0.00                                
+‚                               R       OTHER PURCHASES                        0                  0.00                                
+‚                               T       MOTO & EC                              0                  0.00                                
+‚                               X       COMMERCL TRAVEL                        0                  0.00                                
+‚                               Z       ATM CASH                               0                  0.00                                
+‚                                       DECLINE REVERSE                        0                  0.00                                
+‚                                       UNMATCH DECL REV                       0                  0.00                                
+‚                                       --UNKNOWN--                            0                  0.00                                
+     TOTALS                                                                   0                  0.00                                
+‚                                                                                                                                    
+i                                                                                                                                    
+‚                                                         AUTHORISATION MODULE                             DATE 28/03/20  PAGE-   24 
+‚                                               ISSUER SUB-SYSTEM CHRONOLOGICAL JOURNAL                    TIME 15.58.02  AUD601     
+‚                                                              AUD601-01                                                             
+                                               *** AUTHORIZATION INQUIRY ACTIVITY ***                                               
+‚LOCAL INPUT - OUTGOING AUTHORIZATIONS                                                                                               
+‚------------------------------------------------------------------------------------------------------------------------------------
+‚                           MERCHANT                                       TOTAL                TOTAL          AVERAGE      AVERAGE  
+‚                           GROUP      DESCRIPTION                        NUMBER               AMOUNT           AMOUNT     RESPONSE  
+‚------------------------------------------------------------------------------------------------------------------------------------
+‚ CUP APPROVALS                                                                                                                       
+‚                               A       AUTO RENTAL                            0                  0.00                                
+‚                               C       OTHER CASH                             0                  0.00                                
+‚                               F       RESTAURANTS                            0                  0.00                                
+‚                               H       LODGING                                0                  0.00                                
+‚                               O       MEDICAL                                0                  0.00                                
+‚                               R       OTHER PURCHASES                        0                  0.00                                
+‚                               T       MOTO & EC                              0                  0.00                                
+‚                               U       QUASI-CASH                             0                  0.00                                
+‚                               X       COMMERCL TRAVEL                        0                  0.00                                
+‚                               Z       ATM CASH                               0                  0.00                                
+‚                                       APPROVAL REVERSE                       0                  0.00                                
+‚                                       UNMATCH APPR REV                       0                  0.00                                
+‚                                       RISKY PURCHASES                        0                  0.00                                
+‚ CUP DECLINES                                                                                                                        
+‚                               A       AUTO RENTAL                            0                  0.00                                
+‚                               C       OTHER CASH                             0                  0.00                                
+‚                               F       RESTAURANTS                            0                  0.00                                
+‚                               H       LODGING                                0                  0.00                                
+‚                               O       MEDICAL                                0                  0.00                                
+‚                               R       OTHER PURCHASES                        0                  0.00                                
+‚                               T       MOTO & EC                              0                  0.00                                
+‚                               U       QUASI-CASH                             0                  0.00                                
+‚                               X       COMMERCL TRAVEL                        0                  0.00                                
+‚                               Z       ATM CASH                               0                  0.00                                
+‚                                       DECLINE REVERSE                        0                  0.00                                
+‚                                       UNMATCH DECL REV                       0                  0.00                                
+‚                                       RISKY PURCHASES                        0                  0.00                                
+‚                                       --UNKNOWN--                            0                  0.00                                
+     TOTALS                                                                   0                  0.00                                
+‚                                                                                                                                    
+i                                                                                                                                    
+‚                                                         AUTHORISATION MODULE                             DATE 28/03/20  PAGE-   25 
+‚                                               ISSUER SUB-SYSTEM CHRONOLOGICAL JOURNAL                    TIME 15.58.02  AUD601     
+‚                                                              AUD601-01                                                             
+                                               *** AUTHORIZATION INQUIRY ACTIVITY ***                                               
+‚LOCAL INPUT - OUTGOING AUTHORIZATIONS                                                                                               
+‚------------------------------------------------------------------------------------------------------------------------------------
+‚                           MERCHANT                                       TOTAL                TOTAL          AVERAGE      AVERAGE  
+‚                           GROUP      DESCRIPTION                        NUMBER               AMOUNT           AMOUNT     RESPONSE  
+‚------------------------------------------------------------------------------------------------------------------------------------
+‚ NCCC APPROVALS                                                                                                                      
+‚                               A       AUTO RENTAL                            0                  0.00                                
+‚                               C       OTHER CASH                             0                  0.00                                
+‚                               F       RESTAURANTS                            0                  0.00                                
+‚                               H       LODGING                                0                  0.00                                
+‚                               O       MEDICAL                                0                  0.00                                
+‚                               R       OTHER PURCHASES                        0                  0.00                                
+‚                               T       MOTO & EC                              0                  0.00                                
+‚                               U       QUASI-CASH                             0                  0.00                                
+‚                               X       COMMERCL TRAVEL                        0                  0.00                                
+‚                               Z       ATM CASH                               0                  0.00                                
+‚                                       APPROVAL REVERSE                       0                  0.00                                
+‚                                       UNMATCH APPR REV                       0                  0.00                                
+‚ NCCC DECLINES                                                                                                                       
+‚                               A       AUTO RENTAL                            0                  0.00                                
+‚                               C       OTHER CASH                             0                  0.00                                
+‚                               F       RESTAURANTS                            0                  0.00                                
+‚                               H       LODGING                                0                  0.00                                
+‚                               O       MEDICAL                                0                  0.00                                
+‚                               R       OTHER PURCHASES                        0                  0.00                                
+‚                               T       MOTO & EC                              0                  0.00                                
+‚                               U       QUASI-CASH                             0                  0.00                                
+‚                               X       COMMERCL TRAVEL                        0                  0.00                                
+‚                               Z       ATM CASH                               0                  0.00                                
+‚                                       DECLINE REVERSE                        0                  0.00                                
+‚                                       UNMATCH DECL REV                       0                  0.00                                
+‚                                       --UNKNOWN--                            0                  0.00                                
+     TOTALS                                                                   0                  0.00                                
+‚                                                                                                                                    
+i                                                                                                                                    
+‚                                                         AUTHORISATION MODULE                             DATE 28/03/20  PAGE-   26 
+‚                                               ISSUER SUB-SYSTEM CHRONOLOGICAL JOURNAL                    TIME 15.58.02  AUD601     
+‚                                                              AUD601-01                                                             
+‚                                                             TOTALS FOR                                                             
+‚                                          *SPECIAL ACCOUNT HANDLING/CARDHOLDER MAINTENANCE*                                         
+‚                                                                                                                                    
+                                                                                                                                    
+‚                                                                                                                                    
+‚VISA        *------------------------------*                    *------------------------------------*                              
+‚                                                                                                                                    
+            SPECIAL ACCOUNT HANDLING CHANGES                    CARD MAINTENANCE UPDATES                                            
+‚                                                                                                                                    
+‚                              NBR OF RECORDS                                            NBR OF RECORDS                              
+‚                                                                                                                                    
+‚            ADD                       0                         ACTION/REASON CODE               0                                  
+‚            CHANGE                    0                         BLOCK CODE                       0                                  
+‚            DELETE                    0                         EXCEPTION PURGE DATE             0                                  
+‚            INQUIRY                   0                         REGION CODES                     0                                  
+‚            SYNCHRONIZE               0                         WARNING BULLETIN DATE            0                                  
+‚            ATS ADVICE                0                         FIRST USAGE FLAG                 0                                  
+‚                                                                PIN CHANGE REQ/REV               0                                  
+‚                                                                CHIP OFFLINE BLOCK               0                                  
+‚                                                                VIP MAINT                        0                                  
+                                                                                                                                    
+‚            TOTAL                     0                         TOTAL                            0                                  
+‚                                                                                                                                    
+                                                                                                                                    
+‚                                                                                                                                    
+‚MASTERCARD  *------------------------------*                    *------------------------------------*                              
+‚                                                                                                                                    
+            SPECIAL ACCOUNT HANDLING CHANGES                    CARD MAINTENANCE UPDATES                                            
+‚                                                                                                                                    
+‚                              NBR OF RECORDS                                            NBR OF RECORDS                              
+‚                                                                                                                                    
+‚            ADD                       0                         ACTION/REASON CODE               0                                  
+‚            CHANGE                    0                         BLOCK CODE                       0                                  
+‚            DELETE                    0                         EXCEPTION PURGE DATE             0                                  
+‚            INQUIRY                   0                         REGION CODES                     0                                  
+‚            SYNCHRONIZE               0                         WARNING BULLETIN DATE            0                                  
+‚                                                                FIRST USAGE FLAG                 0                                  
+‚                                                                PIN CHANGE REQ/REV               0                                  
+‚                                                                CHIP OFFLINE BLOCK               0                                  
+‚                                                                PIN RETRIES                      0                                  
+‚                                                                PIN CURR/DATE                    0                                  
+‚                                                                VIP MAINT                        0                                  
+                                                                                                                                    
+‚            TOTAL                     0                         TOTAL                            0                                  
+‚                                                         AUTHORISATION MODULE                             DATE 28/03/20  PAGE-   27 
+‚                                               ISSUER SUB-SYSTEM CHRONOLOGICAL JOURNAL                    TIME 15.58.02  AUD601     
+‚                                                              AUD601-01                                                             
+‚                                                             TOTALS FOR                                                             
+‚                                          *SPECIAL ACCOUNT HANDLING/CARDHOLDER MAINTENANCE*                                         
+‚                                                                                                                                    
+                                                                                                                                    
+‚                                                                                                                                    
+‚JCB         *------------------------------*                    *------------------------------------*                              
+‚                                                                                                                                    
+            SPECIAL ACCOUNT HANDLING CHANGES                    CARD MAINTENANCE UPDATES                                            
+‚                                                                                                                                    
+‚                              NBR OF RECORDS                                            NBR OF RECORDS                              
+‚                                                                                                                                    
+‚            ADD                       0                         ACTION/REASON CODE               0                                  
+‚            CHANGE                    0                         BLOCK CODE                       0                                  
+‚            DELETE                    0                         EXCEPTION PURGE DATE             0                                  
+‚            INQUIRY                   0                         REGION CODES                     0                                  
+‚            SYNCHRONIZE               0                         WARNING BULLETIN DATE            0                                  
+‚                                                                FIRST USAGE FLAG                 0                                  
+‚                                                                PIN CHANGE REQ/REV               0                                  
+‚                                                                CHIP OFFLINE BLOCK               0                                  
+‚                                                                VIP MAINT                        0                                  
+                                                                                                                                    
+‚            TOTAL                     0                         TOTAL                            0                                  
+‚                                                                                                                                    
+                                                                                                                                    
+‚                                                                                                                                    
+‚AMEX        *------------------------------*                    *------------------------------------*                              
+‚                                                                                                                                    
+            SPECIAL ACCOUNT HANDLING CHANGES                    CARD MAINTENANCE UPDATES                                            
+‚                                                                                                                                    
+‚                              NBR OF RECORDS                                            NBR OF RECORDS                              
+‚                                                                                                                                    
+‚            ADD                       0                         ACTION/REASON CODE               0                                  
+‚            CHANGE                    0                         BLOCK CODE                       0                                  
+‚            DELETE                    0                         EXCEPTION PURGE DATE             0                                  
+‚            INQUIRY                   0                         REGION CODES                     0                                  
+‚            SYNCHRONIZE               0                         WARNING BULLETIN DATE            0                                  
+‚                                                                FIRST USAGE FLAG                 0                                  
+‚                                                                PIN CHANGE REQ/REV               0                                  
+‚                                                                CHIP OFFLINE BLOCK               0                                  
+‚                                                                VIP MAINT                        0                                  
+                                                                                                                                    
+‚            TOTAL                     0                         TOTAL                            0                                  
+‚                                                                                                                                    
+                                                                                                                                    
+‚                                                                                                                                    
+‚CUP         *------------------------------*                    *------------------------------------*                              
+‚                                                                                                                                    
+i            SPECIAL ACCOUNT HANDLING CHANGES                    CARD MAINTENANCE UPDATES                                            
+‚                                                         AUTHORISATION MODULE                             DATE 28/03/20  PAGE-   28 
+‚                                               ISSUER SUB-SYSTEM CHRONOLOGICAL JOURNAL                    TIME 15.58.02  AUD601     
+‚                                                              AUD601-01                                                             
+‚                                                             TOTALS FOR                                                             
+‚                                          *SPECIAL ACCOUNT HANDLING/CARDHOLDER MAINTENANCE*                                         
+‚                                                                                                                                    
+‚                              NBR OF RECORDS                                            NBR OF RECORDS                              
+‚                                                                                                                                    
+‚            ADD                       0                         ACTION/REASON CODE               0                                  
+‚            CHANGE                    0                         BLOCK CODE                       0                                  
+‚            DELETE                    0                         EXCEPTION PURGE DATE             0                                  
+‚            INQUIRY                   0                         REGION CODES                     0                                  
+‚            SYNCHRONIZE               0                         WARNING BULLETIN DATE            0                                  
+‚                                                                FIRST USAGE FLAG                 0                                  
+‚                                                                PIN CHANGE REQ/REV               0                                  
+‚                                                                CHIP OFFLINE BLOCK               0                                  
+‚                                                                VIP MAINT                        0                                  
+                                                                                                                                    
+‚            TOTAL                     0                         TOTAL                            0                                  
+‚                                                                                                                                    
+                                                                                                                                    
+‚                                                                                                                                    
+‚NCCC        *------------------------------*                    *------------------------------------*                              
+‚                                                                                                                                    
+            SPECIAL ACCOUNT HANDLING CHANGES                    CARD MAINTENANCE UPDATES                                            
+‚                                                                                                                                    
+‚                              NBR OF RECORDS                                            NBR OF RECORDS                              
+‚                                                                                                                                    
+‚            ADD                       0                         ACTION/REASON CODE               0                                  
+‚            CHANGE                    0                         BLOCK CODE                       0                                  
+‚            DELETE                    0                         EXCEPTION PURGE DATE             0                                  
+‚            INQUIRY                   0                         REGION CODES                     0                                  
+‚            SYNCHRONIZE               0                         WARNING BULLETIN DATE            0                                  
+‚                                                                FIRST USAGE FLAG                 0                                  
+‚                                                                PIN CHANGE REQ/REV               0                                  
+‚                                                                CHIP OFFLINE BLOCK               0                                  
+‚                                                                VIP MAINT                        0                                  
+                                                                                                                                    
+‚            TOTAL                     0                         TOTAL                            0                                  
+

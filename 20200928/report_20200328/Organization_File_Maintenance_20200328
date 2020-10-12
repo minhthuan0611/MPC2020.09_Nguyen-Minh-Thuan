@@ -1,0 +1,91 @@
+i                                                                                                                                     
+‚1000 - ACCELLENCE DATA CENTER                                    CARDLINK                             FILE DATE 28/03/20  PAGE -    1
+2                                                   ORGANIZATION FILE MAINTENANCE                     PROC DATE 28/03/20-    16:13:56
+‚ ORG  TYPE MAINT MAINTENANCE  TX FIELD                       MAINTENANCE                                                 TIME       S
+ NBR  NBR  CODE  DESCRIPTION  CD DESCRIPTION                 VALUE CHANGES                                         DATE STAMP  TERM C
+                                                                                                                                     
+‚         *-------ORGANIZATION TOTALS--------                                                                                         
+‚         INPUT RECORDS (CARDS)             0                                                                                         
+‚         MAINTENANCE       - ACCEPTED      0                                                                                         
+‚         MAINTENANCE       - REJECTED      0                                                                                         
+‚         NEW ORGANIZATIONS - ACCEPTED      0                                                                                         
+‚         NEW ORGANIZATIONS - REJECTED      0                                                                                         
+‚         NEW TYPE RECORDS  - ACCEPTED      0                                                                                         
+‚         NEW TYPE RECORDS  - REJECTED      0                                                                                         
+‚         NEW P-O-T RECORDS - ACCEPTED      0                                                                                         
+‚         NEW P-O-T RECORDS - REJECTED      0                                                                                         
+‚         NEW T-C-D RECORDS - ACCEPTED      0                                                                                         
+‚         NEW T-C-D RECORDS - REJECTED      0                                                                                         
+‚         NEW T-C-V RECORDS - ACCEPTED      0                                                                                         
+‚         NEW T-C-V RECORDS - REJECTED      0                                                                                         
+‚         NEW P-T RECORDS - ACCEPTED        0                                                                                         
+‚         NEW P-T RECORDS - REJECTED        0                                                                                         
+‚         NEW F-T RECORDS - ACCEPTED        0                                                                                         
+‚         NEW F-T RECORDS - REJECTED        0                                                                                         
+‚         NEW B-P-C RECORDS - ACCEPTED      0                                                                                         
+‚         NEW B-P-C RECORDS - REJECTED      0                                                                                         
+‚         NEW B-P-G RECORDS - ACCEPTED      0                                                                                         
+‚         NEW B-P-G RECORDS - REJECTED      0                                                                                         
+‚         NEW B-P-M RECORDS - ACCEPTED      0                                                                                         
+‚         NEW B-P-M RECORDS - REJECTED      0                                                                                         
+‚         NEW B-P-L RECORDS - ACCEPTED      0                                                                                         
+‚         NEW B-P-L RECORDS - REJECTED      0                                                                                         
+‚         NEW B-P-P RECORDS - ACCEPTED      0                                                                                         
+‚         NEW B-P-P RECORDS - REJECTED      0                                                                                         
+‚         NEW P-S-B RECORDS - ACCEPTED      0                                                                                         
+‚         NEW P-S-B RECORDS - REJECTED      0                                                                                         
+‚         NEW P-S-T RECORDS - ACCEPTED      0                                                                                         
+‚         NEW P-S-T RECORDS - REJECTED      0                                                                                         
+‚         NEW C-F-T RECORDS - ACCEPTED      0                                                                                         
+‚         NEW C-F-T RECORDS - REJECTED      0                                                                                         
+‚         NEW C-F-G RECORDS - ACCEPTED      0                                                                                         
+‚         NEW C-F-G RECORDS - REJECTED      0                                                                                         
+i                                                                                                                                     
+‚1000 - ACCELLENCE DATA CENTER                                    CARDLINK                             FILE DATE 28/03/20  PAGE -    2
+2                                                   ORGANIZATION FILE MAINTENANCE                     PROC DATE 28/03/20-    16:13:56
+‚ ORG  TYPE MAINT MAINTENANCE  TX FIELD                       MAINTENANCE                                                 TIME       S
+ NBR  NBR  CODE  DESCRIPTION  CD DESCRIPTION                 VALUE CHANGES                                         DATE STAMP  TERM C
+‚         *-----------FINAL TOTALS-----------                                                                                         
+‚         INPUT RECORDS (CARDS)             0                                                                                         
+‚         MAINTENANCE       - ACCEPTED      0                                                                                         
+‚         MAINTENANCE       - REJECTED      0                                                                                         
+‚         NEW ORGANIZATIONS - ACCEPTED      0                                                                                         
+‚         NEW ORGANIZATIONS - REJECTED      0                                                                                         
+‚         NEW TYPE RECORDS  - ACCEPTED      0                                                                                         
+‚         NEW TYPE RECORDS  - REJECTED      0                                                                                         
+‚         NEW P-O-T RECORDS - ACCEPTED      0                                                                                         
+‚         NEW P-O-T RECORDS - REJECTED      0                                                                                         
+‚         NEW T-C-D RECORDS - ACCEPTED      0                                                                                         
+‚         NEW T-C-D RECORDS - REJECTED      0                                                                                         
+‚         NEW T-C-V RECORDS - ACCEPTED      0                                                                                         
+‚         NEW T-C-V RECORDS - REJECTED      0                                                                                         
+‚         NEW P-T RECORDS - ACCEPTED        0                                                                                         
+‚         NEW P-T RECORDS - REJECTED        0                                                                                         
+‚         NEW F-T RECORDS - ACCEPTED        0                                                                                         
+‚         NEW F-T RECORDS - REJECTED        0                                                                                         
+‚         NEW B-P-C RECORDS - ACCEPTED      0                                                                                         
+‚         NEW B-P-C RECORDS - REJECTED      0                                                                                         
+‚         NEW B-P-G RECORDS - ACCEPTED      0                                                                                         
+‚         NEW B-P-G RECORDS - REJECTED      0                                                                                         
+‚         NEW B-P-M RECORDS - ACCEPTED      0                                                                                         
+‚         NEW B-P-M RECORDS - REJECTED      0                                                                                         
+‚         NEW B-P-L RECORDS - ACCEPTED      0                                                                                         
+‚         NEW B-P-L RECORDS - REJECTED      0                                                                                         
+‚         NEW B-P-P RECORDS - ACCEPTED      0                                                                                         
+‚         NEW B-P-P RECORDS - REJECTED      0                                                                                         
+‚         NEW P-S-B RECORDS - ACCEPTED      0                                                                                         
+‚         NEW P-S-B RECORDS - REJECTED      0                                                                                         
+‚         NEW P-S-T RECORDS - ACCEPTED      0                                                                                         
+‚         NEW P-S-T RECORDS - REJECTED      0                                                                                         
+‚         NEW C-F-T RECORDS - ACCEPTED      0                                                                                         
+‚         NEW C-F-T RECORDS - REJECTED      0                                                                                         
+‚         NEW C-F-G RECORDS - ACCEPTED      0                                                                                         
+‚         NEW C-F-G RECORDS - REJECTED      0                                                                                         
+‚                                                                                                                                     
+i                                                                                                                                     
+‚1                                                                CARDLINK                             FILE DATE 28/03/20  PAGE -    1
+2                                                   GENERAL LEDGER MAINTENANCE                        PROC DATE 28/03/20-    16:13:56
+‚ TYP TAB TRAN        ACCOUNT                                      D                                D                     TIME       S
+ NBR TYP CODE        DESCRIPTION          PREVIOUS NUMBER         C       NEW NUMBER               C               DATE STAMP  TERM C
+                                                                                                                                     
+

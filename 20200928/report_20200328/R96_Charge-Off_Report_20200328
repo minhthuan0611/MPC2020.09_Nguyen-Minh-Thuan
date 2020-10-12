@@ -1,0 +1,47 @@
+i                                                                                                                                     
+‚   002 - JACCS INTER. VIETNAM FINANCE    CURRENCY - 704          CARDLINK                             FILE DATE 28/03/20 PAGE -    1 
+‚   000 -                                                  CHARGE-OFF REPORT                           PROC DATE 28/03/20-16.35.57    
+‚                                                                - 96 -                                                               
+‚                                                                                                                                     
+‚                                      ACCOUNT CODES    -----D A T E S------    PRINCIPAL  --------------BILLED NOT PAID--------------
+‚     ACCOUNT            SHORT       C  U U U P A C RSN  OPEN  C/O ST  LAST     RETL BAL        RETL INT  RETL SVC  RETL INS    MEMBER
+‚      NUMBER             NAME       Y  1 2 3 B B S  CD        CHANGE ACTIVE    CASH BAL        CASH INT  CASH SVC  RETL MSC          
+‚                                                                                                                                     
+‚ 0020020000000962  CUSTOMER 2      02            3     030518 170719 170719            0              0         0         0         0
+‚                                                                                       0              0         0         0          
+‚                                                                                                                                     
+‚ 0020030000000573  CUSTOMER 3      02 00N        3     030518 170719 170719            0              0         0         0         0
+‚                                                                                       0              0         0         0          
+‚                                                                                                                                     
+‚ 0028010000000395  CUSTOMER 5      02            3     030518 170719 170719            0              0         0         0         0
+‚                                                                                       0              0         0         0          
+‚                                                                                                                                     
+         **--TYPE TOTALS--**                                                                                                         
+                                                    RETAIL                    CASH                   BOTH                            
+‚                PRINCIPAL BALANCE                                0                        0                        0                 
+‚                INTEREST BILLED/NOT PAID                         0                        0                        0                 
+‚                SVC BILLED/NOT PAID                              0                        0                        0                 
+‚                INSUR BILLED/NOT PAID                            0                                                 0                 
+‚                MEMBER/JOINING FEE B/NP                          0                                                 0                 
+‚                MISC FEES                                        0                                                 0                 
+‚                GRAND TOTAL                                      0                        0                        0                 
+i                                                                                                                                     
+‚   002 - JACCS INTER. VIETNAM FINANCE    CURRENCY - 704          CARDLINK                             FILE DATE 28/03/20 PAGE -    1 
+‚                                                          CHARGE-OFF REPORT                           PROC DATE 28/03/20-16.35.57    
+‚                                                                - 96 -                                                               
+‚                                                                                                                                     
+‚                                      ACCOUNT CODES    -----D A T E S------    PRINCIPAL  --------------BILLED NOT PAID--------------
+‚     ACCOUNT            SHORT       C  U U U P A C RSN  OPEN  C/O ST  LAST     RETL BAL        RETL INT  RETL SVC  RETL INS    MEMBER
+‚      NUMBER             NAME       Y  1 2 3 B B S  CD        CHANGE ACTIVE    CASH BAL        CASH INT  CASH SVC  RETL MSC          
+‚                                                                                                                                     
+                                                                                                                                     
+      **--ORGANIZATION TOTALS--**                                                                                                    
+                                                    RETAIL                    CASH                   BOTH                            
+‚                PRINCIPAL BALANCE                                0                        0                        0                 
+‚                INTEREST BILLED/NOT PAID                         0                        0                        0                 
+‚                SVC BILLED/NOT PAID                              0                        0                        0                 
+‚                INSUR BILLED/NOT PAID                            0                                                 0                 
+‚                MEMBER/JOINING FEE B/NP                          0                                                 0                 
+‚                MISC FEES                                        0                                                 0                 
+‚                GRAND TOTAL                                      0                        0                        0                 
+

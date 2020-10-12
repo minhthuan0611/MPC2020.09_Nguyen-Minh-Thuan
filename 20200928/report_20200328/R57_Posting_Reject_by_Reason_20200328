@@ -1,0 +1,135 @@
+i                                                                                                                                     
+‚   002 - JACCS INTER. VIETNAM FINANCE    CURRENCY - 704          CARDLINK                             FILE DATE 28/03/20 PAGE -    1 
+‚   001 - JACCS VISA CARD                              POSTING REJECTS BY REASON                       PROC DATE 28/03/20-16.35.57    
+‚                                                                - 57 -                                                               
+‚                                                                                                                                     
+‚  ACCOUNT NUMBER/ LAST TRAN/ TRANSACTION                REFERENCE  SRC AU                                                            
+‚     CARD NUMBER  BAL SEQ-ID DATE   CODE     AMOUNT     NUMBERS    CDE FL          TRANSACTION DESCRIPTION          POSTING ACTION   
+‚                                                                                                                                     
+‚ 0020010000001110 00/00/00 03/11/16 2000       123,000 30800001001   1 N BR.003 BANK DIRECT DEBIT                INVALID ACCT NUMBER 
+‚ 0000000000000000000                INTRCHG REF NUM.                                                                 0000000000000000
+‚                                                                                                                                     
+‚ 0020010000001128 00/00/00 03/11/16 2000       923,000 30873000002   1 N BR.004 BANK DIRECT DEBIT                INVALID ACCT NUMBER 
+‚ 0000000000000000000                INTRCHG REF NUM.                                                                 0000000000000000
+‚                                                                                                                                     
+      **--POSTING FLAG TOTALS--**                                                                                                    
+                                                                                                                                     
+‚                     TOTAL CREDITS UNPOSTED        2        1046,000                                                                 
+‚                     TOTAL DEBITS UNPOSTED         0               0                                                                 
+                                                                                                                                     
+‚ 0000000000000000 00/00/00 03/11/16 4000       100,000 30901000003   4 Y JACCS                    HO CHI MINH  VNINVALID CARD NUMBER 
+‚ 000421194******1331           *AR* INTRCHG REF NUM. 74547066308000000000039   REIMB ATT... B                        421194******1331
+‚                                                                                                                                     
+‚ 0000000000000000 00/00/00 28/10/17 4000        17,000 30101000001   4 Y JACCS                    HO CHI MINH  VNINVALID CARD NUMBER 
+‚ 000421194******1331           *AR* INTRCHG REF NUM. 77454707302000000000012   REIMB ATT... B                        421194******1331
+‚                                                                                                                                     
+‚ 0000000000000000 00/00/00 30/10/17 2100      1000,000 30300005001   0 N TEST UAT                                INVALID CARD NUMBER 
+‚ 000421194******1711                INTRCHG REF NUM.                                                                 421194******1711
+‚                                                                                                                                     
+‚ 0020010000001037 00/00/00 23/06/16 6010       100,000 00090000000   2 Y ANNUAL CARD FEE                         INVALID CARD NUMBER 
+‚ 000421194******1166                INTRCHG REF NUM.                                                                 421194******1166
+‚                                                                                                                                     
+‚ 0020010000001037 00/00/00 23/06/16 6110       100,000 00090000000   2 Y WAIVE ANNUAL CARD FEE                   INVALID CARD NUMBER 
+‚ 000421194******1166                INTRCHG REF NUM.                                                                 421194******1166
+‚                                                                                                                                     
+‚ 0020010000001037 00/00/00 23/06/16 6110       100,000 00090000000   2 Y WAIVE ANNUAL CARD FEE                   INVALID CARD NUMBER 
+‚ 000421194******1166                INTRCHG REF NUM.                                                                 421194******1166
+‚                                                                                                                                     
+‚ 0020010000001037 00/00/00 23/06/16 6110       100,000 00090000000   2 Y WAIVE ANNUAL CARD FEE                   INVALID CARD NUMBER 
+‚ 000421194******1166                INTRCHG REF NUM.                                                                 421194******1166
+‚                                                                                                                                     
+‚ 0020010000001037 00/00/00 23/06/16 6110       100,000 00090000000   2 Y WAIVE ANNUAL CARD FEE                   INVALID CARD NUMBER 
+‚ 000421194******1166                INTRCHG REF NUM.                                                                 421194******1166
+‚                                                                                                                                     
+‚ 0020010000001037 00/00/00 23/06/16 6110       100,000 00090000000   2 Y WAIVE ANNUAL CARD FEE                   INVALID CARD NUMBER 
+‚ 000421194******1166                INTRCHG REF NUM.                                                                 421194******1166
+‚                                                                                                                                     
+‚ 0020010000001037 00/00/00 23/06/16 6110       100,000 00090000000   2 Y WAIVE ANNUAL CARD FEE                   INVALID CARD NUMBER 
+‚ 000421194******1166                INTRCHG REF NUM.                                                                 421194******1166
+‚                                                                                                                                     
+‚ 0020010000001037 00/00/00 23/06/16 6110       100,000 00090000000   2 Y WAIVE ANNUAL CARD FEE                   INVALID CARD NUMBER 
+‚ 000421194******1166                INTRCHG REF NUM.                                                                 421194******1166
+‚                                                                                                                                     
+i                                                                                                                                     
+‚   002 - JACCS INTER. VIETNAM FINANCE    CURRENCY - 704          CARDLINK                             FILE DATE 28/03/20 PAGE -    2 
+‚   001 - JACCS VISA CARD                              POSTING REJECTS BY REASON                       PROC DATE 28/03/20-16.35.57    
+‚                                                                - 57 -                                                               
+‚                                                                                                                                     
+‚  ACCOUNT NUMBER/ LAST TRAN/ TRANSACTION                REFERENCE  SRC AU                                                            
+‚     CARD NUMBER  BAL SEQ-ID DATE   CODE     AMOUNT     NUMBERS    CDE FL          TRANSACTION DESCRIPTION          POSTING ACTION   
+‚                                                                                                                                     
+‚ 0020010000001037 00/00/00 23/06/16 6110       100,000 00090000000   2 Y WAIVE ANNUAL CARD FEE                   INVALID CARD NUMBER 
+‚ 000421194******1166                INTRCHG REF NUM.                                                                 421194******1166
+‚                                                                                                                                     
+‚ 0020010000001037 00/00/00 23/06/16 6110       100,000 00090000000   2 Y WAIVE ANNUAL CARD FEE                   INVALID CARD NUMBER 
+‚ 000421194******1166                INTRCHG REF NUM.                                                                 421194******1166
+‚                                                                                                                                     
+‚ 0020010000001037 00/00/00 23/06/16 6110       100,000 00090000000   2 Y WAIVE ANNUAL CARD FEE                   INVALID CARD NUMBER 
+‚ 000421194******1166                INTRCHG REF NUM.                                                                 421194******1166
+‚                                                                                                                                     
+‚ 0020010000001037 00/00/00 23/06/16 6110       100,000 00090000000   2 Y WAIVE ANNUAL CARD FEE                   INVALID CARD NUMBER 
+‚ 000421194******1166                INTRCHG REF NUM.                                                                 421194******1166
+‚                                                                                                                                     
+‚ 0020010000001037 00/00/00 23/06/16 6110       100,000 00090000000   2 Y WAIVE ANNUAL CARD FEE                   INVALID CARD NUMBER 
+‚ 000421194******1166                INTRCHG REF NUM.                                                                 421194******1166
+‚                                                                                                                                     
+‚ 0020010000001037 00/00/00 23/06/16 6110       100,000 00090000000   2 Y WAIVE ANNUAL CARD FEE                   INVALID CARD NUMBER 
+‚ 000421194******1166                INTRCHG REF NUM.                                                                 421194******1166
+‚                                                                                                                                     
+‚ 0020010000001037 00/00/00 23/06/16 6110       100,000 00090000000   2 Y WAIVE ANNUAL CARD FEE                   INVALID CARD NUMBER 
+‚ 000421194******1166                INTRCHG REF NUM.                                                                 421194******1166
+‚                                                                                                                                     
+‚ 0020010000001037 00/00/00 23/06/16 6110       100,000 00090000000   2 Y WAIVE ANNUAL CARD FEE                   INVALID CARD NUMBER 
+‚ 000421194******1166                INTRCHG REF NUM.                                                                 421194******1166
+‚                                                                                                                                     
+‚ 0020010000001037 00/00/00 23/06/16 6110       100,000 00090000000   2 Y WAIVE ANNUAL CARD FEE                   INVALID CARD NUMBER 
+‚ 000421194******1166                INTRCHG REF NUM.                                                                 421194******1166
+‚                                                                                                                                     
+‚ 0020010000001037 00/00/00 23/06/16 6110       100,000 00090000000   2 Y WAIVE ANNUAL CARD FEE                   INVALID CARD NUMBER 
+‚ 000421194******1166                INTRCHG REF NUM.                                                                 421194******1166
+‚                                                                                                                                     
+‚ 0020010000001037 00/00/00 23/06/16 6110       100,000 00090000000   2 Y WAIVE ANNUAL CARD FEE                   INVALID CARD NUMBER 
+‚ 000421194******1166                INTRCHG REF NUM.                                                                 421194******1166
+‚                                                                                                                                     
+‚ 0020010000001037 00/00/00 24/01/17 6010       100,000 00090000000   2 Y ANNUAL CARD FEE                         INVALID CARD NUMBER 
+‚ 000421194******1166                INTRCHG REF NUM.                                                                 421194******1166
+‚                                                                                                                                     
+‚ 0020010000001037 00/00/00 01/01/18 6010       100,000 00090000000   2 Y ANNUAL CARD FEE                         INVALID CARD NUMBER 
+‚ 000421194******1166                INTRCHG REF NUM.                                                                 421194******1166
+‚                                                                                                                                     
+‚ 0020010000001086 00/00/00 06/11/16 2700       500,000 31200007001   0 N NON-DIRECTED PAYMENT REVERSAL           INVALID CARD NUMBER 
+‚ 000421194******1315                INTRCHG REF NUM.                                                                 421194******1315
+‚                                                                                                                                     
+‚ 0020010000001094 00/00/00 04/09/17 3300      3643,000 24700012001   0 N CASH CREDIT ADJUSTMENT                  INVALID CARD NUMBER 
+‚ 000421194******1323                INTRCHG REF NUM.                                                                 421194******1323
+‚                                                                                                                                     
+i                                                                                                                                     
+‚   002 - JACCS INTER. VIETNAM FINANCE    CURRENCY - 704          CARDLINK                             FILE DATE 28/03/20 PAGE -    1 
+‚   001 - JACCS VISA CARD                              POSTING REJECTS BY REASON                       PROC DATE 28/03/20-16.35.57    
+‚                                                                - 57 -                                                               
+‚                                                                                                                                     
+‚  ACCOUNT NUMBER/ LAST TRAN/ TRANSACTION                REFERENCE  SRC AU                                                            
+‚     CARD NUMBER  BAL SEQ-ID DATE   CODE     AMOUNT     NUMBERS    CDE FL          TRANSACTION DESCRIPTION          POSTING ACTION   
+‚                                                                                                                                     
+      **--POSTING FLAG TOTALS--**                                                                                                    
+                                                                                                                                     
+‚                     TOTAL CREDITS UNPOSTED       20        6443,000                                                                 
+‚                     TOTAL DEBITS UNPOSTED         6         917,000                                                                 
+         **--TYPE TOTALS--**                                                                                                         
+                                                                                                                                     
+‚                     TOTAL CREDITS UNPOSTED       22        7489,000                                                                 
+‚                     TOTAL DEBITS UNPOSTED         6         917,000                                                                 
+i                                                                                                                                     
+‚   002 - JACCS INTER. VIETNAM FINANCE    CURRENCY - 704          CARDLINK                             FILE DATE 28/03/20 PAGE -    1 
+‚                                                      POSTING REJECTS BY REASON                       PROC DATE 28/03/20-16.35.57    
+‚                                                                - 57 -                                                               
+‚                                                                                                                                     
+‚  ACCOUNT NUMBER/ LAST TRAN/ TRANSACTION                REFERENCE  SRC AU                                                            
+‚     CARD NUMBER  BAL SEQ-ID DATE   CODE     AMOUNT     NUMBERS    CDE FL          TRANSACTION DESCRIPTION          POSTING ACTION   
+‚                                                                                                                                     
+                                                                                                                                     
+      **--ORGANIZATION TOTALS--**                                                                                                    
+                                                                                                                                     
+‚                     TOTAL CREDITS UNPOSTED       22        7489,000                                                                 
+‚                     TOTAL DEBITS UNPOSTED         6         917,000                                                                 
+

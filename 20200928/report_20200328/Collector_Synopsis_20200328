@@ -1,0 +1,547 @@
+i                                                                                                                                     
+‚ 002 - JACCS INTERNATIONAL VIETNAM       CURRENCY-  704     ACCELLENCE DATA CENTER                    FILE DATE 28/03/20  PAGE -    1
+‚ CC1 - ACCELLENCE COLLECTOR                            (12) COLLECTOR SYNOPSIS                        PROC DATE 28/03/20 - 16.36.06  
+‚                                                                                                                                     
+‚                                       *------- T O D A Y -------*    *--------- M T D ---------*    *--------- Y T D ---------*     
+‚                FIELD NAME             NUMBER          AMOUNT         NUMBER          AMOUNT         NUMBER          AMOUNT          
+‚                                                                                                                                     
+‚      LETTER TALLYS -                                                                                                                
+‚                                                                                                                                     
+‚      AUTOMATICALLY REQUESTED                                                                                                        
+‚      MANUALLY REQUESTED                                                                                                             
+‚                                                                                                                                     
+‚      ACCOUNT TALLYS -                                                                                                               
+‚                                                                                                                                     
+‚      BEGINNING                           206          4456256,643       205          4244305,057       205          3841652,129     
+‚      NEW                                                                  2             2284,957         3             7758,992     
+‚      TRANSFERRED IN                                                                                                                 
+‚      TRANSFERRED OUT                                                                                                                
+‚      SATISFIED                                                            1               11,000         2               11,000     
+‚      ENDING                              206          4456256,643       206          4456256,643       206          4456256,643     
+‚                                                                                                                                     
+‚      TRANSACTION TALLYS -                                                                                                           
+‚                                                                                                                                     
+‚      PAYMENTS                                                             1             2134,957         1             2134,957     
+‚      CREDITS                                                                                             1               30,000     
+‚      DEBITS                                                             340           211812,586     1,014           609761,479     
+‚      PAYMENT REVERSALS                                                                                                              
+‚      MAINTENANCE                                                        410                          1,193                          
+‚      SYSTEM GENERATED CREDITS                                                                            1              740,000     
+‚      SYSTEM GENERATED DEBITS                                                                                                        
+‚                                                                                                                                     
+‚      MISCELLANEOUS TALLYS -                                                                                                         
+‚                                                                                                                                     
+‚      NUMBER TO BE WORKED                 206                          2,468                          8,617                          
+‚      NUMBER WORKED                                                                                                                  
+‚      BROKEN PROMISES                                                                                                                
+‚      PRODUCTIVE ACTIONS                                                                                                             
+‚      PERCENT PRODUCTIVE                                                                                                             
+‚      ALT QUEUE NUMBER WORKED                                                                                                        
+i                                                                                                                                     
+‚ 002 - JACCS INTERNATIONAL VIETNAM       CURRENCY-  704     ACCELLENCE DATA CENTER                    FILE DATE 28/03/20  PAGE -    2
+‚ C01 - JIVF00006                                       (12) COLLECTOR SYNOPSIS                        PROC DATE 28/03/20 - 16.36.06  
+‚                                                                                                                                     
+‚                                       *------- T O D A Y -------*    *--------- M T D ---------*    *--------- Y T D ---------*     
+‚                FIELD NAME             NUMBER          AMOUNT         NUMBER          AMOUNT         NUMBER          AMOUNT          
+‚                                                                                                                                     
+‚      LETTER TALLYS -                                                                                                                
+‚                                                                                                                                     
+‚      AUTOMATICALLY REQUESTED                                                                                                        
+‚      MANUALLY REQUESTED                                                                                                             
+‚                                                                                                                                     
+‚      ACCOUNT TALLYS -                                                                                                               
+‚                                                                                                                                     
+‚      BEGINNING                                                                                                                      
+‚      NEW                                                                                                                            
+‚      TRANSFERRED IN                                                                                                                 
+‚      TRANSFERRED OUT                                                                                                                
+‚      SATISFIED                                                                                                                      
+‚      ENDING                                                                                                                         
+‚                                                                                                                                     
+‚      TRANSACTION TALLYS -                                                                                                           
+‚                                                                                                                                     
+‚      PAYMENTS                                                                                                                       
+‚      CREDITS                                                                                                                        
+‚      DEBITS                                                                                                                         
+‚      PAYMENT REVERSALS                                                                                                              
+‚      MAINTENANCE                                                                                                                    
+‚      SYSTEM GENERATED CREDITS                                                                                                       
+‚      SYSTEM GENERATED DEBITS                                                                                                        
+‚                                                                                                                                     
+‚      MISCELLANEOUS TALLYS -                                                                                                         
+‚                                                                                                                                     
+‚      NUMBER TO BE WORKED                                                                                                            
+‚      NUMBER WORKED                                                                                                                  
+‚      BROKEN PROMISES                                                                                                                
+‚      PRODUCTIVE ACTIONS                                                                                                             
+‚      PERCENT PRODUCTIVE                                                                                                             
+‚      ALT QUEUE NUMBER WORKED                                                                                                        
+i                                                                                                                                     
+‚ 002 - JACCS INTERNATIONAL VIETNAM       CURRENCY-  704     ACCELLENCE DATA CENTER                    FILE DATE 28/03/20  PAGE -    3
+‚ C02 - JIVF00007                                       (12) COLLECTOR SYNOPSIS                        PROC DATE 28/03/20 - 16.36.06  
+‚                                                                                                                                     
+‚                                       *------- T O D A Y -------*    *--------- M T D ---------*    *--------- Y T D ---------*     
+‚                FIELD NAME             NUMBER          AMOUNT         NUMBER          AMOUNT         NUMBER          AMOUNT          
+‚                                                                                                                                     
+‚      LETTER TALLYS -                                                                                                                
+‚                                                                                                                                     
+‚      AUTOMATICALLY REQUESTED                                                                                                        
+‚      MANUALLY REQUESTED                                                                                                             
+‚                                                                                                                                     
+‚      ACCOUNT TALLYS -                                                                                                               
+‚                                                                                                                                     
+‚      BEGINNING                                                                                                                      
+‚      NEW                                                                                                                            
+‚      TRANSFERRED IN                                                                                                                 
+‚      TRANSFERRED OUT                                                                                                                
+‚      SATISFIED                                                                                                                      
+‚      ENDING                                                                                                                         
+‚                                                                                                                                     
+‚      TRANSACTION TALLYS -                                                                                                           
+‚                                                                                                                                     
+‚      PAYMENTS                                                                                                                       
+‚      CREDITS                                                                                                                        
+‚      DEBITS                                                                                                                         
+‚      PAYMENT REVERSALS                                                                                                              
+‚      MAINTENANCE                                                                                                                    
+‚      SYSTEM GENERATED CREDITS                                                                                                       
+‚      SYSTEM GENERATED DEBITS                                                                                                        
+‚                                                                                                                                     
+‚      MISCELLANEOUS TALLYS -                                                                                                         
+‚                                                                                                                                     
+‚      NUMBER TO BE WORKED                                                                                                            
+‚      NUMBER WORKED                                                                                                                  
+‚      BROKEN PROMISES                                                                                                                
+‚      PRODUCTIVE ACTIONS                                                                                                             
+‚      PERCENT PRODUCTIVE                                                                                                             
+‚      ALT QUEUE NUMBER WORKED                                                                                                        
+i                                                                                                                                     
+‚ 002 - JACCS INTERNATIONAL VIETNAM       CURRENCY-  704     ACCELLENCE DATA CENTER                    FILE DATE 28/03/20  PAGE -    4
+‚ C03 - JIVF00008                                       (12) COLLECTOR SYNOPSIS                        PROC DATE 28/03/20 - 16.36.06  
+‚                                                                                                                                     
+‚                                       *------- T O D A Y -------*    *--------- M T D ---------*    *--------- Y T D ---------*     
+‚                FIELD NAME             NUMBER          AMOUNT         NUMBER          AMOUNT         NUMBER          AMOUNT          
+‚                                                                                                                                     
+‚      LETTER TALLYS -                                                                                                                
+‚                                                                                                                                     
+‚      AUTOMATICALLY REQUESTED                                                                                                        
+‚      MANUALLY REQUESTED                                                                                                             
+‚                                                                                                                                     
+‚      ACCOUNT TALLYS -                                                                                                               
+‚                                                                                                                                     
+‚      BEGINNING                                                                                                                      
+‚      NEW                                                                                                                            
+‚      TRANSFERRED IN                                                                                                                 
+‚      TRANSFERRED OUT                                                                                                                
+‚      SATISFIED                                                                                                                      
+‚      ENDING                                                                                                                         
+‚                                                                                                                                     
+‚      TRANSACTION TALLYS -                                                                                                           
+‚                                                                                                                                     
+‚      PAYMENTS                                                                                                                       
+‚      CREDITS                                                                                                                        
+‚      DEBITS                                                                                                                         
+‚      PAYMENT REVERSALS                                                                                                              
+‚      MAINTENANCE                                                                                                                    
+‚      SYSTEM GENERATED CREDITS                                                                                                       
+‚      SYSTEM GENERATED DEBITS                                                                                                        
+‚                                                                                                                                     
+‚      MISCELLANEOUS TALLYS -                                                                                                         
+‚                                                                                                                                     
+‚      NUMBER TO BE WORKED                                                                                                            
+‚      NUMBER WORKED                                                                                                                  
+‚      BROKEN PROMISES                                                                                                                
+‚      PRODUCTIVE ACTIONS                                                                                                             
+‚      PERCENT PRODUCTIVE                                                                                                             
+‚      ALT QUEUE NUMBER WORKED                                                                                                        
+i                                                                                                                                     
+‚ 002 - JACCS INTERNATIONAL VIETNAM       CURRENCY-  704     ACCELLENCE DATA CENTER                    FILE DATE 28/03/20  PAGE -    5
+‚ C04 - JIVF00009                                       (12) COLLECTOR SYNOPSIS                        PROC DATE 28/03/20 - 16.36.06  
+‚                                                                                                                                     
+‚                                       *------- T O D A Y -------*    *--------- M T D ---------*    *--------- Y T D ---------*     
+‚                FIELD NAME             NUMBER          AMOUNT         NUMBER          AMOUNT         NUMBER          AMOUNT          
+‚                                                                                                                                     
+‚      LETTER TALLYS -                                                                                                                
+‚                                                                                                                                     
+‚      AUTOMATICALLY REQUESTED                                                                                                        
+‚      MANUALLY REQUESTED                                                                                                             
+‚                                                                                                                                     
+‚      ACCOUNT TALLYS -                                                                                                               
+‚                                                                                                                                     
+‚      BEGINNING                                                                                                                      
+‚      NEW                                                                                                                            
+‚      TRANSFERRED IN                                                                                                                 
+‚      TRANSFERRED OUT                                                                                                                
+‚      SATISFIED                                                                                                                      
+‚      ENDING                                                                                                                         
+‚                                                                                                                                     
+‚      TRANSACTION TALLYS -                                                                                                           
+‚                                                                                                                                     
+‚      PAYMENTS                                                                                                                       
+‚      CREDITS                                                                                                                        
+‚      DEBITS                                                                                                                         
+‚      PAYMENT REVERSALS                                                                                                              
+‚      MAINTENANCE                                                                                                                    
+‚      SYSTEM GENERATED CREDITS                                                                                                       
+‚      SYSTEM GENERATED DEBITS                                                                                                        
+‚                                                                                                                                     
+‚      MISCELLANEOUS TALLYS -                                                                                                         
+‚                                                                                                                                     
+‚      NUMBER TO BE WORKED                                                                                                            
+‚      NUMBER WORKED                                                                                                                  
+‚      BROKEN PROMISES                                                                                                                
+‚      PRODUCTIVE ACTIONS                                                                                                             
+‚      PERCENT PRODUCTIVE                                                                                                             
+‚      ALT QUEUE NUMBER WORKED                                                                                                        
+i                                                                                                                                     
+‚ 002 - JACCS INTERNATIONAL VIETNAM       CURRENCY-  704     ACCELLENCE DATA CENTER                    FILE DATE 28/03/20  PAGE -    6
+‚ C05 - JIVF00010                                       (12) COLLECTOR SYNOPSIS                        PROC DATE 28/03/20 - 16.36.06  
+‚                                                                                                                                     
+‚                                       *------- T O D A Y -------*    *--------- M T D ---------*    *--------- Y T D ---------*     
+‚                FIELD NAME             NUMBER          AMOUNT         NUMBER          AMOUNT         NUMBER          AMOUNT          
+‚                                                                                                                                     
+‚      LETTER TALLYS -                                                                                                                
+‚                                                                                                                                     
+‚      AUTOMATICALLY REQUESTED                                                                                                        
+‚      MANUALLY REQUESTED                                                                                                             
+‚                                                                                                                                     
+‚      ACCOUNT TALLYS -                                                                                                               
+‚                                                                                                                                     
+‚      BEGINNING                                                                                                                      
+‚      NEW                                                                                                                            
+‚      TRANSFERRED IN                                                                                                                 
+‚      TRANSFERRED OUT                                                                                                                
+‚      SATISFIED                                                                                                                      
+‚      ENDING                                                                                                                         
+‚                                                                                                                                     
+‚      TRANSACTION TALLYS -                                                                                                           
+‚                                                                                                                                     
+‚      PAYMENTS                                                                                                                       
+‚      CREDITS                                                                                                                        
+‚      DEBITS                                                                                                                         
+‚      PAYMENT REVERSALS                                                                                                              
+‚      MAINTENANCE                                                                                                                    
+‚      SYSTEM GENERATED CREDITS                                                                                                       
+‚      SYSTEM GENERATED DEBITS                                                                                                        
+‚                                                                                                                                     
+‚      MISCELLANEOUS TALLYS -                                                                                                         
+‚                                                                                                                                     
+‚      NUMBER TO BE WORKED                                                                                                            
+‚      NUMBER WORKED                                                                                                                  
+‚      BROKEN PROMISES                                                                                                                
+‚      PRODUCTIVE ACTIONS                                                                                                             
+‚      PERCENT PRODUCTIVE                                                                                                             
+‚      ALT QUEUE NUMBER WORKED                                                                                                        
+i                                                                                                                                     
+‚ 002 - JACCS INTERNATIONAL VIETNAM       CURRENCY-  704     ACCELLENCE DATA CENTER                    FILE DATE 28/03/20  PAGE -    7
+‚ C06 - JIVF00011                                       (12) COLLECTOR SYNOPSIS                        PROC DATE 28/03/20 - 16.36.06  
+‚                                                                                                                                     
+‚                                       *------- T O D A Y -------*    *--------- M T D ---------*    *--------- Y T D ---------*     
+‚                FIELD NAME             NUMBER          AMOUNT         NUMBER          AMOUNT         NUMBER          AMOUNT          
+‚                                                                                                                                     
+‚      LETTER TALLYS -                                                                                                                
+‚                                                                                                                                     
+‚      AUTOMATICALLY REQUESTED                                                                                                        
+‚      MANUALLY REQUESTED                                                                                                             
+‚                                                                                                                                     
+‚      ACCOUNT TALLYS -                                                                                                               
+‚                                                                                                                                     
+‚      BEGINNING                                                                                                                      
+‚      NEW                                                                                                                            
+‚      TRANSFERRED IN                                                                                                                 
+‚      TRANSFERRED OUT                                                                                                                
+‚      SATISFIED                                                                                                                      
+‚      ENDING                                                                                                                         
+‚                                                                                                                                     
+‚      TRANSACTION TALLYS -                                                                                                           
+‚                                                                                                                                     
+‚      PAYMENTS                                                                                                                       
+‚      CREDITS                                                                                                                        
+‚      DEBITS                                                                                                                         
+‚      PAYMENT REVERSALS                                                                                                              
+‚      MAINTENANCE                                                                                                                    
+‚      SYSTEM GENERATED CREDITS                                                                                                       
+‚      SYSTEM GENERATED DEBITS                                                                                                        
+‚                                                                                                                                     
+‚      MISCELLANEOUS TALLYS -                                                                                                         
+‚                                                                                                                                     
+‚      NUMBER TO BE WORKED                                                                                                            
+‚      NUMBER WORKED                                                                                                                  
+‚      BROKEN PROMISES                                                                                                                
+‚      PRODUCTIVE ACTIONS                                                                                                             
+‚      PERCENT PRODUCTIVE                                                                                                             
+‚      ALT QUEUE NUMBER WORKED                                                                                                        
+i                                                                                                                                     
+‚ 002 - JACCS INTERNATIONAL VIETNAM       CURRENCY-  704     ACCELLENCE DATA CENTER                    FILE DATE 28/03/20  PAGE -    8
+‚ C07 - JIVF00012                                       (12) COLLECTOR SYNOPSIS                        PROC DATE 28/03/20 - 16.36.06  
+‚                                                                                                                                     
+‚                                       *------- T O D A Y -------*    *--------- M T D ---------*    *--------- Y T D ---------*     
+‚                FIELD NAME             NUMBER          AMOUNT         NUMBER          AMOUNT         NUMBER          AMOUNT          
+‚                                                                                                                                     
+‚      LETTER TALLYS -                                                                                                                
+‚                                                                                                                                     
+‚      AUTOMATICALLY REQUESTED                                                                                                        
+‚      MANUALLY REQUESTED                                                                                                             
+‚                                                                                                                                     
+‚      ACCOUNT TALLYS -                                                                                                               
+‚                                                                                                                                     
+‚      BEGINNING                                                                                           1             7037,318     
+‚      NEW                                                                                                                            
+‚      TRANSFERRED IN                                                                                                                 
+‚      TRANSFERRED OUT                                                                                     1             7113,036     
+‚      SATISFIED                                                                                                                      
+‚      ENDING                                                                                                                         
+‚                                                                                                                                     
+‚      TRANSACTION TALLYS -                                                                                                           
+‚                                                                                                                                     
+‚      PAYMENTS                                                                                                                       
+‚      CREDITS                                                                                                                        
+‚      DEBITS                                                                                              1               75,718     
+‚      PAYMENT REVERSALS                                                                                                              
+‚      MAINTENANCE                                                                                         2                          
+‚      SYSTEM GENERATED CREDITS                                                                                                       
+‚      SYSTEM GENERATED DEBITS                                                                                                        
+‚                                                                                                                                     
+‚      MISCELLANEOUS TALLYS -                                                                                                         
+‚                                                                                                                                     
+‚      NUMBER TO BE WORKED                                                                                10                          
+‚      NUMBER WORKED                                                                                                                  
+‚      BROKEN PROMISES                                                                                                                
+‚      PRODUCTIVE ACTIONS                                                                                                             
+‚      PERCENT PRODUCTIVE                                                                                                             
+‚      ALT QUEUE NUMBER WORKED                                                                                                        
+i                                                                                                                                     
+‚ 002 - JACCS INTERNATIONAL VIETNAM       CURRENCY-  704     ACCELLENCE DATA CENTER                    FILE DATE 28/03/20  PAGE -    9
+‚ C08 - JIVF00013                                       (12) COLLECTOR SYNOPSIS                        PROC DATE 28/03/20 - 16.36.06  
+‚                                                                                                                                     
+‚                                       *------- T O D A Y -------*    *--------- M T D ---------*    *--------- Y T D ---------*     
+‚                FIELD NAME             NUMBER          AMOUNT         NUMBER          AMOUNT         NUMBER          AMOUNT          
+‚                                                                                                                                     
+‚      LETTER TALLYS -                                                                                                                
+‚                                                                                                                                     
+‚      AUTOMATICALLY REQUESTED                                                                                                        
+‚      MANUALLY REQUESTED                                                                                                             
+‚                                                                                                                                     
+‚      ACCOUNT TALLYS -                                                                                                               
+‚                                                                                                                                     
+‚      BEGINNING                            39          3530405,845        41          3387199,429        39          3083911,491     
+‚      NEW                                                                                                 1              740,000     
+‚      TRANSFERRED IN                                                                                      1             7113,036     
+‚      TRANSFERRED OUT                                                                                                                
+‚      SATISFIED                                                            2               24,000         2               24,000     
+‚      ENDING                               39          3530405,845        39          3530405,845        39          3530405,845     
+‚                                                                                                                                     
+‚      TRANSACTION TALLYS -                                                                                                           
+‚                                                                                                                                     
+‚      PAYMENTS                                                             2             9194,042         2             9194,042     
+‚      CREDITS                                                                                                                        
+‚      DEBITS                                                              70           152424,458       204           447859,360     
+‚      PAYMENT REVERSALS                                                                                                              
+‚      MAINTENANCE                                                         82                            236                          
+‚      SYSTEM GENERATED CREDITS                                                                                                       
+‚      SYSTEM GENERATED DEBITS                                                                                                        
+‚                                                                                                                                     
+‚      MISCELLANEOUS TALLYS -                                                                                                         
+‚                                                                                                                                     
+‚      NUMBER TO BE WORKED                  39                            490                          1,684                          
+‚      NUMBER WORKED                                                                                                                  
+‚      BROKEN PROMISES                                                                                                                
+‚      PRODUCTIVE ACTIONS                                                                                                             
+‚      PERCENT PRODUCTIVE                                                                                                             
+‚      ALT QUEUE NUMBER WORKED                                                                                                        
+i                                                                                                                                     
+‚ 002 - JACCS INTERNATIONAL VIETNAM       CURRENCY-  704     ACCELLENCE DATA CENTER                    FILE DATE 28/03/20  PAGE -   10
+‚ C13 - HIRANO                                          (12) COLLECTOR SYNOPSIS                        PROC DATE 28/03/20 - 16.36.06  
+‚                                                                                                                                     
+‚                                       *------- T O D A Y -------*    *--------- M T D ---------*    *--------- Y T D ---------*     
+‚                FIELD NAME             NUMBER          AMOUNT         NUMBER          AMOUNT         NUMBER          AMOUNT          
+‚                                                                                                                                     
+‚      LETTER TALLYS -                                                                                                                
+‚                                                                                                                                     
+‚      AUTOMATICALLY REQUESTED                                                                                                        
+‚      MANUALLY REQUESTED                                                                                                             
+‚                                                                                                                                     
+‚      ACCOUNT TALLYS -                                                                                                               
+‚                                                                                                                                     
+‚      BEGINNING                                                                                                                      
+‚      NEW                                                                                                                            
+‚      TRANSFERRED IN                                                                                                                 
+‚      TRANSFERRED OUT                                                                                                                
+‚      SATISFIED                                                                                                                      
+‚      ENDING                                                                                                                         
+‚                                                                                                                                     
+‚      TRANSACTION TALLYS -                                                                                                           
+‚                                                                                                                                     
+‚      PAYMENTS                                                                                                                       
+‚      CREDITS                                                                                                                        
+‚      DEBITS                                                                                                                         
+‚      PAYMENT REVERSALS                                                                                                              
+‚      MAINTENANCE                                                                                                                    
+‚      SYSTEM GENERATED CREDITS                                                                                                       
+‚      SYSTEM GENERATED DEBITS                                                                                                        
+‚                                                                                                                                     
+‚      MISCELLANEOUS TALLYS -                                                                                                         
+‚                                                                                                                                     
+‚      NUMBER TO BE WORKED                                                                                                            
+‚      NUMBER WORKED                                                                                                                  
+‚      BROKEN PROMISES                                                                                                                
+‚      PRODUCTIVE ACTIONS                                                                                                             
+‚      PERCENT PRODUCTIVE                                                                                                             
+‚      ALT QUEUE NUMBER WORKED                                                                                                        
+i                                                                                                                                     
+‚ 002 - JACCS INTERNATIONAL VIETNAM       CURRENCY-  704     ACCELLENCE DATA CENTER                    FILE DATE 28/03/20  PAGE -   11
+‚ D01 - A0054                                           (12) COLLECTOR SYNOPSIS                        PROC DATE 28/03/20 - 16.36.06  
+‚                                                                                                                                     
+‚                                       *------- T O D A Y -------*    *--------- M T D ---------*    *--------- Y T D ---------*     
+‚                FIELD NAME             NUMBER          AMOUNT         NUMBER          AMOUNT         NUMBER          AMOUNT          
+‚                                                                                                                                     
+‚      LETTER TALLYS -                                                                                                                
+‚                                                                                                                                     
+‚      AUTOMATICALLY REQUESTED                                                                                                        
+‚      MANUALLY REQUESTED                                                                                                             
+‚                                                                                                                                     
+‚      ACCOUNT TALLYS -                                                                                                               
+‚                                                                                                                                     
+‚      BEGINNING                                                                                                                      
+‚      NEW                                                                                                                            
+‚      TRANSFERRED IN                                                                                                                 
+‚      TRANSFERRED OUT                                                                                                                
+‚      SATISFIED                                                                                                                      
+‚      ENDING                                                                                                                         
+‚                                                                                                                                     
+‚      TRANSACTION TALLYS -                                                                                                           
+‚                                                                                                                                     
+‚      PAYMENTS                                                                                                                       
+‚      CREDITS                                                                                                                        
+‚      DEBITS                                                                                                                         
+‚      PAYMENT REVERSALS                                                                                                              
+‚      MAINTENANCE                                                                                                                    
+‚      SYSTEM GENERATED CREDITS                                                                                                       
+‚      SYSTEM GENERATED DEBITS                                                                                                        
+‚                                                                                                                                     
+‚      MISCELLANEOUS TALLYS -                                                                                                         
+‚                                                                                                                                     
+‚      NUMBER TO BE WORKED                                                                                                            
+‚      NUMBER WORKED                                                                                                                  
+‚      BROKEN PROMISES                                                                                                                
+‚      PRODUCTIVE ACTIONS                                                                                                             
+‚      PERCENT PRODUCTIVE                                                                                                             
+‚      ALT QUEUE NUMBER WORKED                                                                                                        
+i                                                                                                                                     
+‚ 002 - JACCS INTERNATIONAL VIETNAM       CURRENCY-  704     ACCELLENCE DATA CENTER                    FILE DATE 28/03/20  PAGE -   12
+‚ S04 - TOSHIHIRO NAGARA                                (12) COLLECTOR SYNOPSIS                        PROC DATE 28/03/20 - 16.36.06  
+‚                                                                                                                                     
+‚                                       *------- T O D A Y -------*    *--------- M T D ---------*    *--------- Y T D ---------*     
+‚                FIELD NAME             NUMBER          AMOUNT         NUMBER          AMOUNT         NUMBER          AMOUNT          
+‚                                                                                                                                     
+‚      LETTER TALLYS -                                                                                                                
+‚                                                                                                                                     
+‚      AUTOMATICALLY REQUESTED                                                                                                        
+‚      MANUALLY REQUESTED                                                                                                             
+‚                                                                                                                                     
+‚      ACCOUNT TALLYS -                                                                                                               
+‚                                                                                                                                     
+‚      BEGINNING                                                                                                                      
+‚      NEW                                                                                                                            
+‚      TRANSFERRED IN                                                                                                                 
+‚      TRANSFERRED OUT                                                                                                                
+‚      SATISFIED                                                                                                                      
+‚      ENDING                                                                                                                         
+‚                                                                                                                                     
+‚      TRANSACTION TALLYS -                                                                                                           
+‚                                                                                                                                     
+‚      PAYMENTS                                                                                                                       
+‚      CREDITS                                                                                                                        
+‚      DEBITS                                                                                                                         
+‚      PAYMENT REVERSALS                                                                                                              
+‚      MAINTENANCE                                                                                                                    
+‚      SYSTEM GENERATED CREDITS                                                                                                       
+‚      SYSTEM GENERATED DEBITS                                                                                                        
+‚                                                                                                                                     
+‚      MISCELLANEOUS TALLYS -                                                                                                         
+‚                                                                                                                                     
+‚      NUMBER TO BE WORKED                                                                                                            
+‚      NUMBER WORKED                                                                                                                  
+‚      BROKEN PROMISES                                                                                                                
+‚      PRODUCTIVE ACTIONS                                                                                                             
+‚      PERCENT PRODUCTIVE                                                                                                             
+‚      ALT QUEUE NUMBER WORKED                                                                                                        
+i                                                                                                                                     
+‚ 002 - JACCS INTERNATIONAL VIETNAM       CURRENCY-  704     ACCELLENCE DATA CENTER                    FILE DATE 28/03/20  PAGE -   13
+‚ TOR - KULVADEE PHO-PHANG                              (12) COLLECTOR SYNOPSIS                        PROC DATE 28/03/20 - 16.36.06  
+‚                                                                                                                                     
+‚                                       *------- T O D A Y -------*    *--------- M T D ---------*    *--------- Y T D ---------*     
+‚                FIELD NAME             NUMBER          AMOUNT         NUMBER          AMOUNT         NUMBER          AMOUNT          
+‚                                                                                                                                     
+‚      LETTER TALLYS -                                                                                                                
+‚                                                                                                                                     
+‚      AUTOMATICALLY REQUESTED                                                                                                        
+‚      MANUALLY REQUESTED                                                                                                             
+‚                                                                                                                                     
+‚      ACCOUNT TALLYS -                                                                                                               
+‚                                                                                                                                     
+‚      BEGINNING                                                                                                                      
+‚      NEW                                                                                                                            
+‚      TRANSFERRED IN                                                                                                                 
+‚      TRANSFERRED OUT                                                                                                                
+‚      SATISFIED                                                                                                                      
+‚      ENDING                                                                                                                         
+‚                                                                                                                                     
+‚      TRANSACTION TALLYS -                                                                                                           
+‚                                                                                                                                     
+‚      PAYMENTS                                                                                                                       
+‚      CREDITS                                                                                                                        
+‚      DEBITS                                                                                                                         
+‚      PAYMENT REVERSALS                                                                                                              
+‚      MAINTENANCE                                                                                                                    
+‚      SYSTEM GENERATED CREDITS                                                                                                       
+‚      SYSTEM GENERATED DEBITS                                                                                                        
+‚                                                                                                                                     
+‚      MISCELLANEOUS TALLYS -                                                                                                         
+‚                                                                                                                                     
+‚      NUMBER TO BE WORKED                                                                                                            
+‚      NUMBER WORKED                                                                                                                  
+‚      BROKEN PROMISES                                                                                                                
+‚      PRODUCTIVE ACTIONS                                                                                                             
+‚      PERCENT PRODUCTIVE                                                                                                             
+‚      ALT QUEUE NUMBER WORKED                                                                                                        
+i                                                                                                                                     
+‚ 002 - JACCS INTERNATIONAL VIETNAM       CURRENCY-  704     ACCELLENCE DATA CENTER                    FILE DATE 28/03/20  PAGE -   14
+‚ T09 - THANAKORN P.                                    (12) COLLECTOR SYNOPSIS                        PROC DATE 28/03/20 - 16.36.06  
+‚                                                                                                                                     
+‚                                       *------- T O D A Y -------*    *--------- M T D ---------*    *--------- Y T D ---------*     
+‚                FIELD NAME             NUMBER          AMOUNT         NUMBER          AMOUNT         NUMBER          AMOUNT          
+‚                                                                                                                                     
+‚      LETTER TALLYS -                                                                                                                
+‚                                                                                                                                     
+‚      AUTOMATICALLY REQUESTED                                                                                                        
+‚      MANUALLY REQUESTED                                                                                                             
+‚                                                                                                                                     
+‚      ACCOUNT TALLYS -                                                                                                               
+‚                                                                                                                                     
+‚      BEGINNING                                                                                                                      
+‚      NEW                                                                                                                            
+‚      TRANSFERRED IN                                                                                                                 
+‚      TRANSFERRED OUT                                                                                                                
+‚      SATISFIED                                                                                                                      
+‚      ENDING                                                                                                                         
+‚                                                                                                                                     
+‚      TRANSACTION TALLYS -                                                                                                           
+‚                                                                                                                                     
+‚      PAYMENTS                                                                                                                       
+‚      CREDITS                                                                                                                        
+‚      DEBITS                                                                                                                         
+‚      PAYMENT REVERSALS                                                                                                              
+‚      MAINTENANCE                                                                                                                    
+‚      SYSTEM GENERATED CREDITS                                                                                                       
+‚      SYSTEM GENERATED DEBITS                                                                                                        
+‚                                                                                                                                     
+‚      MISCELLANEOUS TALLYS -                                                                                                         
+‚                                                                                                                                     
+‚      NUMBER TO BE WORKED                                                                                                            
+‚      NUMBER WORKED                                                                                                                  
+‚      BROKEN PROMISES                                                                                                                
+‚      PRODUCTIVE ACTIONS                                                                                                             
+‚      PERCENT PRODUCTIVE                                                                                                             
+‚      ALT QUEUE NUMBER WORKED                                                                                                        
+

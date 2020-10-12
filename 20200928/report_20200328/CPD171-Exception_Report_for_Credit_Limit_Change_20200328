@@ -1,0 +1,19 @@
+‚                                                                                                                                    
+‚  000 -                                                      SG CARDLINK                             FILE DATE 28/03/20 PAGE -    1 
+‚  000 -                                       EXCEPTION REPORT FOR CREDIT LIMIT CHANGE               PROC DATE 28/03/20-16.38.34    
+‚                                                             CPD171-02                                                              
+‚                                                                                                                                    
+‚  ACCOUNT NUMBER     SHORT NAME      BLOCK  BLOCK         PREV            CURRENT      CRLIMIT  CURRENT BALANCE                     
+‚                                            DATE       CREDIT LIMIT     CREDIT LIMIT    CHG %                                       
+‚                                                                                                                                    
+‚                                     *** NO CREDIT LIMIT CHANGE GREATER THAN PARAMETER SETUP ***                                    
+‚                                                                                                                                    
+‚                                                                                                                                    
+‚           **-- TYPE TOTALS --**                                                                                                    
+‚  TOTAL ACCOUNT           0                                                                                                         
+‚                                                                                                                                    
+‚           **-- ORG TOTALS --**                                                                                                     
+‚  TOTAL ACCOUNT           0                                                                                                         
+‚                                                                                                                                    
+‚                                                      *** END OF THE REPORT ***                                                     
+

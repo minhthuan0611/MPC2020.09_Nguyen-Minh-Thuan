@@ -1,0 +1,10 @@
+1       -                                                       C L C B                                FILE DATE 28/03/20 PAGE -    1 
+          -                                       CARD PROGRAM RECORD DIRECT TRANSFER                  PROC DATE 28/03/20 - 16.16.16  
+                                                             - REPORT T02 -                                                           
+                                                                                                                                      
+  ---- TRANSFER FROM ----  ------- TRANSFER TO -------                                                                                
+  TYPE   CARD NUMBER       ORG TYPE   CARD NUMBER       CURRENT BALANCE      AV1 BALANCE      AV2 BALANCE  REMARKS                    
+                                                                                                                                      
+                                                                                                                                      
+                                                          ** END OF REPORT **                                                         
+

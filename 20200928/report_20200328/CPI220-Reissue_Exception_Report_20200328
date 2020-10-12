@@ -1,0 +1,68 @@
+i                                                                                                                                     
+‚1002 - JACCS INTER. VIETNAM FINANCE                                                                  FILE DATE-28/03/20   PG        1
+‚2752 - NEWLY ADDED TYPE RECORD                            REISSUE EXCEPTION REPORT                   PROC DATE-28/03/20   16.25.21   
+                                                                CPI220-02                                                            
+‚     CARD NUMBER         CUSTOMER                    CUSTOMER        CARD STATUS BLOCK    ACTION       EXCEPTION                     
+‚                           NAME                      NUMBER          TYPE  CODE  CODE   REQUESTED       REASON                       
+‚                                                                                                                                     
+‚                                                                                                                                    
+‚  000421194******0406 TRUONG HAI                 002 0000000000008334  00   2               REISSUE    NOT ALLOW TO RE-ISSUE   * E01 
+‚  000421194******0414 LE THI HONG                002 0000000000008334  00   2               REISSUE    NOT ALLOW TO RE-ISSUE   * E01 
+i                                                                                                                                     
+‚1002 - JACCS INTER. VIETNAM FINANCE                                                                  FILE DATE-28/03/20   PG        2
+‚2752 - NEWLY ADDED TYPE RECORD                            REISSUE EXCEPTION REPORT                   PROC DATE-28/03/20   16.25.21   
+                                                                CPI220-02                                                            
+‚                                                                                                                                     
+  *** TOTALS ***                                                                                                                     
+‚  BLOCKED CARDS                   0                                                                                                  
+‚  CHARGED-OFF CARDS               0                                                                                                  
+‚  CLOSED CARDS                    0                                                                                                  
+‚  PURGED CARDS                    0                                                                                                  
+‚  TRANSFERRED OUT CARDS           0                                                                                                  
+‚  CARD NOT ON FILE                0                                                                                                  
+‚  CUSTOMER NOT ON FILE            0                                                                                                  
+‚  INVALID ISSUE ACTION            0                                                                                                  
+‚  INVALID NBR OF CARDS            0                                                                                                  
+‚  ZERO CREDIT LIMIT               0                                                                                                  
+‚  BLOCKED ACCOUNTS                0                                                                                                  
+‚  CHARGED-OFF ACCOUNTS            0                                                                                                  
+‚  TRANSFERRED OUT ACCOUNTS        0                                                                                                  
+‚  CLOSED ACCOUNTS                 0                                                                                                  
+‚  PURGED ACCOUNTS                 0                                                                                                  
+‚  ACCOUNT NOT ON FILE             0                                                                                                  
+                                                                                                                                     
+‚  *** TOTAL EXCEPTIONS            0                                                                                                  
+i                                                                                                                                     
+‚1002 - JACCS INTER. VIETNAM FINANCE                                                                  FILE DATE-28/03/20   PG        1
+‚2951 - NEWLY ADDED TYPE RECORD                            REISSUE EXCEPTION REPORT                   PROC DATE-28/03/20   16.25.21   
+                                                                CPI220-02                                                            
+‚     CARD NUMBER         CUSTOMER                    CUSTOMER        CARD STATUS BLOCK    ACTION       EXCEPTION                     
+‚                           NAME                      NUMBER          TYPE  CODE  CODE   REQUESTED       REASON                       
+‚                                                                                                                                     
+‚                                                                                                                                     
+‚  000421193******0413 TRUONG MOT                 002 0000000000008326  00   1               REISSUE    NOT ALLOW TO RE-ISSUE   * E01 
+i                                                                                                                                     
+‚1002 - JACCS INTER. VIETNAM FINANCE                                                                  FILE DATE-28/03/20   PG        2
+‚2951 - NEWLY ADDED TYPE RECORD                            REISSUE EXCEPTION REPORT                   PROC DATE-28/03/20   16.25.21   
+                                                                CPI220-02                                                            
+‚                                                                                                                                     
+  *** TOTALS ***                                                                                                                     
+‚  BLOCKED CARDS                   0                                                                                                  
+‚  CHARGED-OFF CARDS               0                                                                                                  
+‚  CLOSED CARDS                    0                                                                                                  
+‚  PURGED CARDS                    0                                                                                                  
+‚  TRANSFERRED OUT CARDS           0                                                                                                  
+‚  CARD NOT ON FILE                0                                                                                                  
+‚  CUSTOMER NOT ON FILE            0                                                                                                  
+‚  INVALID ISSUE ACTION            0                                                                                                  
+‚  INVALID NBR OF CARDS            0                                                                                                  
+‚  ZERO CREDIT LIMIT               0                                                                                                  
+‚  BLOCKED ACCOUNTS                0                                                                                                  
+‚  CHARGED-OFF ACCOUNTS            0                                                                                                  
+‚  TRANSFERRED OUT ACCOUNTS        0                                                                                                  
+‚  CLOSED ACCOUNTS                 0                                                                                                  
+‚  PURGED ACCOUNTS                 0                                                                                                  
+‚  ACCOUNT NOT ON FILE             0                                                                                                  
+                                                                                                                                     
+‚  *** TOTAL EXCEPTIONS            0                                                                                                  
+

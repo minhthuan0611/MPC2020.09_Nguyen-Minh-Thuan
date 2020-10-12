@@ -1,0 +1,94 @@
+i                                                                                                                                    
+‚OCU950                                                     ACCELLENCE DATA CENTER                FILE DATE 28/03/20    PAGE        1
+‚002   JACCS INTERNATIONAL VIETNAM       CURRENCY - 704       ACCOUNT MASTER STATISTICS           PROC DATE 28/03/20    TIME 16.36.09
+‚                                                                                                                                    
+                                                                                                                                    
+                                            NBR OF ACTIVE ACCTS                     245                                             
+                                            AMOUNT                          7986662,488                                             
+                                            NBR OF CLOSED ACCTS                       3                                             
+                                            NBR OF TICKLER ACCTS                      0                                             
+                                            NUMBER ACTION RECORDS                16,134                                             
+                                            NUMBER MAINT RECORDS                 15,302                                             
+                                            NUMBER MEMO RECORDS                       5                                             
+                                            AVG AMT PER ACCT                32598,622.4                                             
+                                            AVG NBR ACTION PER ACCT              65.056                                             
+                                            AVG NBR MAINT  PER ACCT              61.701                                             
+                                            AVG NBR MEMOES PER ACCT                .020                                             
+i                                                                                                                                    
+‚OCU950                                                     ACCELLENCE DATA CENTER                FILE DATE 28/03/20    PAGE        2
+‚002   JACCS INTERNATIONAL VIETNAM       CURRENCY - 704            BALANCE BY CLASS               PROC DATE 28/03/20    TIME 16.36.09
+‚                                                                                                                                    
+‚                                                                                                                                    
+‚  UPD XREF  TICK  ****************** COUNT ******************              ********************* AMOUNT ***********************     
+‚                  CLASS  CALCULATED   FROM TALLY   DIFFERENCE              CALCULATED           FROM TALLY           DIFFERENCE     
+‚                                                                                                                                    
+‚                    410           0            0            0                       0                    0                    0     
+‚                    420           0            0            0                       0                    0                    0     
+‚                    430           0            0            0                       0                    0                    0     
+‚                    440           0            0            0                       0                    0                    0     
+‚                    450          39           39            0             3530405,845          3530405,845                    0     
+‚                    900         206          206            0             4456256,643          4456256,643                    0     
+====================================================================================================================================
+‚ORG TOTAL                       245          245            0             7986662,488          7986662,488                    0     
+i                                                                                                                                    
+‚OCU950                                                     ACCELLENCE DATA CENTER                FILE DATE 28/03/20    PAGE        3
+‚002   JACCS INTERNATIONAL VIETNAM       CURRENCY - 704          BALANCE BY COLLECTOR             PROC DATE 28/03/20    TIME 16.36.09
+‚                                                                                                                                    
+‚                                                                                                                                    
+‚  UPD XREF  TICK  ****************** COUNT ******************              ********************* AMOUNT ***********************     
+‚                  COLL   CALCULATED   FROM TALLY   DIFFERENCE              CALCULATED           FROM TALLY           DIFFERENCE     
+‚                                                                                                                                    
+‚                    CC1         206          206            0             4456256,643          4456256,643                    0     
+‚                    C01           0            0            0                       0                    0                    0     
+‚                    C02           0            0            0                       0                    0                    0     
+‚                    C03           0            0            0                       0                    0                    0     
+‚                    C04           0            0            0                       0                    0                    0     
+‚                    C05           0            0            0                       0                    0                    0     
+‚                    C06           0            0            0                       0                    0                    0     
+‚                    C07           0            0            0                       0                    0                    0     
+‚                    C08          39           39            0             3530405,845          3530405,845                    0     
+‚                    C13           0            0            0                       0                    0                    0     
+‚                    D01           0            0            0                       0                    0                    0     
+‚                    S04           0            0            0                       0                    0                    0     
+‚                    TOR           0            0            0                       0                    0                    0     
+‚                    T09           0            0            0                       0                    0                    0     
+====================================================================================================================================
+‚ORG TOTAL                       245          245            0             7986662,488          7986662,488                    0     
+i                                                                                                                                    
+‚OCU950                                                     ACCELLENCE DATA CENTER                FILE DATE 28/03/20    PAGE        4
+‚999   ACCELLENCE SYSTEM RECORD          CURRENCY - 704       ACCOUNT MASTER STATISTICS           PROC DATE 28/03/20    TIME 16.36.09
+‚                                                                                                                                    
+                                                                                                                                    
+                                            *** GRAND TOTALS ***                                                                    
+                                            NBR OF ACTIVE ACCTS                     245                                             
+                                            AMOUNT                          7986662,488                                             
+                                            NBR OF CLOSED ACCTS                       3                                             
+                                            NBR OF TICKLER ACCTS                      0                                             
+                                            NUMBER ACTION RECORDS                16,134                                             
+                                            NUMBER MAINT RECORDS                 15,302                                             
+                                            NUMBER MEMO RECORDS                       5                                             
+                                            AVG AMT PER ACCT                32598,622.4                                             
+                                            AVG NBR ACTION PER ACCT              65.056                                             
+                                            AVG NBR MAINT  PER ACCT              61.701                                             
+                                            AVG NBR MEMOES PER ACCT                .020                                             
+i                                                                                                                                    
+‚OCU950                                                     ACCELLENCE DATA CENTER                FILE DATE 28/03/20    PAGE        5
+‚999   ACCELLENCE SYSTEM RECORD          CURRENCY - 704            BALANCE BY CLASS               PROC DATE 28/03/20    TIME 16.36.09
+‚                                                                                                                                    
+‚                                                                                                                                    
+‚  UPD XREF  TICK  ****************** COUNT ******************              ********************* AMOUNT ***********************     
+‚                  CLASS  CALCULATED   FROM TALLY   DIFFERENCE              CALCULATED           FROM TALLY           DIFFERENCE     
+‚                                                                                                                                    
+‚GRAND TOTAL                                                                                                                         
+‚                                245          245            0             7986662,488          7986662,488                    0     
+i                                                                                                                                    
+‚OCU950                                                     ACCELLENCE DATA CENTER                FILE DATE 28/03/20    PAGE        6
+‚999   ACCELLENCE SYSTEM RECORD          CURRENCY - 704          BALANCE BY COLLECTOR             PROC DATE 28/03/20    TIME 16.36.09
+‚                                                                                                                                    
+‚                                                                                                                                    
+‚  UPD XREF  TICK  ****************** COUNT ******************              ********************* AMOUNT ***********************     
+‚                  COLL   CALCULATED   FROM TALLY   DIFFERENCE              CALCULATED           FROM TALLY           DIFFERENCE     
+‚                                                                                                                                    
+‚GRAND TOTAL                                                                                                                         
+‚                                245          245            0             7986662,488          7986662,488                    0     
+

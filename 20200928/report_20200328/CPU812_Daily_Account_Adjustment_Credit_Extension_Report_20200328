@@ -1,0 +1,59 @@
+i                                                                                                                                     
+‚1000 - ORG                                                    CARDLINK                               FILE DATE-28/03/20   PG        1
+‚2000 - TYPE                            DAILY INCOMPLETE/PENDING ACCOUNT ADJUSTMENT REPORT            PROC DATE-28/03/20   16.38.03   
+                                                               CPU812-01                                                             
+‚     CARD NUMBER       ADJ DATE     ADJ TIME        OP-ID  BAL   LAST MEMO LINE                                         NXT APPR LVL 
+‚     TC      SC        DESCRIPTION                         SEQ   TXN DATE             AMOUNT      STATUS                             
+‚                                                                                                                                     
+‚ * END REPORT *                                                                                                                     
+i                                                                                                                                     
+‚1000 - ORG                                                    CARDLINK                               FILE DATE-28/03/20   PG        1
+‚2000 - TYPE                                DAILY COMPLETED ACCOUNT ADJUSTMENT REPORT                 PROC DATE-28/03/20   16.38.03   
+                                                               CPU812-02                                                             
+‚     CARD NUMBER       ADJ DATE     ADJ TIME        OP-ID  BAL   LAST MEMO LINE                                                      
+‚     TC      SC     DESCRIPTION                            SEQ   TXN DATE             AMOUNT      STATUS                             
+‚                                                                                                                                     
+‚  * END REPORT *                                                                                                                     
+i                                                                                                                                     
+‚1000 -                                                        CARDLINK                               FILE DATE-28/03/20   PG        1
+‚2000 -                                 COMPLETED ACCOUNT ADJUSTMENT - TRANSACTION DETAILS RPT        PROC DATE-28/03/20   16.38.03   
+                                                               CPU812-03                                                             
+‚  TC  SUB             CARD                 AMOUNT  OP-ID                 DESCRIPTION                STATUS                           
+‚      CDE            NUMBER                                                                                                          
+‚                                                                                                                                     
+‚                                     ------------                                                                                    
+‚                                             0.00                                                                                    
+‚                                     ------------                                                                                    
+‚                                                                                                                                     
+‚                                     ============                                                                                    
+‚                 TOTAL APPROVALS             0.00                                                                                    
+‚                                     ============                                                                                    
+‚                                     ============                                                                                    
+‚                 TOTAL DECLINES              0.00                                                                                    
+‚                                     ============                                                                                    
+‚  * END REPORT *                                                                                                                     
+i                                                                                                                                     
+‚1000 - ORG                                                    CARDLINK                               FILE DATE-28/03/20   PG        1
+‚2000 - TYPE                            DAILY INCOMPLETE/PENDING CREDIT EXTENSION REPORT              PROC DATE-28/03/20   16.38.03   
+                                                               CPU812-04                                                             
+‚    CARD NUMBER      OP-ID              LAST MEMO LINE                                       ST   NXT APP LVL                        
+‚                     PERM AUTH DLY RTL  PERM AUTH DLY CSH  PERM AUTH CTD RTL  PERM AUTH CTD CSH                                      
+‚                     TEMP AUTH DLY RTL  TEMP AUTH DLY CSH  TEMP AUTH CTD RTL  TEMP AUTH CTD CSH   EFF DATE    EXP DATE               
+‚   CUSTOMER          PERM CUST LIMIT    TEMP CUST LIMIT    EFF DATE           EXP DATE                                               
+‚   ACCOUNT 1         PERM ACCT1 LIMIT   TEMP ACCT1 LIMIT                                                                             
+‚   ACCOUNT 2         PERM ACCT2 LIMIT   TEMP ACCT2 LIMIT                                                                             
+‚                                                                                                                                     
+‚  * END REPORT *                                                                                                                     
+i                                                                                                                                     
+‚1000 - ORG                                                    CARDLINK                               FILE DATE-28/03/20   PG        1
+‚2000 - TYPE                                DAILY COMPLETED CREDIT EXTENSION REPORT                   PROC DATE-28/03/20   16.38.03   
+                                                               CPU812-05                                                             
+‚    CARD NUMBER      OP-ID              LAST MEMO LINE                                       ST   NXT APP LVL                        
+‚                     PERM AUTH DLY RTL  PERM AUTH DLY CSH  PERM AUTH CTD RTL  PERM AUTH CTD CSH                                      
+‚                     TEMP AUTH DLY RTL  TEMP AUTH DLY CSH  TEMP AUTH CTD RTL  TEMP AUTH CTD CSH   EFF DATE    EXP DATE               
+‚   CUSTOMER          PERM CUST LIMIT    TEMP CUST LIMIT    EFF DATE           EXP DATE                                               
+‚   ACCOUNT 1         PERM ACCT1 LIMIT   TEMP ACCT1 LIMIT                                                                             
+‚   ACCOUNT 2         PERM ACCT2 LIMIT   TEMP ACCT2 LIMIT                                                                             
+‚                                                                                                                                     
+‚  * END REPORT *                                                                                                                     
+

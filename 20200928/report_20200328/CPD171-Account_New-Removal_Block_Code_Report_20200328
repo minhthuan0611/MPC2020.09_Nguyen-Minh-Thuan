@@ -1,0 +1,42 @@
+‚
+‚  000 -                                                       CARDLINK                               FILE DATE 28/03/20 PAGE -    1 
+‚  000 -                                       ACCOUNT NEW/REMOVAL BLOCK CODE REPORT                  PROC DATE 28/03/20-16.38.34    
+‚                                                             CPD171-01                                                              
+‚                                                                                                                                    
+‚                                                                                                                                    
+‚                                                                                                                                    
+‚  ACCOUNT NUMBER    SHORT NAME   BLOCK  BLOCK  PREV  PREV BLOCK  CREDIT LIMIT  CURRENT BALANCE         DESCRIPTION  CUSTOMER NUMBER 
+‚                                        DATE   BLOCK    DATE                                                                        
+‚                                                                                                                                    
+‚                                          *** NO ACCOUNT    WITH NEW/REMOVAL BLOCK CODE ***                                         
+‚                                                                                                                                    
+‚                                                                                                                                    
+‚  000 -                                                       CARDLINK                               FILE DATE 28/03/20 PAGE -    1 
+‚  000 -                                       CUSTOMER NEW/REMOVAL BLOCK CODE REPORT                 PROC DATE 28/03/20-16.38.34    
+‚                                                             CPD171-03                                                              
+‚                                                                                                                                    
+‚                                                                                                                                    
+‚                                                                                                                                    
+‚ CUSTOMER NUMBER     SHORT NAME         BLOCK   BLOCK   PREV   PREV BLOCK    CREDIT LINE                               DESCRIPTION  
+‚                                                DATE    BLOCK    DATE                                                               
+‚                                                                                                                                    
+‚                                          *** NO CUSTOMER   WITH NEW/REMOVAL BLOCK CODE ***                                         
+‚                                                                                                                                    
+‚                                                                                                                                    
+‚  000 -                                                       CARDLINK                               FILE DATE 28/03/20 PAGE -    1 
+‚  000 -                                         CARD NEW/REMOVAL BLOCK CODE REPORT                   PROC DATE 28/03/20-16.38.34    
+‚                                                             CPD171-04                                                              
+‚                                                                                                                                    
+‚                                                                                                                                    
+‚                                                                                                                                    
+‚   CARD  NUMBER          EMBOSS NAME                   BLOCK   BLOCK   PREV   PREV BLOCK EXP DATE  DESCRIPTION    CUSTOMER NUMBER   
+‚                                                               DATE    BLOCK    DATE                                                
+‚                                                                                                                                    
+‚                                                                                                                                    
+‚           **-- TYPE TOTALS --**                                                                                                    
+‚                                                                                                                                    
+‚           **-- ORG TOTALS --**                                                                                                     
+‚                                                                                                                                    
+‚                                                                                                                                    
+‚                                                      *** END OF THE REPORT ***                                                     
+
