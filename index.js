@@ -21,11 +21,11 @@ const { time } = require('console');
 //autoImport2()
 sms()
 
-
-
-
+//readAll('20200928/report_20200328.tar')
 var today = new Date();
 var a = moment(today).format('HH:mm');
+var b = moment(today).format('YYYYMMDD')
+
 
 async function sms() {
     let tmp = -1;
@@ -79,126 +79,25 @@ function autoImport2() {
     fs.readFile('test.txt', 'utf8', function(err, data) {
         tmp = parseInt(data);
         if (tmp == 0) {
-            fileExists('20200928/sbv_20200328.dat', (err, exist) => {
-                if (exist) {
-                    readAll('20200928/sbv_20200328.dat')
-                    tmp = 1;
-                    if (fs.existsSync('20200928/report_20200328') == true) {
-                        findFile('20200928/report_20200328', 'R02-Transaction_Journal_By_Account_Number_20200328', () => {
-                            readFileR02('20200928/report_20200328/R02-Transaction_Journal_By_Account_Number_20200328')
-                            tmp = 2;
-                            console.log("Thanh cong file r02")
-                            findFile('20200928/report_20200328', 'R63_Trial_Balance_20200328', () => {
-                                readFileR63('20200928/report_20200328/R63_Trial_Balance_20200328')
-                                tmp = 3;
-                                console.log("Thanh cong file r63")
-                                fileExists('20200928/statement_master_20170802.dat', (err, exist) => {
-                                    if (exist) {
-                                        readAll('20200928/statement_master_20170802.dat');
-                                        tmp = 4;
-                                        console.log("Thanh cong file master")
-
-                                        fileExists('20200928/statement_transaction_20170802.dat', (err, exist) => {
-                                            if (exist) {
-                                                readAll('20200928/statement_transaction_20170802.dat')
-                                                tmp = 0;
-                                                console.log("Thanh cong file transaction")
-                                            }
-                                        })
-                                    }
-                                })
-                            })
-                        })
-                    } else if (fs.existsSync('20200928/report_20200328') != true) {
-                        fileExists('20200928/report_20200328.tar', (err, exist) => {
-                            if (exist) {
-                                decompress('20200928/report_20200328.tar', '20200928/report_20200328').then(files => {
-                                    findFile('20200928/report_20200328', 'R02-Transaction_Journal_By_Account_Number_20200328', () => {
-                                        readFileR02('20200928/report_20200328/R02-Transaction_Journal_By_Account_Number_20200328')
-                                        tmp = 2;
-                                        console.log("Thanh cong file r02");
-                                        findFile('20200928/report_20200328', 'R63_Trial_Balance_20200328', () => {
-                                            readFileR63('20200928/report_20200328/R63_Trial_Balance_20200328')
-                                            tmp = 3;
-                                            console.log("Thanh cong file r63");
-                                            fileExists('20200928/statement_master_20170802.dat', (err, exist) => {
-                                                if (exist) {
-                                                    readAll('20200928/statement_master_20170802.dat');
-                                                    tmp = 4;
-                                                    console.log("Thanh cong file master")
-
-                                                    fileExists('20200928/statement_transaction_20170802.dat', (err, exist) => {
-                                                        if (exist) {
-                                                            readAll('20200928/statement_transaction_20170802.dat')
-                                                            tmp = 0;
-                                                            console.log("Thanh cong file transaction")
-                                                        }
-                                                    })
-                                                }
-                                            })
-                                        })
-                                    })
-                                })
-                            } else if (err == null) {
-                                fileExists('20200928/report_20200328.tar.gz', (err, exist) => {
-                                    if (exist) {
-                                        decompress('20200928/report_20200328.tar.gz', '20200928/report_20200328').then(files => {
-                                            findFile('20200928/report_20200328', 'R02-Transaction_Journal_By_Account_Number_20200328', () => {
-                                                readFileR02('20200928/report_20200328/R02-Transaction_Journal_By_Account_Number_20200328')
-                                                tmp = 2;
-                                                console.log("Thanh cong file r02");
-                                                findFile('20200928/report_20200328', 'R63_Trial_Balance_20200328', () => {
-                                                    readFileR63('20200928/report_20200328/R63_Trial_Balance_20200328')
-                                                    tmp = 3;
-                                                    console.log("Thanh cong file r63");
-                                                    fileExists('20200928/statement_master_20170802.dat', (err, exist) => {
-                                                        if (exist) {
-                                                            readAll('20200928/statement_master_20170802.dat');
-                                                            tmp = 4;
-                                                            console.log("Thanh cong file master")
-
-                                                            fileExists('20200928/statement_transaction_20170802.dat', (err, exist) => {
-                                                                if (exist) {
-                                                                    readAll('20200928/statement_transaction_20170802.dat')
-                                                                    tmp = 0;
-                                                                    console.log("Thanh cong file transaction")
-                                                                }
-                                                            })
-                                                        }
-                                                    })
-                                                })
-                                            })
-                                        })
-                                    } else if (err == null) {
-
-                                    }
-                                })
-                            }
-                        })
-                    }
-
-                } else if (err == null) {
-                    fileExists('20200928/sbv_20200328.zip', (err, exist) => {
-                        if (exist) {
-                            readAll('20200928/sbv_20200328.zip')
-                            tmp = 1;
-                            if (fs.existsSync('20200928/report_20200328') == true) {
-                                findFile('20200928/report_20200328', 'R02-Transaction_Journal_By_Account_Number_20200328', () => {
-                                    readFileR02('20200928/report_20200328/R02-Transaction_Journal_By_Account_Number_20200328')
-                                    tmp = 2;
-                                    console.log("Thanh cong file r02")
-                                    findFile('20200928/report_20200328', 'R63_Trial_Balance_20200328', () => {
-                                        readFileR63('20200928/report_20200328/R63_Trial_Balance_20200328')
+            fs.readdirSync('20200928').forEach(file => {
+                if (file.match('sbv_') != null) {
+                    if (file == "sbv_20200328.dat" || file == "sbv_20200328.zip" || file == "sbv_20200328_Masked.dat") {
+                        readAll("20200928/" + file)
+                        tmp = 1;
+                        console.log("Thanh cong file sbv");
+                        fs.readdirSync('20200928').forEach(file => {
+                            if (file.match('report_20200328') != null) {
+                                if (file == 'report_20200328.tar.gz' || file == 'report_20200328.tar') {
+                                    readfileReport2('20200928/' + file, () => {
                                         tmp = 3;
-                                        console.log("Thanh cong file r63")
-                                        fileExists('20200928/statement_master_20170802.dat', (err, exist) => {
-                                            if (exist) {
+                                        console.log(tmp)
+                                        fs.readdirSync('20200928').forEach(file => {
+                                            if (file.match('statement_master_20170802.dat') != null) {
                                                 readAll('20200928/statement_master_20170802.dat');
                                                 tmp = 4;
                                                 console.log("Thanh cong file master")
-
-                                                fileExists('20200928/statement_transaction_20170802.dat', (err, exist) => {
-                                                    if (exist) {
+                                                fs.readdirSync('20200928').forEach(file => {
+                                                    if (file.match('statement_transaction_20170802.dat') != null) {
                                                         readAll('20200928/statement_transaction_20170802.dat')
                                                         tmp = 0;
                                                         console.log("Thanh cong file transaction")
@@ -206,324 +105,64 @@ function autoImport2() {
                                                 })
                                             }
                                         })
-                                    })
-                                })
-                            } else if (fs.existsSync('20200928/report_20200328') != true) {
-                                fileExists('20200928/report_20200328.tar', (err, exist) => {
-                                    if (exist) {
-                                        decompress('20200928/report_20200328.tar', '20200928/report_20200328').then(files => {
-                                            findFile('20200928/report_20200328', 'R02-Transaction_Journal_By_Account_Number_20200328', () => {
-                                                readFileR02('20200928/report_20200328/R02-Transaction_Journal_By_Account_Number_20200328')
-                                                tmp = 2;
-                                                console.log("Thanh cong file r02");
-                                                findFile('20200928/report_20200328', 'R63_Trial_Balance_20200328', () => {
-                                                    readFileR63('20200928/report_20200328/R63_Trial_Balance_20200328')
-                                                    tmp = 3;
-                                                    console.log("Thanh cong file r63");
-                                                    fileExists('20200928/statement_master_20170802.dat', (err, exist) => {
-                                                        if (exist) {
-                                                            readAll('20200928/statement_master_20170802.dat');
-                                                            tmp = 4;
-                                                            console.log("Thanh cong file master")
+                                        fs.writeFile('test.txt', tmp.toString(), (err) => {
+                                            if (err) throw err;
+                                        });
 
-                                                            fileExists('20200928/statement_transaction_20170802.dat', (err, exist) => {
-                                                                if (exist) {
-                                                                    readAll('20200928/statement_transaction_20170802.dat')
-                                                                    tmp = 0;
-                                                                    console.log("Thanh cong file transaction")
-                                                                }
-                                                            })
-                                                        }
-                                                    })
-                                                })
-                                            })
-                                        })
-                                    } else if (err == null) {
-                                        fileExists('20200928/report_20200328.tar.gz', (err, exist) => {
-                                            if (exist) {
-                                                decompress('20200928/report_20200328.tar.gz', '20200928/report_20200328').then(files => {
-                                                    findFile('20200928/report_20200328', 'R02-Transaction_Journal_By_Account_Number_20200328', () => {
-                                                        readFileR02('20200928/report_20200328/R02-Transaction_Journal_By_Account_Number_20200328')
-                                                        tmp = 2;
-                                                        console.log("Thanh cong file r02");
-                                                        findFile('20200928/report_20200328', 'R63_Trial_Balance_20200328', () => {
-                                                            readFileR63('20200928/report_20200328/R63_Trial_Balance_20200328')
-                                                            tmp = 3;
-                                                            console.log("Thanh cong file r63");
-                                                            fileExists('20200928/statement_master_20170802.dat', (err, exist) => {
-                                                                if (exist) {
-                                                                    readAll('20200928/statement_master_20170802.dat');
-                                                                    tmp = 4;
-                                                                    console.log("Thanh cong file master")
+                                    });
 
-                                                                    fileExists('20200928/statement_transaction_20170802.dat', (err, exist) => {
-                                                                        if (exist) {
-                                                                            readAll('20200928/statement_transaction_20170802.dat')
-                                                                            tmp = 0;
-                                                                            console.log("Thanh cong file transaction")
-                                                                        }
-                                                                    })
-                                                                }
-                                                            })
-                                                        })
-                                                    })
-                                                })
-                                            } else if (err == null) {
-
-                                            }
-                                        })
-                                    }
-                                })
-                            }
-
-                        } else if (err == null) {
-                            console.log("Sms chưa có file 1 để import")
-                            return;
-                        }
-                    })
-                }
-
-                fs.writeFile('test.txt', tmp.toString(), (err) => {
-                    if (err) throw err;
-                });
-
-            })
-
-        }
-        if (tmp == 1) {
-            if (fs.existsSync('20200928/report_20200328') == true) {
-                findFile('20200928/report_20200328', 'R02-Transaction_Journal_By_Account_Number_20200328', () => {
-                    readFileR02('20200928/report_20200328/R02-Transaction_Journal_By_Account_Number_20200328')
-                    tmp = 2;
-                    console.log("Thanh cong file r02")
-                    findFile('20200928/report_20200328', 'R63_Trial_Balance_20200328', () => {
-                        readFileR63('20200928/report_20200328/R63_Trial_Balance_20200328')
-                        tmp = 3;
-                        console.log("Thanh cong file r63")
-                        fileExists('20200928/statement_master_20170802.dat', (err, exist) => {
-                            if (exist) {
-                                readAll('20200928/statement_master_20170802.dat');
-                                tmp = 4;
-                                console.log("Thanh cong file master")
-
-                                fileExists('20200928/statement_transaction_20170802.dat', (err, exist) => {
-                                    if (exist) {
-                                        readAll('20200928/statement_transaction_20170802.dat')
-                                        tmp = 0;
-                                        console.log("Thanh cong file transaction")
-                                    }
-                                })
-                            }
-                        })
-                    })
-                })
-                fs.writeFile('test.txt', tmp.toString(), (err) => {
-                    if (err) throw err;
-                });
-            } else if (fs.existsSync('20200928/report_20200328') != true) {
-                fileExists('20200928/report_20200328.tar', (err, exist) => {
-                    if (exist) {
-                        decompress('20200928/report_20200328.tar', '20200928/report_20200328').then(files => {
-                            findFile('20200928/report_20200328', 'R02-Transaction_Journal_By_Account_Number_20200328', () => {
-                                readFileR02('20200928/report_20200328/R02-Transaction_Journal_By_Account_Number_20200328')
-                                tmp = 2;
-                                console.log("Thanh cong file r02");
-                                findFile('20200928/report_20200328', 'R63_Trial_Balance_20200328', () => {
-                                    readFileR63('20200928/report_20200328/R63_Trial_Balance_20200328')
-                                    tmp = 3;
-                                    console.log("Thanh cong file r63");
-                                    fileExists('20200928/statement_master_20170802.dat', (err, exist) => {
-                                        if (exist) {
-                                            readAll('20200928/statement_master_20170802.dat');
-                                            tmp = 4;
-                                            console.log("Thanh cong file master")
-
-                                            fileExists('20200928/statement_transaction_20170802.dat', (err, exist) => {
-                                                if (exist) {
-                                                    readAll('20200928/statement_transaction_20170802.dat')
-                                                    tmp = 0;
-                                                    console.log("Thanh cong file transaction")
-                                                }
-                                            })
-                                        }
-                                    })
-                                })
-                            })
-                        })
-                    } else if (err == null) {
-                        fileExists('20200928/report_20200328.tar.gz', (err, exist) => {
-                            if (exist) {
-                                decompress('20200928/report_20200328.tar.gz', '20200928/report_20200328').then(files => {
+                                } else if (file == 'report_20200328') {
                                     findFile('20200928/report_20200328', 'R02-Transaction_Journal_By_Account_Number_20200328', () => {
                                         readFileR02('20200928/report_20200328/R02-Transaction_Journal_By_Account_Number_20200328')
                                         tmp = 2;
-                                        console.log("Thanh cong file r02");
+                                        console.log("Thanh cong file r02")
                                         findFile('20200928/report_20200328', 'R63_Trial_Balance_20200328', () => {
                                             readFileR63('20200928/report_20200328/R63_Trial_Balance_20200328')
                                             tmp = 3;
                                             console.log("Thanh cong file r63");
-                                            fileExists('20200928/statement_master_20170802.dat', (err, exist) => {
-                                                if (exist) {
+                                            fs.readdirSync('20200928').forEach(file => {
+                                                if (file.match('statement_master_20170802.dat') != null) {
                                                     readAll('20200928/statement_master_20170802.dat');
                                                     tmp = 4;
                                                     console.log("Thanh cong file master")
-
-                                                    fileExists('20200928/statement_transaction_20170802.dat', (err, exist) => {
-                                                        if (exist) {
+                                                    fs.readdirSync('20200928').forEach(file => {
+                                                        if (file.match('statement_transaction_20170802.dat') != null) {
                                                             readAll('20200928/statement_transaction_20170802.dat')
                                                             tmp = 0;
-                                                            console.log("Thanh cong file transaction")
+                                                            console.log("Thanh cong file transaction ")
+
                                                         }
                                                     })
                                                 }
                                             })
-                                        })
+                                        });
                                     })
-                                })
-                            } else if (err == null) {
-
-                            }
-                        })
-                    }
-                    fs.writeFile('test.txt', tmp.toString(), (err) => {
-                        if (err) throw err;
-                    });
-                })
-            }
-        }
-        if (tmp == 2) {
-            if (fs.existsSync('20200928/report_20200328') == true) {
-
-                findFile('20200928/report_20200328', 'R63_Trial_Balance_20200328', () => {
-                    readFileR63('20200928/report_20200328/R63_Trial_Balance_20200328')
-                    tmp = 3;
-                    console.log("Thanh cong file r63")
-                    fileExists('20200928/statement_master_20170802.dat', (err, exist) => {
-                        if (exist) {
-                            readAll('20200928/statement_master_20170802.dat');
-                            tmp = 4;
-                            console.log("Thanh cong file master")
-
-                            fileExists('20200928/statement_transaction_20170802.dat', (err, exist) => {
-                                if (exist) {
-                                    readAll('20200928/statement_transaction_20170802.dat')
-                                    tmp = 0;
-                                    console.log("Thanh cong file transaction")
+                                    fs.writeFile('test.txt', tmp.toString(), (err) => {
+                                        if (err) throw err;
+                                    });
                                 }
-                            })
-                        }
-                    })
-
-                })
-
-            } else if (fs.existsSync('20200928/report_20200328') != true) {
-                fileExists('20200928/report_20200328.tar', (err, exist) => {
-                    if (exist) {
-                        decompress('20200928/report_20200328.tar', '20200928/report_20200328').then(files => {
-                            findFile('20200928/report_20200328', 'R63_Trial_Balance_20200328', () => {
-                                readFileR63('20200928/report_20200328/R63_Trial_Balance_20200328')
-                                tmp = 3;
-                                console.log("Thanh cong file r63");
-                                fileExists('20200928/statement_master_20170802.dat', (err, exist) => {
-                                    if (exist) {
-                                        readAll('20200928/statement_master_20170802.dat');
-                                        tmp = 4;
-                                        console.log("Thanh cong file master")
-
-                                        fileExists('20200928/statement_transaction_20170802.dat', (err, exist) => {
-                                            if (exist) {
-                                                readAll('20200928/statement_transaction_20170802.dat')
-                                                tmp = 0;
-                                                console.log("Thanh cong file transaction")
-                                            }
-                                        })
-                                    }
-                                })
-                            })
-
-                        })
-                    } else if (err == null) {
-                        fileExists('20200928/report_20200328.tar.gz', (err, exist) => {
-                            if (exist) {
-                                decompress('20200928/report_20200328.tar.gz', '20200928/report_20200328').then(files => {
-                                    findFile('20200928/report_20200328', 'R63_Trial_Balance_20200328', () => {
-                                        readFileR63('20200928/report_20200328/R63_Trial_Balance_20200328')
-                                        tmp = 3;
-                                        console.log("Thanh cong file r63");
-                                        fileExists('20200928/statement_master_20170802.dat', (err, exist) => {
-                                            if (exist) {
-                                                readAll('20200928/statement_master_20170802.dat');
-                                                tmp = 4;
-                                                console.log("Thanh cong file master")
-
-                                                fileExists('20200928/statement_transaction_20170802.dat', (err, exist) => {
-                                                    if (exist) {
-                                                        readAll('20200928/statement_transaction_20170802.dat')
-                                                        tmp = 0;
-                                                        console.log("Thanh cong file transaction")
-                                                    }
-                                                })
-                                            }
-                                        })
-                                    })
-
-                                })
-                            } else if (err == null) {
-
                             }
+
                         })
+
                     }
-                })
-            }
-            fs.writeFile('test.txt', tmp.toString(), (err) => {
-                if (err) throw err;
-            });
-        }
-        if (tmp == 3) {
-            fileExists('20200928/statement_master_20170802.dat', (err, exist) => {
-                if (exist) {
-                    readAll('20200928/statement_master_20170802.dat');
-                    tmp = 4;
-                    console.log("Thanh cong file master")
-                    fileExists('20200928/statement_transaction_20170802.dat', (err, exist) => {
-                        if (exist) {
-                            readAll('20200928/statement_transaction_20170802.dat')
-                            console.log("Thanh cong file transaction")
-                            tmp = 0;
-                            fs.writeFile('test.txt', tmp.toString(), (err) => {
-                                if (err) throw err;
-                            });
-                        }
-                    })
+
                 }
+
 
             })
 
         }
-        if (tmp == 4) {
-            fileExists('20200928/statement_transaction_20170802.dat', (err, exist) => {
-                if (exist) {
-                    readAll('20200928/statement_transaction_20170802.dat')
-                    tmp = 0;
-                    console.log("Thanh cong file transaction")
 
-                }
-                fs.writeFile('test.txt', tmp.toString(), (err) => {
-                    if (err) throw err;
-                });
-
-            })
-
-        }
     })
-
 }
+
 
 function readAll2(fileName, callback) {
     if (fileName == '20200928/report_20200328') {
         if (fs.existsSync('20200928/report_20200328') == true) {
             readR63R02();
-            callback();
+
         }
     } else {
         fileExists(fileName, (err, exists) => {
@@ -537,6 +176,7 @@ function readAll2(fileName, callback) {
                 }
                 if (fileName == '20200928/report_20200328.tar.gz' || fileName == '20200928/report_20200328.tar') {
                     readfileReport(fileName);
+                    callback()
                 }
                 if (fileName == '20200928/statement_master_20170802.dat') {
                     let dataImportMaster = new Int8Array(fs.readFileSync('20200928/statement_master_20170802.dat'));
@@ -546,7 +186,7 @@ function readAll2(fileName, callback) {
                     let dataImportTransaction = new Int8Array(fs.readFileSync('20200928/statement_transaction_20170802.dat'));
                     readTransaction(dataImportTransaction);
                 }
-                callback();
+
             } else console.log('Không tìm thấy file: ' + fileName);
             if (err) {
                 return err
@@ -564,8 +204,8 @@ function readAll(fileName) {
         fileExists(fileName, (err, exists) => {
             if (exists == true) {
                 if (fileName == '20200928/sbv_20200328.zip') {
-                    decompress('20200928/sbv_20200328.zip', '20200928').then(files => {
-                        readFileSBV('dist/sbv_20200328.dat')
+                    decompress('20200928/sbv_20200328.zip', '20200928/dist').then(files => {
+                        readFileSBV('20200928/dist/sbv_20200328.dat')
                     })
                 } else if (fileName == '20200928/sbv_20200328.dat') {
                     readFileSBV(fileName);
@@ -597,15 +237,16 @@ function autoImport() {
         if (tmp == 0) {
             fs.readdirSync('20200928').forEach(file => {
                 if (file.match('sbv_') != null) {
-                    if (file == "sbv_20200328.dat" || file == "sbv_20200328.zip") {
+                    if (file == "sbv_20200328.dat" || file == "sbv_20200328.zip" || file == "sbv_20200328_Masked.dat") {
                         readAll("20200928/" + file)
                         tmp = 1;
                         console.log("Thanh cong file sbv");
                         fs.readdirSync('20200928').forEach(file => {
                             if (file.match('report_20200328') != null) {
+                                fs.mkdir("20200928/report", function(err) {})
                                 if (file == 'report_20200328.tar.gz' || file == 'report_20200328.tar') {
                                     decompress('20200928/' + file, '20200928/report')
-                                        .then(
+                                        .then(files => {},
                                             fs.readdirSync('20200928/report').forEach(file => {
                                                 if (file.match('R02-Transaction_Journal_By_Account_Number_20200328') != null) {
                                                     readFileR02('20200928/report/R02-Transaction_Journal_By_Account_Number_20200328')
@@ -631,7 +272,11 @@ function autoImport() {
                                                                 }
                                                             })
                                                         }
+
                                                     })
+                                                    fs.writeFile('test.txt', tmp.toString(), (err) => {
+                                                        if (err) throw err;
+                                                    });
                                                 }
                                             })
                                         )
@@ -660,22 +305,24 @@ function autoImport() {
                                             })
                                         });
                                     })
+                                    fs.writeFile('test.txt', tmp.toString(), (err) => {
+                                        if (err) throw err;
+                                    });
                                 }
                             }
                         })
                     }
                 }
+
             })
-            fs.writeFile('test.txt', tmp.toString(), (err) => {
-                if (err) throw err;
-            });
-        };
+        }
         if (tmp == 1) {
             fs.readdirSync('20200928').forEach(file => {
                 if (file.match('report_20200328') != null) {
                     if (file == 'report_20200328.tar.gz' || file == 'report_20200328.tar') {
+                        fs.mkdir("20200928/report", function(err) {})
                         decompress('20200928/' + file, '20200928/report')
-                            .then(
+                            .then(files => {},
                                 fs.readdirSync('20200928/report').forEach(file => {
                                     if (file.match('R02-Transaction_Journal_By_Account_Number_20200328') != null) {
                                         readFileR02('20200928/report/R02-Transaction_Journal_By_Account_Number_20200328')
@@ -745,8 +392,9 @@ function autoImport() {
             fs.readdirSync('20200928').forEach(file => {
                 if (file.match('report_20200328') != null) {
                     if (file == 'report_20200328.tar.gz' || file == 'report_20200328.tar') {
+                        fs.mkdir("20200928/report", function(err) {})
                         decompress('20200928/' + file, '20200928/report')
-                            .then(
+                            .then(files => {},
                                 fs.readdirSync('20200928/report').forEach(file => {
                                     if (file.match('R63_Trial_Balance_20200328') != null) {
                                         readFileR63('20200928/report/R63_Trial_Balance_20200328')
@@ -854,8 +502,22 @@ function writeFiles(a) {
 function readR63R02() {
     findFile('20200928/report_20200328', 'R02-Transaction_Journal_By_Account_Number_20200328', () => {
         readFileR02('20200928/report_20200328/R02-Transaction_Journal_By_Account_Number_20200328')
+        console.log('Thanh cong file r02');
         findFile('20200928/report_20200328', 'R63_Trial_Balance_20200328', () => {
             readFileR63('20200928/report_20200328/R63_Trial_Balance_20200328')
+            console.log('Thanh cong file r63');
+        });
+    })
+}
+
+function readR63R022(callback) {
+    findFile('20200928/report_20200328', 'R02-Transaction_Journal_By_Account_Number_20200328', () => {
+        readFileR02('20200928/report_20200328/R02-Transaction_Journal_By_Account_Number_20200328')
+        console.log('Thành cong file r02');
+        findFile('20200928/report_20200328', 'R63_Trial_Balance_20200328', () => {
+            readFileR63('20200928/report_20200328/R63_Trial_Balance_20200328')
+            console.log('Thành cong file r63');
+            callback();
         });
     })
 }
@@ -865,9 +527,27 @@ function readR63R02() {
 function readfileReport(filename) {
     if (filename == '20200928/report_20200328.tar.gz' || filename == '20200928/report_20200328.tar') {
         decompress(filename, '20200928/report_20200328').then(files => {
-            readR63R02();
+            readR63R02()
         });
     }
+
+}
+
+function readfileReport2(filename, callback) {
+    if (filename == '20200928/report_20200328.tar.gz' || filename == '20200928/report_20200328.tar') {
+        decompress(filename, '20200928/report').then(files => {
+            findFile('20200928/report', 'R02-Transaction_Journal_By_Account_Number_20200328', () => {
+                readFileR02('20200928/report/R02-Transaction_Journal_By_Account_Number_20200328')
+                console.log('Thành cong file r02');
+                findFile('20200928/report', 'R63_Trial_Balance_20200328', () => {
+                    readFileR63('20200928/report/R63_Trial_Balance_20200328')
+                    console.log('Thành cong file r63');
+                    callback();
+                });
+            })
+
+        });
+    } else return
 
 }
 
@@ -1065,9 +745,7 @@ function readFileR02(file) {
                 ojR02.custumerNumber = custumerNumber.trim();
                 r02.push(ojR02)
             }
-
         }
-
         fs.writeFile('r02.txt', JSON.stringify(r02), (err) => {
             if (err) throw err;
         });
