@@ -1,3 +1,4 @@
+const decompress = require('decompress');
 const fs = require('fs');
 const moment = require('moment');
 const readAllFile = require('./index.js');
@@ -110,12 +111,24 @@ const IMPORT_SERVICE_NULL = 'Import service is null';
 const SAVED_TO_DB_SUCCESSFULLY = ' record(s) saved to Database';
 const IMPORT_STATUS_MUST_BE_FAILED =
     'Status of re-import file must be failed';
+const dir = '20200928'
 
+async function giainen() {
+    if (isFileExist(dir + '/sbv_20200328.zip') == true) {
+        decompress(dir + '/sbv_20200328.zip', dir)
+    }
+    if (isFileExist(dir + '/report_20200328.tar') == true) {
+        decompress(dir + '/report_20200328.tar', dir)
+    } else if (isFileExist(dir + '/report_20200328.tar.gz') == true) {
+        decompress(dir + '/report_20200328.tar.gz', dir)
+    }
+}
 
 
 const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
-importData()
+giainen().then(i => { importData() })
 const startCronTime1 = moment();
+
 async function importData() {
 
     // Setting start time
@@ -152,12 +165,11 @@ async function importData() {
     let currentStartTime = moment();
     while (isAllFileExist(fileNames) == false && currentStartTime.isBefore(endCronTime)) {
         console.log("Thời gian hiện hành: " + currentStartTime);
-        console.log("Không đủ file trong dir: 20200928");
+        console.log("Không đủ file trong dir: " + dir);
         console.log(`Dừng ${SLEEP_MINUTES} phút trước khi thử lại...`);
         await sleep(0.1 * 60 * 1000);
         currentStartTime = moment();
         console.log('Thử kiểm tra lại ...');
-        i++;
     }
     if (isAllFileExist(fileNames)) {
         console.log('Tất cả file tồn tại - bắt đầu import');
@@ -330,7 +342,7 @@ async function checkingImportStatement(statementFileNames) {
         currentStartTime.isBefore(endCronTime)
     ) {
         console.log('Thời gian hiện hành: ' + currentStartTime);
-        console.log('Không đủ file statement trong dir: ' + statementFileNames);
+        console.log('Không đủ file statement trong dir: ' + dir);
         console.log(`Dừng ${SLEEP_MINUTES} phút trước khi thử lại...`);
         await sleep(0.1 * 60 * 1000);
         currentStartTime = moment();
@@ -458,54 +470,6 @@ function isFileExist(fileAbsolutePath) {
     return fs.existsSync(fileAbsolutePath);
 }
 
-/**
- * translate ebcdic to ascii
- *
- * @param bytes to translate
- * @return ascii string
- * @throws UnsupportedEncodingException
- */
-function hexify(data) {
-    const hexCode = Array.from("0123456789ABCDEF");
-    let r = '';
-    for (const b of data) {
-        r += hexCode[((b >> 4) & 0xF)];
-        r += hexCode[(b & 0xF)];
-    }
-    return r.substring(0, r.length - 1);
-}
-
-
-function ebcdicToAscii(uintArray) {
-    return cptable.utils.decode(500, uintArray, 'arr');
-}
-
-function getDoubleFromSignedString(numString) {
-    if (Number(numString)) {
-        if (numString < 0) return Number(numString) * -1;
-        else return Number(numString);
-    } else {
-        return 0;
-    }
-}
-
-/**
- * convert julian to date
- *
- * @param julian string
- * @return date string
- */
-function julianToDateString(julian) {
-    if (Number(julian) == 0) {
-        return null;
-    } else {
-        try {
-            return new Date(moment(julian, 'YYYYD').format());
-        } catch (e) {
-            return null;
-        }
-    }
-}
 
 
 async function importFile(filePath, fileName) {
